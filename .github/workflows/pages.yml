@@ -1,0 +1,66 @@
+name: Каталог аддонов → GitHub Pages
+
+on:
+  schedule:
+    - cron: '17 3 * * *'        # каждый день в 03:17 UTC (06:17 МСК)
+  workflow_dispatch:            # кнопка «Run workflow» на вкладке Actions
+    inputs:
+      count:
+        description: 'Сколько аддонов обойти (1..N)'
+        default: '350'
+  push:
+    branches: [main]
+    paths:
+      - build_addons_table.py
+      - .github/workflows/pages.yml
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # кэш с прошлого запуска: если страница аддона не ответила, останутся старые данные
+      - uses: actions/cache@v4
+        with:
+          path: .cache
+          key: addons-cache-${{ github.run_id }}
+          restore-keys: addons-cache-
+
+      - name: Собрать страницу
+        run: |
+          mkdir -p .cache _site
+          python build_addons_table.py --refresh \
+            --count "${{ github.event.inputs.count || '350' }}" \
+            --cache .cache/addons_cache.json \
+            -o _site/index.html
+          cp .cache/addons_cache.json _site/addons.json
+          touch _site/.nojekyll
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
