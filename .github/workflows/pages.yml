@@ -41,13 +41,16 @@ jobs:
           restore-keys: addons-cache-
 
       - name: Собрать страницу
+        env:
+          GITHUB_TOKEN: ${{ github.token }}   # для запросов к GitHub API (последние коммиты)
         run: |
           mkdir -p .cache _site
           python build_addons_table.py --refresh \
             --count "${{ github.event.inputs.count || '350' }}" \
             --cache .cache/addons_cache.json \
+            --json _site/addons.json \
             -o _site/index.html
-          cp .cache/addons_cache.json _site/addons.json
+          cp .cache/market_cache.json _site/market.json 2>/dev/null || true
           touch _site/.nojekyll
 
       - uses: actions/configure-pages@v5
