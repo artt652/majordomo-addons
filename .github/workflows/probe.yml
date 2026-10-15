@@ -1,0 +1,26 @@
+name: probe market json
+on:
+  push:
+    branches: [probe]
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: probe }
+      - name: fetch
+        run: |
+          mkdir -p out
+          UA='Mozilla/5.0 (addons-table builder)'
+          for q in "" "?lang=ru" "?lang=ru&all=1" "?lang=ru&category_id=1" "?op=categories&lang=ru"; do
+            f="out/market$(echo "$q" | tr -c 'a-zA-Z0-9=\n' '_').txt"
+            curl -sS -m 60 -A "$UA" -D "$f.headers" "https://connect.majordomohome.com/market/$q" -o "$f" || echo "curl failed $?" > "$f.err"
+          done
+          curl -sS -m 60 -A "$UA" -o out/pages_addons.json "https://artt652.github.io/majordomo-addons/addons.json" || true
+          ls -la out
+      - name: commit
+        run: |
+          git config user.name github-actions; git config user.email actions@github.com
+          git add out; git commit -qm "probe results"; git push -q origin HEAD:probe
