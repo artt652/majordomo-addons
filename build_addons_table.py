@@ -170,25 +170,40 @@ RE_GH = re.compile(r'github\.com/([^/\s]+)/([^/\s#?]+?)(?:\.git)?'
 
 
 def github_last_commit(url):
-    """Последний коммит репозитория по ссылке на архив или репозиторий."""
+    """Последний коммит репозитория по ссылке на архив или репозиторий.
+
+    Возвращает {'date', 'comment', 'url'}; {'missing': True}, если репозитория
+    нет; None при временной ошибке (лимит, сеть) — тогда проверим в следующий раз.
+    """
     m = RE_GH.search(url or '')
     if not m:
         return None
     owner, repo, branch = m.groups()
-    api = f'https://api.github.com/repos/{owner}/{repo}/commits?per_page=1'
-    if branch and not re.fullmatch(r'v?\d+(\.\d+)*', branch):   # архив тега — берём ветку по умолчанию
-        api += '&sha=' + urllib.request.quote(branch)
     headers = {'Accept': 'application/vnd.github+json'}
     if os.environ.get('GITHUB_TOKEN'):
         headers['Authorization'] = 'Bearer ' + os.environ['GITHUB_TOKEN']
-    try:
-        c = json.loads(http_get(api, headers))[0]
-    except urllib.error.HTTPError as e:
-        if e.code in (404, 409, 422):           # репозиторий удалён / пустой / нет ветки
-            return {'missing': True, 'checked': int(time.time())}
-        return None                             # лимит или сбой — попробуем в следующий раз
-    except Exception:
-        return None
+    base = f'https://api.github.com/repos/{owner}/{repo}/commits?per_page=1'
+    # сначала ветка из ссылки на архив, затем ветка по умолчанию:
+    # архив master.tar.gz работает и у репозиториев, где основная ветка — main
+    tries = [base]
+    if branch and not re.fullmatch(r'v?\d+(\.\d+)*', branch):
+        tries.insert(0, base + '&sha=' + urllib.request.quote(branch))
+    for api in tries:
+        try:
+            c = json.loads(http_get(api, headers))[0]
+            break
+        except urllib.error.HTTPError as e:
+            if e.code in (404, 409, 422) and api != tries[-1]:
+                continue                    # нет такой ветки — пробуем ветку по умолчанию
+            if e.code in (404, 451):        # репозиторий удалён или скрыт
+                return {'missing': True, 'checked': int(time.time())}
+            if e.code == 409:               # пустой репозиторий
+                return {'empty': True, 'checked': int(time.time())}
+            return None
+        except (IndexError, ValueError):
+            return {'empty': True, 'checked': int(time.time())}
+        except Exception:
+            return None
     date = c['commit']['committer']['date']     # 2026-10-09T22:22:45Z
     return {'date': date.replace('T', ' ').rstrip('Z')[:19],
             'comment': c['commit']['message'].split('\n', 1)[0].strip(),
@@ -223,7 +238,7 @@ def merge(n, page, mk):
                  author=page.get('author', ''), category=page.get('category', ''),
                  desc=page.get('desc', ''), updated=g.get('date', ''),
                  update_comment=g.get('comment', ''), update_url=g.get('url', ''),
-                 repo_missing=bool(g.get('missing')))
+                 repo_missing=bool(g.get('missing')), repo_empty=bool(g.get('empty')))
     return d
 
 
@@ -351,6 +366,7 @@ function ago(t) {
 
 function updLine(d) {
   if (!d.published && d.repo_missing) return '<div class="upd">репозиторий на GitHub недоступен</div>';
+  if (!d.published && d.repo_empty) return '<div class="upd">репозиторий на GitHub пуст</div>';
   if (!d.updated) return d.published ? '' : '<div class="upd">нет данных о коммитах</div>';
   const t = Date.parse(d.updated.replace(' ', 'T') + 'Z');
   const [y, m, dd] = d.updated.slice(0, 10).split('-');
