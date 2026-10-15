@@ -30,7 +30,7 @@ import urllib.error
 import urllib.request
 
 PAGE_URL = 'https://connect.smartliving.ru/addons/category0/{n}.html'
-ICON_FALLBACK = 'https://connect.majordomohome.com/cms/addons/{n}_icon.png'
+ICON_DEFAULT = 'https://raw.githubusercontent.com/sergejey/majordomo/master/img/modules/default.png'
 SITE = 'https://connect.smartliving.ru'
 CACHE = 'addons_cache.json'
 MARKET_URL = 'https://connect.majordomohome.com/market/?lang=ru&all=1'
@@ -98,9 +98,11 @@ def parse(n, page):
     m = RE_BACK.search(page)
     if m:
         rec['category'] = CATEGORIES.get(int(m.group(1)), '')
-    m = RE_ICON.search(page)
-    if m:
-        rec['icon'] = absolute(m.group(1))
+    # только иконка с номером этого аддона: на странице бывают иконки других модулей
+    for src in RE_ICON.findall(page):
+        if re.search(r'/%d_icon\.' % n, src):
+            rec['icon'] = absolute(src)
+            break
     for href, inner in RE_A.findall(page):
         label = to_text(inner)
         if label in LINK_LABELS:
@@ -216,7 +218,7 @@ def merge(n, page, mk):
     """Одна карточка из страницы аддона и записи маркета."""
     page = page or {}
     d = {'n': n, 'ok': bool(mk) or bool(page.get('ok')), 'published': bool(mk),
-         'icon': page.get('icon') or ICON_FALLBACK.format(n=n),
+         'icon': page.get('icon') if re.search(r'/%d_icon\.' % n, page.get('icon') or '') else ICON_DEFAULT,
          'installs': page.get('installs'), 'month': page.get('month'),
          'links': dict(page.get('links') or {}), 'page': PAGE_URL.format(n=n)}
     if mk:
@@ -249,7 +251,7 @@ def build_html(count, data, market):
     pub = sum(1 for d in items if d['published'])
     unpub = sum(1 for d in items if d['ok'] and not d['published'])
     return (TEMPLATE.replace('__DATA__', payload).replace('__PUB__', str(pub))
-            .replace('__UNPUB__', str(unpub))
+            .replace('__UNPUB__', str(unpub)).replace('__ICON_DEFAULT__', ICON_DEFAULT)
             .replace('__UPDATED__', time.strftime('%d.%m.%Y %H:%M UTC', time.gmtime()))), items
 
 
@@ -343,6 +345,8 @@ const $ = id => document.getElementById(id);
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const RE_VER = /^v?\d+(\.\d+)+[\w.-]*$/i;
 const DAY = 864e5, NOW = Date.now();
+const ICON_DEFAULT = '__ICON_DEFAULT__';
+const IMG_ERR = `if(this.src!==ICON_DEFAULT){this.src=ICON_DEFAULT}else{this.classList.add('broken')}`;
 
 [...new Set(ITEMS.map(d => d.category).filter(Boolean))].sort()
   .forEach(c => $('cat').add(new Option(c, c)));
@@ -385,12 +389,12 @@ function updLine(d) {
 
 function card(d, q) {
   if (!d.ok) return `<div class="card missing"><img src="${esc(d.icon)}" alt="" loading="lazy"
-      onerror="this.classList.add('broken')"><div class="head"><span class="num">№${d.n}</span>
+      onerror="${IMG_ERR}"><div class="head"><span class="num">№${d.n}</span>
       <a class="title" href="${esc(d.page)}" target="_blank" rel="noopener">нет данных</a></div></div>`;
   const L = d.links || {};
   return `<div class="card">
     <a href="${esc(d.page)}" target="_blank" rel="noopener" style="grid-row:span 3">
-      <img src="${esc(d.icon)}" alt="" loading="lazy" onerror="this.classList.add('broken')"></a>
+      <img src="${esc(d.icon)}" alt="" loading="lazy" onerror="${IMG_ERR}"></a>
     <div class="head"><span class="num">№${d.n}</span>
       <a class="title" href="${esc(d.page)}" target="_blank" rel="noopener">${hl(d.title || d.sysname, q)}</a></div>
     <div class="sys">${hl(d.sysname, q)}</div>
