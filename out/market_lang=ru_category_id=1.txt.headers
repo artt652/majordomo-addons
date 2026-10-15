@@ -1,0 +1,14 @@
+HTTP/2 200 
+date: Thu, 15 Oct 2026 14:59:56 GMT
+content-type: application/json
+server: cloudflare
+set-cookie: prj=te8ddd33u1ia6mj2bqg50rvh5l; expires=Thu, 15 Oct 2026 22:59:55 GMT; Max-Age=28800; path=/
+expires: Thu, 19 Nov 1981 08:52:00 GMT
+cache-control: no-store, no-cache, must-revalidate
+pragma: no-cache
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=eMbFiSRoERLOE0kvX%2FB13c%2BitxnX9%2BrCmbbr2PuZHlDzOo2GLiJ2xS8KqZ%2BvCiyLhSx7zsPnpa2PFhng3oWNR%2FSYNbxkl0uSZAbLRSCPUVmxUY3QSM9vs%2FnpRnkp7bi3ma2r3dDs7K%2BAxuaU"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+cf-ray: a4afb0c06cac9c13-EWR
+alt-svc: h3=":443"; ma=86400
+

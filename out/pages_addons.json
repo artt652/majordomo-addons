@@ -1,0 +1,5791 @@
+{
+ "1": {
+  "n": 1,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "2": {
+  "n": 2,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_radio",
+  "title": "Online Radio",
+  "author": "",
+  "category": "Мультимедиа",
+  "desc": "",
+  "installs": 38,
+  "month": 11,
+  "icon": "",
+  "links": {
+   "download": "https://github.com/LuckyFIA/Online_Radio_app_MajorDoMo/archive/master.tar.gz",
+   "forum": "http://smartliving.ru/forum/viewtopic.php?f=5&t=1402"
+  }
+ },
+ "3": {
+  "n": 3,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_postoffice",
+  "title": "PostOffice Tracker",
+  "author": "",
+  "category": "Информация",
+  "desc": "",
+  "installs": 0,
+  "month": 0,
+  "icon": "",
+  "links": {
+   "download": "https://github.com/palacex/majordomo-PostOffice/archive/master.tar.gz",
+   "forum": "http://smartliving.ru/forum/viewtopic.php?f=5&t=692"
+  }
+ },
+ "4": {
+  "n": 4,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_narodmon",
+  "title": "Narodmon.ru",
+  "author": "SergeJey",
+  "category": "Информация",
+  "desc": "Модуль отправки данных в сервис Народный Мониторинг (narodmon.ru)",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/23_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-app_narodmon/archive/master.tar.gz",
+   "forum": "http://smartliving.ru/forum/viewtopic.php?f=6&t=492"
+  }
+ },
+ "5": {
+  "n": 5,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_101ru",
+  "title": "Radio 101.ru",
+  "author": "SergeJey",
+  "category": "Мультимедиа",
+  "desc": "Радио-станции с веб-сайта 101.ru",
+  "installs": 22,
+  "month": 5,
+  "icon": "https://connect.smartliving.ru/cms/addons/5_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-app_101ru/archive/master.tar.gz",
+   "forum": "http://smartliving.ru/forum/viewtopic.php?f=5&t=1781"
+  }
+ },
+ "6": {
+  "n": 6,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "7": {
+  "n": 7,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_zoneminder",
+  "title": "ZoneMinder events",
+  "author": "Shagrat",
+  "category": "Информация",
+  "desc": "ZoneMinder — свободное программное обеспечение, для организации видеонаблюдения",
+  "installs": 1,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/7_icon.png",
+  "links": {
+   "download": "https://github.com/Shagrat2/majormodo-app_zoneminder/archive/master.tar.gz",
+   "forum": "http://smartliving.ru/forum/viewtopic.php?f=5&t=1980"
+  }
+ },
+ "8": {
+  "n": 8,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_smarttv",
+  "title": "LG SmartTV",
+  "author": "",
+  "category": "Мультимедиа",
+  "desc": "",
+  "installs": 4,
+  "month": 1,
+  "icon": "",
+  "links": {
+   "download": "https://github.com/LuckyFIA/SmartTV_app_MajorDoMo/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=1642&start=48"
+  }
+ },
+ "9": {
+  "n": 9,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_nut",
+  "title": "Network UPS Tools",
+  "author": "Shagrat",
+  "category": "Оборудование",
+  "desc": "Network UPS Tools (NUT) - комплект программ для мониторинга ИБП.",
+  "installs": 12,
+  "month": 6,
+  "icon": "https://connect.smartliving.ru/cms/addons/9_icon.png",
+  "links": {
+   "download": "https://github.com/Shagrat2/majormodo-app_nut/archive/master.tar.gz",
+   "forum": "http://smartliving.ru/forum/viewtopic.php?f=5&t=2031"
+  }
+ },
+ "10": {
+  "n": 10,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_gcalendar",
+  "title": "Google Calendar Import",
+  "author": "Shagrat",
+  "category": "Информация",
+  "desc": "Google Календарь — сервис для планирования встреч, событий и дел. Он позволяет задавать время встречи, создавать повторяющиеся мероприятия, устанавливать напоминания, а также приглашать других участников (им высылается сообщение по электронной почте).",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/10_icon.png",
+  "links": {
+   "download": "https://github.com/Shagrat2/majordomo-app_gcalendar/archive/master.tar.gz",
+   "forum": "http://smartliving.ru/forum/viewtopic.php?f=5&t=2046"
+  }
+ },
+ "11": {
+  "n": 11,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_qrcodes",
+  "title": "QR/Bar-codes database",
+  "author": "SergeJey",
+  "category": "Информация",
+  "desc": "База знаний и действий на основе QR- и штрих-кодов.",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/11_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-app_qrcodes/archive/master.tar.gz",
+   "forum": "http://smartliving.ru/forum/viewtopic.php?f=5&t=2048"
+  }
+ },
+ "12": {
+  "n": 12,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_videomessages",
+  "title": "Video Messages",
+  "author": "SergeJey",
+  "category": "Мультимедиа",
+  "desc": "Обмен видео-сообщениями внутри системы",
+  "installs": 2,
+  "month": 1,
+  "icon": "https://connect.smartliving.ru/cms/addons/12_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-app_videomessages/archive/master.tar.gz",
+   "forum": "http://smartliving.ru/forum/viewtopic.php?f=5&t=2061"
+  }
+ },
+ "13": {
+  "n": 13,
+  "v": 2,
+  "ok": true,
+  "sysname": "orvibo",
+  "title": "Orvibo devices",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Поддержко устройств Orvibo S20 и Orvibo AllOne",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/13_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-orvibo/archive/master.tar.gz",
+   "forum": "http://smartliving.ru/forum/viewtopic.php?f=5&t=2130"
+  }
+ },
+ "14": {
+  "n": 14,
+  "v": 2,
+  "ok": true,
+  "sysname": "uniel",
+  "title": "Uniel Controllers",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Поддержка контроллеров домашней автоматики Uniel",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/14_icon.jpg",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-uniel/archive/master.tar.gz",
+   "forum": "http://smartliving.ru/forum/viewtopic.php?f=5&t=2205"
+  }
+ },
+ "15": {
+  "n": 15,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_openweather",
+  "title": "Open Weather",
+  "author": "nick7zmail",
+  "category": "Информация",
+  "desc": "Прогноз погоды от OpenWeatherMap",
+  "installs": 43,
+  "month": 16,
+  "icon": "https://connect.smartliving.ru/cms/addons/15_icon.png",
+  "links": {
+   "download": "https://github.com/nick7zmail/MajorDoMo_app_openweather/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=4340",
+   "project": "https://connect.smartliving.ru/tasks/19.html"
+  }
+ },
+ "16": {
+  "n": 16,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_wunderlist",
+  "title": "Wunderlist",
+  "author": "SergeJey",
+  "category": "Информация",
+  "desc": "Интеграция системы управления задачами Wunderlist",
+  "installs": 1,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/16_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-app_wunderlist/archive/master.tar.gz",
+   "forum": "http://smartliving.ru/forum/viewtopic.php?f=5&t=2234"
+  }
+ },
+ "17": {
+  "n": 17,
+  "v": 2,
+  "ok": true,
+  "sysname": "megad",
+  "title": "MegaD devices",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Поддержка устройств MegaD ( http://ab-log.ru )",
+  "installs": 27,
+  "month": 12,
+  "icon": "https://connect.smartliving.ru/cms/addons/17_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-megad/archive/master.tar.gz",
+   "forum": "https://connect.smartliving.ru/tasks/371.html",
+   "project": "https://connect.smartliving.ru/tasks/371.html"
+  }
+ },
+ "18": {
+  "n": 18,
+  "v": 2,
+  "ok": true,
+  "sysname": "lagarto",
+  "title": "panStamp Lagarto",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Интеграция модулей panStamp ( http://panstamp.com )",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/18_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-lagarto/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=8&t=2352&p=22482"
+  }
+ },
+ "19": {
+  "n": 19,
+  "v": 2,
+  "ok": true,
+  "sysname": "mysensor",
+  "title": "MySensors",
+  "author": "Shagrat",
+  "category": "Оборудование",
+  "desc": "MySensors описание и поддержка ( http://www.mysensors.ru )",
+  "installs": 10,
+  "month": 8,
+  "icon": "https://connect.smartliving.ru/cms/addons/19_icon.png",
+  "links": {
+   "download": "https://github.com/Shagrat2/majordomo-mysensor/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=2404"
+  }
+ },
+ "20": {
+  "n": 20,
+  "v": 2,
+  "ok": true,
+  "sysname": "mqtt",
+  "title": "MQTT",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "MQTT protocol support",
+  "installs": 355,
+  "month": 124,
+  "icon": "https://connect.smartliving.ru/cms/addons/20_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-mqtt/archive/master.tar.gz",
+   "forum": "https://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=3350",
+   "project": "https://connect.smartliving.ru/tasks/87.html"
+  }
+ },
+ "21": {
+  "n": 21,
+  "v": 2,
+  "ok": true,
+  "sysname": "zwave",
+  "title": "Z-Wave",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Z-Wave support (Z-Way API)",
+  "installs": 3,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/21_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-zwave/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=14&t=1833"
+  }
+ },
+ "22": {
+  "n": 22,
+  "v": 2,
+  "ok": true,
+  "sysname": "snmpdevices",
+  "title": "SNMP",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "SNMP protocol support",
+  "installs": 5,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/22_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-snmpdevices/archive/master.tar.gz",
+   "forum": "https://majordomo.smartliving.ru/forum/viewtopic.php?f=4&t=595"
+  }
+ },
+ "23": {
+  "n": 23,
+  "v": 2,
+  "ok": true,
+  "sysname": "onewire",
+  "title": "1-Wire",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Поддержка 1-Wire оборудования (OWFS API)",
+  "installs": 17,
+  "month": 3,
+  "icon": "https://connect.smartliving.ru/cms/addons/23_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-onewire/archive/master.tar.gz",
+   "forum": "http://smartliving.ru/forum/"
+  }
+ },
+ "24": {
+  "n": 24,
+  "v": 2,
+  "ok": true,
+  "sysname": "modbus",
+  "title": "ModBus",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Поддержка протокола ModBusTCP",
+  "installs": 15,
+  "month": 5,
+  "icon": "https://connect.smartliving.ru/cms/addons/24_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-modbus/archive/master.tar.gz",
+   "forum": "http://smartliving.ru/forum/"
+  }
+ },
+ "25": {
+  "n": 25,
+  "v": 2,
+  "ok": true,
+  "sysname": "knxdevices",
+  "title": "KNX",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Поддержка KNX-оборудования через TCP-шлюз",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/25_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-knxdevices/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=8&t=1720"
+  }
+ },
+ "26": {
+  "n": 26,
+  "v": 2,
+  "ok": true,
+  "sysname": "usbdevices",
+  "title": "USB devices",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Получение событий о подключении USB-устройств",
+  "installs": 4,
+  "month": 1,
+  "icon": "https://connect.smartliving.ru/cms/addons/26_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-usbdevices/archive/master.tar.gz",
+   "forum": "http://smartliving.ru/forum/"
+  }
+ },
+ "27": {
+  "n": 27,
+  "v": 2,
+  "ok": true,
+  "sysname": "btdevices",
+  "title": "Bluetooth devices",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Получение уведомлений о появления определённых bluetooth-устройств в зоне доступа",
+  "installs": 15,
+  "month": 7,
+  "icon": "https://connect.smartliving.ru/cms/addons/27_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-btdevices/archive/master.tar.gz",
+   "forum": "http://smartliving.ru/forum/"
+  }
+ },
+ "28": {
+  "n": 28,
+  "v": 2,
+  "ok": true,
+  "sysname": "watchfolders",
+  "title": "WatchFolders",
+  "author": "SergeJey",
+  "category": "Мультимедиа",
+  "desc": "Слежение за файлами в папке и запуск сценариев при изменении.",
+  "installs": 1,
+  "month": 1,
+  "icon": "https://connect.smartliving.ru/cms/addons/28_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-watchfolders/archive/master.tar.gz",
+   "forum": "http://smartliving.ru/forum/"
+  }
+ },
+ "29": {
+  "n": 29,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_ircbot",
+  "title": "IRC bot",
+  "author": "SergeJey",
+  "category": "Взаимодействие",
+  "desc": "IRC-робот",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/29_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-app_ircbot/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=2507"
+  }
+ },
+ "30": {
+  "n": 30,
+  "v": 2,
+  "ok": true,
+  "sysname": "watchesmenu",
+  "title": "Pebble App",
+  "author": "SergeJey",
+  "category": "Взаимодействие",
+  "desc": "Поддержка приложения для Умных Часов Pebble",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/30_icon.jpg",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-watchesmenu/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=2528"
+  }
+ },
+ "31": {
+  "n": 31,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_yatraffic",
+  "title": "Yandex.Traffic",
+  "author": "nick7zmail",
+  "category": "Информация",
+  "desc": "Модуль \"Пробки от Яндекс\" для проекта MajorDoMo",
+  "installs": 2,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/31_icon.png",
+  "links": {
+   "download": "https://github.com/nick7zmail/MajorDoMo_app_yatraffic/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=2599",
+   "project": "https://connect.smartliving.ru/tasks/18.html"
+  }
+ },
+ "32": {
+  "n": 32,
+  "v": 2,
+  "ok": true,
+  "sysname": "dev_broadlink",
+  "title": "Broadlink",
+  "author": "nick7zmail",
+  "category": "Оборудование",
+  "desc": "Модуль сопряжения c Broadlink",
+  "installs": 16,
+  "month": 8,
+  "icon": "https://connect.smartliving.ru/cms/addons/32_icon.png",
+  "links": {
+   "download": "https://github.com/nick7zmail/MajorDoMo-dev_broadlink/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=3544",
+   "project": "https://connect.smartliving.ru/tasks/5.html"
+  }
+ },
+ "33": {
+  "n": 33,
+  "v": 2,
+  "ok": true,
+  "sysname": "veralite",
+  "title": "VeraLite",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Z-Wave support (Vera Lite controller)",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/33_icon.jpg",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-veralite/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=2639"
+  }
+ },
+ "34": {
+  "n": 34,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_asterisk",
+  "title": "Asterisk integration",
+  "author": "",
+  "category": "Информация",
+  "desc": "",
+  "installs": 1,
+  "month": 0,
+  "icon": "",
+  "links": {
+   "download": "https://github.com/szolenko/app_asterisk/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=2760"
+  }
+ },
+ "35": {
+  "n": 35,
+  "v": 2,
+  "ok": true,
+  "sysname": "telegram",
+  "title": "Telegram bot",
+  "author": "Eraser",
+  "category": "Взаимодействие",
+  "desc": "Telegram-бот",
+  "installs": 56,
+  "month": 19,
+  "icon": "https://connect.smartliving.ru/cms/addons/35_icon.png",
+  "links": {
+   "download": "https://github.com/Anisan/majordomo-telegram/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=2768",
+   "project": "https://connect.smartliving.ru/tasks/50.html"
+  }
+ },
+ "36": {
+  "n": 36,
+  "v": 2,
+  "ok": true,
+  "sysname": "optimizer",
+  "title": "Optimizer",
+  "author": "SergeJey",
+  "category": "Система",
+  "desc": "Оптимизация данных",
+  "installs": 348,
+  "month": 143,
+  "icon": "https://connect.smartliving.ru/cms/addons/36_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-optimizer/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=2795"
+  }
+ },
+ "37": {
+  "n": 37,
+  "v": 2,
+  "ok": true,
+  "sysname": "noolite",
+  "title": "Noolite",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Поддержка оборудования Noolite",
+  "installs": 1,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/37_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-noolite/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=2803",
+   "project": "https://connect.smartliving.ru/tasks/3.html"
+  }
+ },
+ "38": {
+  "n": 38,
+  "v": 2,
+  "ok": true,
+  "sysname": "charts",
+  "title": "Charts",
+  "author": "SergeJey",
+  "category": "Информация",
+  "desc": "Создание графиков",
+  "installs": 90,
+  "month": 46,
+  "icon": "https://connect.smartliving.ru/cms/addons/38_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-charts/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=2810",
+   "project": "https://connect.smartliving.ru/tasks/102.html"
+  }
+ },
+ "39": {
+  "n": 39,
+  "v": 2,
+  "ok": true,
+  "sysname": "ivona_tts",
+  "title": "Ivona TTS",
+  "author": "Eraser",
+  "category": "Взаимодействие",
+  "desc": "Синтез речи Ivona TTS",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/39_icon.png",
+  "links": {
+   "download": "https://github.com/Anisan/majordomo-ivona_tts/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=2834"
+  }
+ },
+ "40": {
+  "n": 40,
+  "v": 2,
+  "ok": true,
+  "sysname": "rhvoice",
+  "title": "RHVoice TTS",
+  "author": "",
+  "category": "Взаимодействие",
+  "desc": "",
+  "installs": 55,
+  "month": 6,
+  "icon": "",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-rhvoice/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=2834"
+  }
+ },
+ "41": {
+  "n": 41,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_quotes",
+  "title": "Quotes",
+  "author": "SergeJey",
+  "category": "Информация",
+  "desc": "Цитаты/случайные фразы",
+  "installs": 3,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/41_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-app_quotes/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/"
+  }
+ },
+ "42": {
+  "n": 42,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_tdwiki",
+  "title": "TDWiki",
+  "author": "SergeJey",
+  "category": "Информация",
+  "desc": "Простой wiki-блокнот",
+  "installs": 1,
+  "month": 1,
+  "icon": "https://connect.smartliving.ru/cms/addons/42_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-app_tdwiki/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/"
+  }
+ },
+ "43": {
+  "n": 43,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_readit",
+  "title": "ReadIt",
+  "author": "SergeJey",
+  "category": "Информация",
+  "desc": "Отправка ссылок для просмотра",
+  "installs": 6,
+  "month": 3,
+  "icon": "https://connect.smartliving.ru/cms/addons/43_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-app_readit/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/"
+  }
+ },
+ "44": {
+  "n": 44,
+  "v": 2,
+  "ok": true,
+  "sysname": "rss_channels",
+  "title": "RSS Channels",
+  "author": "SergeJey",
+  "category": "Информация",
+  "desc": "Подписка на RSS-потоки",
+  "installs": 19,
+  "month": 10,
+  "icon": "https://connect.smartliving.ru/cms/addons/44_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-rss_channels/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=2886"
+  }
+ },
+ "45": {
+  "n": 45,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_calendar",
+  "title": "Simple Calendar",
+  "author": "SergeJey",
+  "category": "Информация",
+  "desc": "Простой календарь событий и задач",
+  "installs": 9,
+  "month": 4,
+  "icon": "https://connect.smartliving.ru/cms/addons/45_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-app_calendar/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/"
+  }
+ },
+ "46": {
+  "n": 46,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_gpstrack",
+  "title": "GPS tracker",
+  "author": "SergeJey",
+  "category": "Информация",
+  "desc": "GPS-трэкер, события с привязкой к местноположению",
+  "installs": 33,
+  "month": 12,
+  "icon": "https://connect.smartliving.ru/cms/addons/46_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-app_gpstrack/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/"
+  }
+ },
+ "47": {
+  "n": 47,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_products",
+  "title": "Products",
+  "author": "SergeJey",
+  "category": "Информация",
+  "desc": "управление списком продуктов и списком покупок",
+  "installs": 5,
+  "month": 2,
+  "icon": "https://connect.smartliving.ru/cms/addons/47_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-app_products/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/"
+  }
+ },
+ "48": {
+  "n": 48,
+  "v": 2,
+  "ok": true,
+  "sysname": "kodi_notify",
+  "title": "Kodi Notifier",
+  "author": "Eraser",
+  "category": "Взаимодействие",
+  "desc": "Отправка уведомлений в Kodi",
+  "installs": 1,
+  "month": 1,
+  "icon": "https://connect.smartliving.ru/cms/addons/48_icon.png",
+  "links": {
+   "download": "https://github.com/Anisan/majordomo-kodi_notify/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=2893",
+   "project": "https://connect.smartliving.ru/tasks/90.html"
+  }
+ },
+ "49": {
+  "n": 49,
+  "v": 2,
+  "ok": true,
+  "sysname": "festival_tts",
+  "title": "Festival TTS",
+  "author": "SergeJey",
+  "category": "Взаимодействие",
+  "desc": "Поддержка движка синтеза речи Festival (Linux)",
+  "installs": 17,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/49_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-festival_tts/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/"
+  }
+ },
+ "50": {
+  "n": 50,
+  "v": 2,
+  "ok": true,
+  "sysname": "yandex_tts",
+  "title": "Yandex TTS",
+  "author": "SergeJey",
+  "category": "Взаимодействие",
+  "desc": "Поддержка сервиса синтеза речи от Yandex",
+  "installs": 38,
+  "month": 25,
+  "icon": "https://connect.smartliving.ru/cms/addons/50_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-yandex_tts/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/"
+  }
+ },
+ "51": {
+  "n": 51,
+  "v": 2,
+  "ok": true,
+  "sysname": "windows_tts",
+  "title": "Windows native TTS",
+  "author": "SergeJey",
+  "category": "Взаимодействие",
+  "desc": "Поддержка синтеза речи встроенного в ОС Windows",
+  "installs": 21,
+  "month": 6,
+  "icon": "https://connect.smartliving.ru/cms/addons/51_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-windows_tts/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/"
+  }
+ },
+ "52": {
+  "n": 52,
+  "v": 2,
+  "ok": true,
+  "sysname": "twitterbot",
+  "title": "Twitter",
+  "author": "SergeJey",
+  "category": "Взаимодействие",
+  "desc": "Публикация уведомлений в Twitter",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/52_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-twitterbot/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/"
+  }
+ },
+ "53": {
+  "n": 53,
+  "v": 2,
+  "ok": true,
+  "sysname": "pushbullet",
+  "title": "PushBullet",
+  "author": "SergeJey",
+  "category": "Взаимодействие",
+  "desc": "Отправка уведомлений с помощью сервиса PushBullet",
+  "installs": 3,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/53_icon.jpg",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-pushbullet/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/"
+  }
+ },
+ "54": {
+  "n": 54,
+  "v": 2,
+  "ok": true,
+  "sysname": "pushover",
+  "title": "PushOver",
+  "author": "SergeJey",
+  "category": "Взаимодействие",
+  "desc": "Отправка уведомлений с помощью сервиса PushOver",
+  "installs": 2,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/54_icon.jpg",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-pushover/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/"
+  }
+ },
+ "55": {
+  "n": 55,
+  "v": 2,
+  "ok": true,
+  "sysname": "growl",
+  "title": "Growl",
+  "author": "SergeJey",
+  "category": "Взаимодействие",
+  "desc": "Отправка уведомлений с помощью Growl",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/55_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-growl/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=4&t=641"
+  }
+ },
+ "56": {
+  "n": 56,
+  "v": 2,
+  "ok": true,
+  "sysname": "narodmon2",
+  "title": "NarodMon2",
+  "author": "Shagrat",
+  "category": "Информация",
+  "desc": "Поддержка сервиса NarodMon.ru",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/56_icon.png",
+  "links": {
+   "download": "https://github.com/Shagrat2/majordomo-narodmon2/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=2951"
+  }
+ },
+ "57": {
+  "n": 57,
+  "v": 2,
+  "ok": true,
+  "sysname": "sms_ru",
+  "title": "SMS.RU",
+  "author": "Shagrat",
+  "category": "Взаимодействие",
+  "desc": "Отправка SMS-сообщений через сервис SMS.RU",
+  "installs": 3,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/57_icon.png",
+  "links": {
+   "download": "https://github.com/Shagrat2/majordomo-smsru/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=2958"
+  }
+ },
+ "58": {
+  "n": 58,
+  "v": 2,
+  "ok": true,
+  "sysname": "morphy",
+  "title": "phpMorphy",
+  "author": "SergeJey",
+  "category": "Система",
+  "desc": "Библиотека phpMorphy морфологической обработки слов",
+  "installs": 11,
+  "month": 4,
+  "icon": "https://connect.smartliving.ru/cms/addons/58_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-morphy/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=2971"
+  }
+ },
+ "59": {
+  "n": 59,
+  "v": 2,
+  "ok": true,
+  "sysname": "cron",
+  "title": "Cron",
+  "author": "Eraser",
+  "category": "Система",
+  "desc": "Модуль для цикличного выполнения заданий.",
+  "installs": 38,
+  "month": 11,
+  "icon": "https://connect.smartliving.ru/cms/addons/59_icon.png",
+  "links": {
+   "download": "https://github.com/Anisan/majordomo-cron/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=2977",
+   "project": "https://connect.smartliving.ru/tasks/73.html"
+  }
+ },
+ "60": {
+  "n": 60,
+  "v": 2,
+  "ok": true,
+  "sysname": "esp8266_wifiot",
+  "title": "ESP8266 (Wifi-IoT)",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Устройства на ESP8266 от https://wifi-iot.com/",
+  "installs": 31,
+  "month": 10,
+  "icon": "https://connect.smartliving.ru/cms/addons/60_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-esp8266_wifiot/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=3025"
+  }
+ },
+ "61": {
+  "n": 61,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "62": {
+  "n": 62,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_alarmclock",
+  "title": "AlarmClock",
+  "author": "nick7zmail",
+  "category": "Информация",
+  "desc": "Будильник",
+  "installs": 20,
+  "month": 8,
+  "icon": "https://connect.smartliving.ru/cms/addons/62_icon.png",
+  "links": {
+   "download": "https://github.com/nick7zmail/MajorDoMo_app_alarmclock/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=3066",
+   "project": "https://connect.smartliving.ru/tasks/7.html"
+  }
+ },
+ "63": {
+  "n": 63,
+  "v": 2,
+  "ok": true,
+  "sysname": "rules",
+  "title": "Rules",
+  "author": "SergeJey",
+  "category": "Система",
+  "desc": "Простые правила",
+  "installs": 10,
+  "month": 4,
+  "icon": "https://connect.smartliving.ru/cms/addons/63_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-rules/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=3081"
+  }
+ },
+ "64": {
+  "n": 64,
+  "v": 2,
+  "ok": true,
+  "sysname": "energomera",
+  "title": "Energomera",
+  "author": "Shagrat",
+  "category": "Оборудование",
+  "desc": "Модуль для считывания данных с электросчётчиков, газовых счётчиком, водяных счётчиков фирмы \"Энергомера\" по протоколу -МЭК 61107-2001 IEK61107",
+  "installs": 1,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/64_icon.png",
+  "links": {
+   "download": "https://github.com/Shagrat2/majordomo-energomera/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=3173"
+  }
+ },
+ "65": {
+  "n": 65,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_chatbox",
+  "title": "ChatBox",
+  "author": "nick7zmail",
+  "category": "Взаимодействие",
+  "desc": "Расширенный чат-бокс",
+  "installs": 3,
+  "month": 2,
+  "icon": "https://connect.smartliving.ru/cms/addons/65_icon.png",
+  "links": {
+   "download": "https://github.com/nick7zmail/MajorDoMo_app_chatbox/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=1917",
+   "project": "https://connect.smartliving.ru/tasks/17.html"
+  }
+ },
+ "66": {
+  "n": 66,
+  "v": 2,
+  "ok": true,
+  "sysname": "shoutcast",
+  "title": "SHOUTCast Radio",
+  "author": "SergeJey",
+  "category": "Мультимедиа",
+  "desc": "Радио SHOUTCast, тысячи станций online",
+  "installs": 14,
+  "month": 2,
+  "icon": "https://connect.smartliving.ru/cms/addons/66_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-shoutcast/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=3329"
+  }
+ },
+ "67": {
+  "n": 67,
+  "v": 2,
+  "ok": true,
+  "sysname": "mixcloud",
+  "title": "MixCloud",
+  "author": "SergeJey",
+  "category": "Мультимедиа",
+  "desc": "Сервис лучших аудио-миксов MixCloud",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/67_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-mixcloud/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=3333"
+  }
+ },
+ "68": {
+  "n": 68,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_PostTracker",
+  "title": "PostTracker",
+  "author": "Eraser",
+  "category": "Информация",
+  "desc": "Модуль для отслеживания посылок",
+  "installs": 12,
+  "month": 7,
+  "icon": "https://connect.smartliving.ru/cms/addons/68_icon.png",
+  "links": {
+   "download": "https://github.com/Anisan/majordomo-PostTracker/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=3385",
+   "project": "https://connect.smartliving.ru/tasks/74.html"
+  }
+ },
+ "69": {
+  "n": 69,
+  "v": 2,
+  "ok": true,
+  "sysname": "scheduler",
+  "title": "Scheduler",
+  "author": "SergeJey",
+  "category": "Система",
+  "desc": "Планировщик задач/значений",
+  "installs": 24,
+  "month": 5,
+  "icon": "https://connect.smartliving.ru/cms/addons/69_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-scheduler/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=3411"
+  }
+ },
+ "70": {
+  "n": 70,
+  "v": 2,
+  "ok": true,
+  "sysname": "phpfm",
+  "title": "File Manager",
+  "author": "SergeJey",
+  "category": "Система",
+  "desc": "Простой файловый менеджер",
+  "installs": 105,
+  "month": 41,
+  "icon": "https://connect.smartliving.ru/cms/addons/70_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-phpfm/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=3500"
+  }
+ },
+ "71": {
+  "n": 71,
+  "v": 2,
+  "ok": true,
+  "sysname": "apiai",
+  "title": "API.AI",
+  "author": "SergeJey",
+  "category": "Взаимодействие",
+  "desc": "Поддержка сервиса API.AI",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/71_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-apiai/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=3635"
+  }
+ },
+ "72": {
+  "n": 72,
+  "v": 2,
+  "ok": true,
+  "sysname": "xiaomihome",
+  "title": "XiaomiHome",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Поддержка оборудования Xiaomi Smart Home (MiHome)",
+  "installs": 50,
+  "month": 18,
+  "icon": "https://connect.smartliving.ru/cms/addons/72_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-xiaomihome/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=3644",
+   "project": "https://connect.smartliving.ru/tasks/21.html"
+  }
+ },
+ "73": {
+  "n": 73,
+  "v": 2,
+  "ok": true,
+  "sysname": "sys_date_format",
+  "title": "DateFormat",
+  "author": "nick7zmail",
+  "category": "Система",
+  "desc": "Формат даты - выставляет в нужном формате время/дату в нужное свойство",
+  "installs": 13,
+  "month": 5,
+  "icon": "https://connect.smartliving.ru/cms/addons/73_icon.png",
+  "links": {
+   "download": "https://github.com/nick7zmail/MajorDoMo-sys_date_format/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=3751",
+   "project": "https://connect.smartliving.ru/tasks/11.html"
+  }
+ },
+ "74": {
+  "n": 74,
+  "v": 2,
+  "ok": true,
+  "sysname": "onvif",
+  "title": "ONVIF",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Поддержка IP-камер по протоколу ONVIF",
+  "installs": 24,
+  "month": 12,
+  "icon": "https://connect.smartliving.ru/cms/addons/74_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-onvif/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=3777"
+  }
+ },
+ "75": {
+  "n": 75,
+  "v": 2,
+  "ok": true,
+  "sysname": "vpnki",
+  "title": "VPNki",
+  "author": "SergeJey",
+  "category": "Система",
+  "desc": "Интеграция сервиса vpnki.ru",
+  "installs": 1,
+  "month": 1,
+  "icon": "https://connect.smartliving.ru/cms/addons/75_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-vpnki/archive/master.tar.gz",
+   "forum": "https://connect.smartliving.ru/tasks/372.html",
+   "project": "https://connect.smartliving.ru/tasks/372.html"
+  }
+ },
+ "76": {
+  "n": 76,
+  "v": 2,
+  "ok": true,
+  "sysname": "idevices",
+  "title": "iDevices",
+  "author": "zelevova",
+  "category": "Оборудование",
+  "desc": "Модуль отслеживания устройств производства компании Apple (iPhone, iPad...) и взаимодействия с ними.\nУмеет:\nпо запросу и автоматически получать информацию о устройствах (местоположение, уровень и статус заряда),\nпередавать данных в модуль GPS tracker,\nотправлять на устройства текстовые и звуковые уведомления,\nпереводить устройство в режим пропажи.",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/76_icon.png",
+  "links": {
+   "download": "https://github.com/Zelevova/majordomo-idevices/archive/master.tar.gz",
+   "forum": "https://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=4930",
+   "project": "https://connect.smartliving.ru/tasks/33.html"
+  }
+ },
+ "77": {
+  "n": 77,
+  "v": 2,
+  "ok": true,
+  "sysname": "milight",
+  "title": "MiLight",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Поддержка оборудования MiLight",
+  "installs": 1,
+  "month": 1,
+  "icon": "https://connect.smartliving.ru/cms/addons/77_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-milight/archive/master.tar.gz",
+   "forum": "https://connect.smartliving.ru/tasks/387.html",
+   "project": "https://connect.smartliving.ru/tasks/387.html"
+  }
+ },
+ "78": {
+  "n": 78,
+  "v": 2,
+  "ok": true,
+  "sysname": "sonytv",
+  "title": "SonyTV",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Управление смарт-телевизорами Sony",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/78_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-sonytvs/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=3998"
+  }
+ },
+ "79": {
+  "n": 79,
+  "v": 2,
+  "ok": true,
+  "sysname": "dev_blynk",
+  "title": "Blynk",
+  "author": "nick7zmail",
+  "category": "Оборудование",
+  "desc": "Поддержка сервиса Blynk",
+  "installs": 1,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/79_icon.png",
+  "links": {
+   "download": "https://github.com/nick7zmail/MajorDoMo-dev_blynk/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=4115",
+   "project": "https://connect.smartliving.ru/tasks/9.html"
+  }
+ },
+ "80": {
+  "n": 80,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "81": {
+  "n": 81,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "82": {
+  "n": 82,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "83": {
+  "n": 83,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_GpsWatch",
+  "title": "Gps Watch",
+  "author": "Eraser",
+  "category": "Оборудование",
+  "desc": "Модуль отслеживания детских часов Q90 (Q60,Q50)",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/83_icon.png",
+  "links": {
+   "download": "https://github.com/Anisan/majordomo-GpsWatch/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=3571",
+   "project": "https://connect.smartliving.ru/tasks/15.html"
+  }
+ },
+ "84": {
+  "n": 84,
+  "v": 2,
+  "ok": true,
+  "sysname": "ExchangeRates",
+  "title": "Курс валют",
+  "author": "Gelezako",
+  "category": "Информация",
+  "desc": "Модуль \"Курсы валют\" выводит курсы пар валют от ПриватБанка и Банк России и Банка Казахстана.\nОбучающее видео как пользоваться: https://www.youtube.com/watch?v=wZSfGWjE6lc",
+  "installs": 3,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/84_icon.jpg",
+  "links": {
+   "download": "https://github.com/Gelezako/MajorDomo-ExchangeRates/archive/master.tar.gz",
+   "forum": "http://blog.gelezako.com",
+   "project": "https://connect.smartliving.ru/tasks/137.html"
+  }
+ },
+ "85": {
+  "n": 85,
+  "v": 2,
+  "ok": true,
+  "sysname": "SearchYoutube",
+  "title": "Голосовой поиск по Youtube",
+  "author": "Gelezako",
+  "category": "Взаимодействие",
+  "desc": "С помощью этого модуля можно голосом искать на Ютубе клипы, музыку итд.",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/85_icon.jpg",
+  "links": {
+   "download": "https://github.com/Gelezako/MajorDomo-YoutubeSearch/archive/master.zip",
+   "forum": "http://blog.gelezako.com/?p=26",
+   "project": "https://connect.smartliving.ru/tasks/136.html"
+  }
+ },
+ "86": {
+  "n": 86,
+  "v": 2,
+  "ok": true,
+  "sysname": "Cinema",
+  "title": "Фильмы в кинотеатре",
+  "author": "Gelezako",
+  "category": "Информация",
+  "desc": "Модуль получает список фильмов из сети кинотеатров \"Планета Кино\". Работает совместно со сценарием для API.AI.",
+  "installs": 30,
+  "month": 25,
+  "icon": "https://connect.smartliving.ru/cms/addons/86_icon.jpg",
+  "links": {
+   "download": "https://github.com/Gelezako/MajorDomo-Cinema/archive/master.tar.gz",
+   "forum": "http://blog.gelezako.com/?p=19",
+   "project": "https://connect.smartliving.ru/tasks/135.html"
+  }
+ },
+ "87": {
+  "n": 87,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "88": {
+  "n": 88,
+  "v": 2,
+  "ok": true,
+  "sysname": "smtpcatcher",
+  "title": "SMTP Catcher",
+  "author": "SergeJey",
+  "category": "Информация",
+  "desc": "SMTP-сервер для имитации отправки почты. Может быть использован для перехвата почтовых сообщений от различного оборудования (IP-камеры) и инициирования событий.",
+  "installs": 3,
+  "month": 1,
+  "icon": "https://connect.smartliving.ru/cms/addons/88_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-smtpcatcher/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=4653"
+  }
+ },
+ "89": {
+  "n": 89,
+  "v": 2,
+  "ok": true,
+  "sysname": "sys_states",
+  "title": "System states",
+  "author": "nick7zmail",
+  "category": "Система",
+  "desc": "Модуль для визуализации \"самодиагностики\" системы (организация класса systemStates).",
+  "installs": 8,
+  "month": 2,
+  "icon": "https://connect.smartliving.ru/cms/addons/89_icon.png",
+  "links": {
+   "download": "https://github.com/nick7zmail/MajorDoMo-sys_states/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=4705",
+   "project": "https://connect.smartliving.ru/tasks/42.html"
+  }
+ },
+ "90": {
+  "n": 90,
+  "v": 2,
+  "ok": true,
+  "sysname": "smartden",
+  "title": "Denkovi",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Интеграция модулей автоматики от DENKOVI.COM",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/90_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-smartden/archive/master.tar.gz",
+   "forum": "https://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=4719&p=62320"
+  }
+ },
+ "91": {
+  "n": 91,
+  "v": 2,
+  "ok": true,
+  "sysname": "backup",
+  "title": "Backup",
+  "author": "Eraser",
+  "category": "Система",
+  "desc": "Модуль резервного копирования файлов и данных MJD\nНастраиваемое резервирование (данных, файлов)\nПоддержка облачных хранилищ (WebDav (Яндекс Диск, Box.com и др.), Cloud Mail.ru, Dropbox , FTP)\nУдаление старых копий",
+  "installs": 87,
+  "month": 53,
+  "icon": "https://connect.smartliving.ru/cms/addons/91_icon.png",
+  "links": {
+   "download": "https://github.com/Anisan/majordomo-backup/archive/master.tar.gz",
+   "forum": "http://connect.smartliving.ru/tasks/44.html",
+   "project": "https://connect.smartliving.ru/tasks/44.html"
+  }
+ },
+ "92": {
+  "n": 92,
+  "v": 2,
+  "ok": true,
+  "sysname": "Yeelight",
+  "title": "Yeelight",
+  "author": "Gelezako",
+  "category": "Оборудование",
+  "desc": "Модуль позволяет автоматически добавить устройства Yeelight",
+  "installs": 2,
+  "month": 2,
+  "icon": "https://connect.smartliving.ru/cms/addons/92_icon.jpg",
+  "links": {
+   "download": "https://github.com/Gelezako/MajorDomo-Yeelight/archive/master.tar.gz",
+   "forum": "http://blog.gelezako.com",
+   "project": "https://connect.smartliving.ru/tasks/64.html"
+  }
+ },
+ "93": {
+  "n": 93,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "94": {
+  "n": 94,
+  "v": 2,
+  "ok": true,
+  "sysname": "imperihome",
+  "title": "ImperiHome",
+  "author": "SergeJey",
+  "category": "Взаимодействие",
+  "desc": "Интеграция клиентского приложения ImperiHome",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/94_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/MajorDomo-imperihome/archive/master.tar.gz",
+   "forum": "https://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=4850"
+  }
+ },
+ "95": {
+  "n": 95,
+  "v": 2,
+  "ok": true,
+  "sysname": "xiaomimiio",
+  "title": "Xiaomi miIO",
+  "author": "skysilver",
+  "category": "Оборудование",
+  "desc": "Интеграция Wi-Fi устройств из экосистемы Xiaomi Mihome, взаимодействующих по протоколу miIO.",
+  "installs": 37,
+  "month": 15,
+  "icon": "https://connect.smartliving.ru/cms/addons/95_icon.png",
+  "links": {
+   "download": "https://github.com/skysilver-lab/majordomo-xiaomimiio/archive/master.tar.gz",
+   "forum": "https://connect.smartliving.ru/tasks/51.html",
+   "project": "https://connect.smartliving.ru/tasks/51.html"
+  }
+ },
+ "96": {
+  "n": 96,
+  "v": 2,
+  "ok": true,
+  "sysname": "obj_prptransfer",
+  "title": "PropTransfer",
+  "author": "nick7zmail",
+  "category": "Система",
+  "desc": "Модуль, позволяющий передавать значение свойства при изменении в другое свойство другого объекта.",
+  "installs": 8,
+  "month": 3,
+  "icon": "https://connect.smartliving.ru/cms/addons/96_icon.png",
+  "links": {
+   "download": "https://github.com/nick7zmail/MD_obj_prptransfer/archive/master.tar.gz",
+   "forum": "https://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=4938",
+   "project": "https://connect.smartliving.ru/tasks/88.html"
+  }
+ },
+ "97": {
+  "n": 97,
+  "v": 2,
+  "ok": true,
+  "sysname": "sysinfo",
+  "title": "SystemInfo",
+  "author": "Eraser",
+  "category": "Система",
+  "desc": "Модуль сбора системной информации:\nзагрузка CPU;\nиспользование RAM, диска;\nuptime.",
+  "installs": 20,
+  "month": 3,
+  "icon": "https://connect.smartliving.ru/cms/addons/97_icon.png",
+  "links": {
+   "download": "https://github.com/Anisan/majordomo-sysinfo/archive/master.tar.gz",
+   "forum": "https://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=4998",
+   "project": "https://connect.smartliving.ru/tasks/97.html"
+  }
+ },
+ "98": {
+  "n": 98,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_dlna",
+  "title": "DLNA",
+  "author": "nick7zmail",
+  "category": "Мультимедиа",
+  "desc": "Модуль DLNA для MajorDomo",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/98_icon.png",
+  "links": {
+   "download": "https://github.com/nick7zmail/MajorDoMo_app_dlna/archive/master.tar.gz",
+   "forum": "https://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=5091",
+   "project": "https://connect.smartliving.ru/tasks/127.html"
+  }
+ },
+ "99": {
+  "n": 99,
+  "v": 2,
+  "ok": true,
+  "sysname": "sms_logger",
+  "title": "SMS Logger",
+  "author": "Eraser",
+  "category": "Информация",
+  "desc": "Модуль для логирования смс сообщений с телефона",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/99_icon.png",
+  "links": {
+   "download": "https://github.com/Anisan/majordomo-sms_logger/archive/master.tar.gz",
+   "forum": "https://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=2880",
+   "project": "https://connect.smartliving.ru/tasks/114.html"
+  }
+ },
+ "100": {
+  "n": 100,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_postoffice",
+  "title": "PostOffice Tracker",
+  "author": "LDV",
+  "category": "Информация",
+  "desc": "Приложение позволяет управлять трек номерами почты России и отслеживать их статус.",
+  "installs": 0,
+  "month": 0,
+  "icon": "",
+  "links": {
+   "download": "https://github.com/palacex/majordomo-PostOffice/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=692"
+  }
+ },
+ "101": {
+  "n": 101,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "102": {
+  "n": 102,
+  "v": 2,
+  "ok": true,
+  "sysname": "livegpstracks",
+  "title": "livegpstracks.com",
+  "author": "directman",
+  "category": "Информация",
+  "desc": "Модуль синхронизации Majordomo с сервисом livegpstracks.com.",
+  "installs": 1,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/102_icon.png",
+  "links": {
+   "download": "https://github.com/directman66/majordomo-livegpstracks/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=5406",
+   "project": "https://connect.smartliving.ru/tasks/198.html"
+  }
+ },
+ "103": {
+  "n": 103,
+  "v": 2,
+  "ok": true,
+  "sysname": "ssdp_finder",
+  "title": "SSDP Finder",
+  "author": "T-REX-XP",
+  "category": "Оборудование",
+  "desc": "Поиск и добавление в систему UPNP(DLNA) устройств и управление ими.",
+  "installs": 4,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/103_icon.png",
+  "links": {
+   "download": "https://github.com/tarasfrompir/SSDPFinder/archive/master.tar.gz",
+   "forum": "https://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=2756",
+   "project": "https://connect.smartliving.ru/tasks/152.html"
+  }
+ },
+ "104": {
+  "n": 104,
+  "v": 2,
+  "ok": true,
+  "sysname": "starline",
+  "title": "starline-online.ru",
+  "author": "directman",
+  "category": "Информация",
+  "desc": "Модуль поддержки сервиса Старлайн-телематика starline-online.ru. Временно не работает, изменился порядок авторизации на сайте телематики.",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/104_icon.png",
+  "links": {
+   "download": "https://github.com/directman66/majordomo-starline/archive/master.tar.gz",
+   "forum": "https://github.com/directman66/majordomo-starline",
+   "project": "https://connect.smartliving.ru/tasks/197.html"
+  }
+ },
+ "105": {
+  "n": 105,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "106": {
+  "n": 106,
+  "v": 2,
+  "ok": true,
+  "sysname": "yandexweather",
+  "title": "Погода Яндекс",
+  "author": "directman",
+  "category": "Информация",
+  "desc": "Получение прогноза погоды Яндекс (модуль временно не работает).",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/106_icon.png",
+  "links": {
+   "download": "https://github.com/directman66/majordomo-yandexweather/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=5449&p=79567#p79567",
+   "project": "https://connect.smartliving.ru/tasks/194.html"
+  }
+ },
+ "107": {
+  "n": 107,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "108": {
+  "n": 108,
+  "v": 2,
+  "ok": true,
+  "sysname": "TV_Remote_LG",
+  "title": "ТВ пульт LG. Виджет для СЦЕН и МЕНЮ.",
+  "author": "ahelper",
+  "category": "Модификации",
+  "desc": "Используем добавляя объект на сцену или в меню. В объектах появится класс TVRemotes с классом и объектом установленного пульта. Прописываем в методы объекта необходимые вам действия. !!! Кнопки пульта жестко привязаны к своему методу !!!\nПример: Вы установили пульт LG. Кнопка \"громкость +\" запускает метод \"RemoteLG1.Sound_+\".",
+  "installs": 73,
+  "month": 39,
+  "icon": "https://connect.smartliving.ru/cms/addons/108_icon.png",
+  "links": {
+   "download": "https://connect.smartliving.ru/market/?op=download&name=TV_Remote_LG",
+   "forum": "https://majordomo.smartliving.ru/forum/viewtopic.php?f=23&t=5451",
+   "project": "https://connect.smartliving.ru/tasks/167.html"
+  }
+ },
+ "109": {
+  "n": 109,
+  "v": 2,
+  "ok": true,
+  "sysname": "TV_Remote_TCL",
+  "title": "ТВ пульт TCL. Виджет для СЦЕН и МЕНЮ.",
+  "author": "ahelper",
+  "category": "Модификации",
+  "desc": "Используем добавляя объект на сцену или в меню. В объектах появится класс TVRemotes с классом и объектом установленного пульта. Прописываем в методы объекта необходимые вам действия. !!! Кнопки пульта жестко привязаны к своему методу !!!\nПример: Вы установили пульт TCL. Кнопка \"громкость +\" запускает метод \"RemoteTCL1.Sound_+\".",
+  "installs": 58,
+  "month": 21,
+  "icon": "https://connect.smartliving.ru/cms/addons/109_icon.png",
+  "links": {
+   "download": "https://connect.smartliving.ru/market/?op=download&name=TV_Remote_TCL",
+   "forum": "https://majordomo.smartliving.ru/forum/viewtopic.php?f=23&t=5451",
+   "project": "https://connect.smartliving.ru/tasks/169.html"
+  }
+ },
+ "110": {
+  "n": 110,
+  "v": 2,
+  "ok": true,
+  "sysname": "TV_Remote_Sams",
+  "title": "ТВ пульт Samsung. Виджет для СЦЕН и МЕНЮ.",
+  "author": "ahelper",
+  "category": "Модификации",
+  "desc": "Используем добавляя объект на сцену или в меню. В объектах появится класс TVRemotes с классом и объектом установленного пульта. Прописываем в методы объекта необходимые вам действия. !!! Кнопки пульта жестко привязаны к своему методу !!!\nПример: Вы установили пульт Samsung. Кнопка \"громкость +\" запускает метод \"RemoteSams1.Sound_+\".",
+  "installs": 67,
+  "month": 34,
+  "icon": "https://connect.smartliving.ru/cms/addons/110_icon.png",
+  "links": {
+   "download": "https://connect.smartliving.ru/market/?op=download&name=TV_Remote_Sams",
+   "forum": "https://majordomo.smartliving.ru/forum/viewtopic.php?f=23&t=5451",
+   "project": "https://connect.smartliving.ru/tasks/168.html"
+  }
+ },
+ "111": {
+  "n": 111,
+  "v": 2,
+  "ok": true,
+  "sysname": "TV_Remote_Rost",
+  "title": "ТВ пульт Ростелеком. Виджет для СЦЕН и МЕНЮ.",
+  "author": "ahelper",
+  "category": "Модификации",
+  "desc": "Используем добавляя объект на сцену или в меню. В объектах появится класс TVRemotes с классом и объектом установленного пульта. Прописываем в методы объекта необходимые вам действия. !!! Кнопки пульта жестко привязаны к своему методу !!!\nПример: Вы установили пульт Ростелеком. Кнопка \"громкость +\" запускает метод \" RemoteRosTel1.Sound_+\".",
+  "installs": 65,
+  "month": 33,
+  "icon": "https://connect.smartliving.ru/cms/addons/111_icon.png",
+  "links": {
+   "download": "https://connect.smartliving.ru/market/?op=download&name=TV_Remote_Rost",
+   "forum": "https://majordomo.smartliving.ru/forum/viewtopic.php?f=23&t=5451",
+   "project": "https://connect.smartliving.ru/tasks/166.html"
+  }
+ },
+ "112": {
+  "n": 112,
+  "v": 2,
+  "ok": true,
+  "sysname": "acremote_Diam",
+  "title": "Пульт для Кондиционера. Виджет для СЦЕН и МЕНЮ.",
+  "author": "ahelper",
+  "category": "Модификации",
+  "desc": "Используем добавляя объект на сцену или в меню. В объектах появится класс TVRemotes с классом и объектом установленного пульта. Прописываем в методы объекта необходимые вам действия. !!! Кнопки пульта жестко привязаны к своему методу !!!\nИнструкцию по настройке и модификации читайте в моем блоге.",
+  "installs": 56,
+  "month": 27,
+  "icon": "https://connect.smartliving.ru/cms/addons/112_icon.png",
+  "links": {
+   "download": "https://connect.smartliving.ru/market/?op=download&name=acremote_Diam",
+   "forum": "https://majordomo.smartliving.ru/forum/viewtopic.php?f=23&t=5451",
+   "project": "https://connect.smartliving.ru/tasks/172.html"
+  }
+ },
+ "113": {
+  "n": 113,
+  "v": 2,
+  "ok": true,
+  "sysname": "mdmPiTerminalModule",
+  "title": "MDM VoiceAssistant",
+  "author": "lanket",
+  "category": "Оборудование",
+  "desc": "Модуль управления умной колонкой (голосовым терминалом) построенной на базе Orange Pi Zero позволяющая управлять Мажордомо голосом. Активация колонки происходит голосом ключевым словом по прицепу ОК Гугл. Но можно записать любую свою команду на ключевое слово.\nРазработка терминала ведет Anaki http://majordomo.smartliving.ru/forum/memberlist.p...\ngitHub 2й версии терминала https://github.com/Aculeasis/mdmTerminal2\ngitHub сырого модуля https://github.com/lanket/mdmPiTerminalModule/tree...",
+  "installs": 4,
+  "month": 4,
+  "icon": "https://connect.smartliving.ru/cms/addons/113_icon.png",
+  "links": {
+   "download": "https://github.com/lanket/mdmPiTerminalModule/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=5460",
+   "project": "https://connect.smartliving.ru/tasks/174.html"
+  }
+ },
+ "114": {
+  "n": 114,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "115": {
+  "n": 115,
+  "v": 2,
+  "ok": true,
+  "sysname": "webconsole",
+  "title": "webconsole",
+  "author": "directman",
+  "category": "Система",
+  "desc": "Эмулятор терминала для Мажордомо (linux)",
+  "installs": 18,
+  "month": 8,
+  "icon": "https://connect.smartliving.ru/cms/addons/115_icon.png",
+  "links": {
+   "download": "https://github.com/directman66/majordomo-webterminal/archive/master.tar.gz",
+   "forum": "https://github.com/directman66/majordomo-webterminal",
+   "project": "https://connect.smartliving.ru/tasks/195.html"
+  }
+ },
+ "116": {
+  "n": 116,
+  "v": 2,
+  "ok": true,
+  "sysname": "zipato",
+  "title": "Zipato",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Взаимодействие со хабом умного дома Zipato",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/116_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/MajorDomo-zipato/archive/master.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/182.html"
+  }
+ },
+ "117": {
+  "n": 117,
+  "v": 2,
+  "ok": true,
+  "sysname": "autodiagnostics",
+  "title": "Auto Diagnostics",
+  "author": "SergeJey",
+  "category": "Система",
+  "desc": "Автоматическая отправка диагностической информации в сервис CONNECT. Данный модуль является инструментом интегратора для автоматического сбора состояния контролируемых объектов. Модуль периодически отправляет базовую информацию о состоянии различных частей системы на сервер CONNECT, где она автоматически анализируется и, в случае обнаружения явных проблем, создаётся уведомление с информацией о том, что выглядит \"подозрительно\" и может привести к нестабильной работе системы.\nПривязка данных к аккаунту интегратора задаётся в настройке модуля.",
+  "installs": 8,
+  "month": 4,
+  "icon": "https://connect.smartliving.ru/cms/addons/117_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/MajorDomo-autodiagnostics/archive/master.tar.gz"
+  }
+ },
+ "118": {
+  "n": 118,
+  "v": 2,
+  "ok": true,
+  "sysname": "syswidget",
+  "title": "Виджет состояние системы",
+  "author": "directman",
+  "category": "Система",
+  "desc": "Коротко выводится информация о системе (linux).",
+  "installs": 20,
+  "month": 4,
+  "icon": "https://connect.smartliving.ru/cms/addons/118_icon.png",
+  "links": {
+   "download": "https://github.com/directman66/majordomo-syswidget/archive/master.tar.gz",
+   "forum": "https://github.com/directman66/majordomo-syswidget",
+   "project": "https://connect.smartliving.ru/tasks/196.html"
+  }
+ },
+ "119": {
+  "n": 119,
+  "v": 2,
+  "ok": true,
+  "sysname": "KodExplorer",
+  "title": "KodExplorer",
+  "author": "directman",
+  "category": "Система",
+  "desc": "KodExplorer: файловый менеджер, редактор с подстветкой синтаксису, просмотр фотографий и многое другое.",
+  "installs": 29,
+  "month": 6,
+  "icon": "https://connect.smartliving.ru/cms/addons/119_icon.png",
+  "links": {
+   "download": "https://github.com/directman66/majordomo-kodexplorer/archive/master.tar.gz",
+   "forum": "https://github.com/directman66/majordomo-kodexplorer"
+  }
+ },
+ "120": {
+  "n": 120,
+  "v": 2,
+  "ok": true,
+  "sysname": "temphumiditydevice",
+  "title": "Простое устройство: датчик температуры + влажности",
+  "author": "SergeJey",
+  "category": "Модификации",
+  "desc": "Дополнение, которое добавляет новый тип устройства (Датчик температуры + Датчик влажности), которое комбинирует в себе два показтеля: температура + влажность.",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/120_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-temp-humidity-device/archive/master.tar.gz"
+  }
+ },
+ "121": {
+  "n": 121,
+  "v": 2,
+  "ok": true,
+  "sysname": "batterydevice",
+  "title": "Простое устройство: батарейка",
+  "author": "Eraser",
+  "category": "Модификации",
+  "desc": "Дополнение, которое добавляет новый тип устройства (батарейка).",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/121_icon.png",
+  "links": {
+   "download": "https://github.com/Anisan/majordomo-battery-device/archive/master.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/208.html"
+  }
+ },
+ "122": {
+  "n": 122,
+  "v": 2,
+  "ok": true,
+  "sysname": "notifyevents",
+  "title": "notify.events",
+  "author": "directman",
+  "category": "Информация",
+  "desc": "Модуль поддержки сервиса https://notify.events/",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/122_icon.png",
+  "links": {
+   "download": "https://github.com/directman66/majordomo-notifyevents/archive/master.tar.gz",
+   "forum": "https://github.com/directman66/majordomo-notifyevents/"
+  }
+ },
+ "123": {
+  "n": 123,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "124": {
+  "n": 124,
+  "v": 2,
+  "ok": true,
+  "sysname": "google_tts",
+  "title": "Google TTS",
+  "author": "Velizar",
+  "category": "Взаимодействие",
+  "desc": "Модуль Google TTS, работает без API",
+  "installs": 0,
+  "month": 0,
+  "icon": "",
+  "links": {
+   "download": "https://github.com/YuriiRadio/majordomo-google_tts/archive/master.zip",
+   "forum": "https://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=5566"
+  }
+ },
+ "125": {
+  "n": 125,
+  "v": 2,
+  "ok": true,
+  "sysname": "insytedevices",
+  "title": "Insyte",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Поддержка оборудования Insyte.ru",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/125_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-insyte/archive/master.tar.gz",
+   "forum": "https://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=5582",
+   "project": "https://connect.smartliving.ru/tasks/215.html"
+  }
+ },
+ "126": {
+  "n": 126,
+  "v": 2,
+  "ok": true,
+  "sysname": "zontdevices",
+  "title": "Zont",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Поддержка оборудования zont-online.ru",
+  "installs": 1,
+  "month": 1,
+  "icon": "https://connect.smartliving.ru/cms/addons/126_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-zont/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=5591",
+   "project": "https://connect.smartliving.ru/tasks/216.html"
+  }
+ },
+ "127": {
+  "n": 127,
+  "v": 2,
+  "ok": true,
+  "sysname": "fontawesome",
+  "title": "FontAwesome",
+  "author": "nick7zmail",
+  "category": "Модификации",
+  "desc": "Шрифт FontAwesome в виде отдельного модуля, который можно скачать из маркета.\nПосле установки вы можете подключить модуль в css:\n@import url(\"/3rdparty/fontawesome/css/all.min.css\");\nили html:\n<link rel=\"stylesheet\" href=\"/3rdparty/fontawesome/css/all.min.css\">\nв меню, сценах или на страницах.",
+  "installs": 6,
+  "month": 4,
+  "icon": "https://connect.smartliving.ru/cms/addons/127_icon.png",
+  "links": {
+   "download": "https://github.com/nick7zmail/MD_mod_fontawesome/archive/master.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/225.html"
+  }
+ },
+ "128": {
+  "n": 128,
+  "v": 2,
+  "ok": true,
+  "sysname": "gorodScene",
+  "title": "[Сцена] Город",
+  "author": "nick7zmail",
+  "category": "Модификации",
+  "desc": "Стартовая сцена системы для новичков.",
+  "installs": 22,
+  "month": 4,
+  "icon": "https://connect.smartliving.ru/cms/addons/128_icon.png",
+  "links": {
+   "download": "https://github.com/nick7zmail/MD_gorodScene/archive/master.tar.gz",
+   "forum": "https://majordomo.smartliving.ru/forum/viewtopic.php?f=4&t=2588",
+   "project": "https://connect.smartliving.ru/tasks/242.html"
+  }
+ },
+ "129": {
+  "n": 129,
+  "v": 2,
+  "ok": true,
+  "sysname": "philipshue",
+  "title": "Philips Hue (deconz)",
+  "author": "tkasyanov",
+  "category": "Оборудование",
+  "desc": "Поддержка оборудования Philips Hue и deconz!",
+  "installs": 1,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/129_icon.png",
+  "links": {
+   "download": "https://github.com/tkasyanov/philipshue/archive/master.tar.gz",
+   "forum": "https://connect.smartliving.ru/tasks/246.html",
+   "project": "https://connect.smartliving.ru/tasks/246.html"
+  }
+ },
+ "130": {
+  "n": 130,
+  "v": 2,
+  "ok": true,
+  "sysname": "slack",
+  "title": "slack",
+  "author": "directman",
+  "category": "Взаимодействие",
+  "desc": "Модуль поддержки сервиса slack.com. Сервис предоставляет: хранение архива 10 000 сообщений с вложениями бесплатно; возможность отправки текстовых сообщений, изображений, ссылок, кнопок и много других возможностей;",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/130_icon.png",
+  "links": {
+   "download": "https://github.com/directman66/majordomo-slack/archive/master.tar.gz",
+   "forum": "https://github.com/directman66/majordomo-slack/",
+   "project": "https://connect.smartliving.ru/tasks/248.html"
+  }
+ },
+ "131": {
+  "n": 131,
+  "v": 2,
+  "ok": true,
+  "sysname": "livoloremote",
+  "title": "LivoloRemote",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Управление радио-выключателями Livolo. Для работы модуля необходим шлюз на базе ESP8266 (см. репозиторий https://github.com/sergejey/esp8266_livologate )",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/131_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-livoloremote/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/",
+   "project": "https://connect.smartliving.ru/tasks/252.html"
+  }
+ },
+ "132": {
+  "n": 132,
+  "v": 2,
+  "ok": true,
+  "sysname": "milur",
+  "title": "Счетчики Милур",
+  "author": "directman",
+  "category": "Оборудование",
+  "desc": "Модуль для считывания показаний счетчиков Милур 104 производства компании Миландр.",
+  "installs": 1,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/132_icon.png",
+  "links": {
+   "download": "https://github.com/directman66/majordomo-milur/archive/master.tar.gz",
+   "forum": "https://github.com/directman66/majordomo-milur/",
+   "project": "https://connect.smartliving.ru/tasks/255.html"
+  }
+ },
+ "133": {
+  "n": 133,
+  "v": 2,
+  "ok": true,
+  "sysname": "bluetoothdevices",
+  "title": "...",
+  "author": "SoulTaker",
+  "category": "Оборудование",
+  "desc": "...",
+  "installs": 9,
+  "month": 1,
+  "icon": "https://connect.smartliving.ru/cms/addons/133_icon.png",
+  "links": {
+   "download": "https://github.com/thesoultaker48/majordomo-bluetoothdevices/archive/master.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/256.html"
+  }
+ },
+ "134": {
+  "n": 134,
+  "v": 2,
+  "ok": true,
+  "sysname": "vk_bot",
+  "title": "VK бот",
+  "author": "nick7zmail",
+  "category": "Взаимодействие",
+  "desc": "Бот для небезызвестной соцсети Вконтакте.",
+  "installs": 1,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/134_icon.png",
+  "links": {
+   "download": "https://github.com//nick7zmail/MD_vk_bot/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=5675",
+   "project": "https://connect.smartliving.ru/tasks/257.html"
+  }
+ },
+ "135": {
+  "n": 135,
+  "v": 2,
+  "ok": true,
+  "sysname": "magichome",
+  "title": "MagicHome",
+  "author": "directman",
+  "category": "Оборудование",
+  "desc": "Модуль поддержки WI-FI RGB диммеров китайского производства с логотипом MagicHome. Возможности: поиск контроллера, изменение цвета, получение текущего цвета.",
+  "installs": 3,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/135_icon.png",
+  "links": {
+   "download": "https://github.com/directman66/majordomo-magichome/archive/master.tar.gz",
+   "forum": "https://github.com/directman66/majordomo-magichome/",
+   "project": "https://connect.smartliving.ru/tasks/259.html"
+  }
+ },
+ "136": {
+  "n": 136,
+  "v": 2,
+  "ok": true,
+  "sysname": "terneo_thermostats",
+  "title": "Термостаты Terneo",
+  "author": "Krinopotam",
+  "category": "Оборудование",
+  "desc": "Модуль для управления Wi-Fi терморегуляторами Terneo (модели ax, sx).\nТестировался на терморегуляторах серии ax.",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/136_icon.png",
+  "links": {
+   "download": "https://github.com/Krinopotam/majordomo-terneo_thermostats/archive/master.tar.gz",
+   "forum": "https://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=5677",
+   "project": "https://connect.smartliving.ru/tasks/538.html"
+  }
+ },
+ "137": {
+  "n": 137,
+  "v": 2,
+  "ok": true,
+  "sysname": "rtl433",
+  "title": "rtl433",
+  "author": "directman",
+  "category": "Оборудование",
+  "desc": "Модуль для считывания значения датчиков температуры, беспроводных пультов, выключателей, датчиков движения, работающих по протоколу rc-switch на частоте 433мгц. В качестве приемника может выступать USB донгл на чипе Realtek RTL2832U. Модуль экспериментальный, только для тестов, работает только в linux.",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/137_icon.png",
+  "links": {
+   "download": "https://github.com/directman66/majordomo-rtl433/archive/master.tar.gz",
+   "forum": "https://github.com/directman66/majordomo-rtl433/",
+   "project": "https://connect.smartliving.ru/tasks/265.html"
+  }
+ },
+ "138": {
+  "n": 138,
+  "v": 2,
+  "ok": true,
+  "sysname": "mercury",
+  "title": "Счетчики Меркурий",
+  "author": "directman",
+  "category": "Оборудование",
+  "desc": "Модуль для работы со счетчиками Меркурий производства Инкотекс. Тестирование.",
+  "installs": 2,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/138_icon.png",
+  "links": {
+   "download": "https://github.com/directman66/majordomo-mercury/archive/master.tar.gz",
+   "forum": "https://github.com/directman66/majordomo-mercury/",
+   "project": "https://connect.smartliving.ru/tasks/272.html"
+  }
+ },
+ "139": {
+  "n": 139,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_music",
+  "title": "...",
+  "author": "SoulTaker",
+  "category": "Мультимедиа",
+  "desc": "...",
+  "installs": 4,
+  "month": 3,
+  "icon": "https://connect.smartliving.ru/cms/addons/139_icon.png",
+  "links": {
+   "download": "https://github.com/thesoultaker48/majordomo-app_music/archive/master.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/273.html"
+  }
+ },
+ "140": {
+  "n": 140,
+  "v": 2,
+  "ok": true,
+  "sysname": "dashui",
+  "title": "DashUI. Управление MJD",
+  "author": "Eraser",
+  "category": "Модификации",
+  "desc": "Интерфейс управления основными функциями MJD",
+  "installs": 1,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/140_icon.png",
+  "links": {
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=5715"
+  }
+ },
+ "141": {
+  "n": 141,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_mag250",
+  "title": "Mag250",
+  "author": "directman",
+  "category": "Мультимедиа",
+  "desc": "Модуль для управления STB приставками MAG245(250) от компании Инфомир и их клонов (WR-320..)\nРазвитие модуля приостановлено. Используйте решение от tarasfrompir (Простое устройство https://connect.smartliving.ru/addons/category6/16... ).",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/141_icon.png",
+  "links": {
+   "download": "https://github.com/directman66/majordomo-mag250/archive/master.tar.gz",
+   "forum": "https://github.com/directman66/majordomo-mag250/",
+   "project": "https://connect.smartliving.ru/tasks/283.html"
+  }
+ },
+ "142": {
+  "n": 142,
+  "v": 2,
+  "ok": true,
+  "sysname": "SPhilipsDimmers",
+  "title": "Simple Devices addon (Philips Zhirui Downlight)",
+  "author": "Logrus",
+  "category": "Модификации",
+  "desc": "Дополнение, которое добавляет новый тип устройства (Philips Zhirui Downlight).",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/148_icon.jpg",
+  "links": {
+   "download": "https://github.com/Alexandr-logrus/majordomo-dimmer-device/archive/master.tar.gz",
+   "forum": "https://connect.smartliving.ru/tasks/289.html",
+   "project": "https://connect.smartliving.ru/tasks/289.html"
+  }
+ },
+ "143": {
+  "n": 143,
+  "v": 2,
+  "ok": true,
+  "sysname": "ajaxsystems",
+  "title": "Ajax Systems",
+  "author": "tkasyanov",
+  "category": "Оборудование",
+  "desc": "Поддержка охранной сигнализации Ajax",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/143_icon.png",
+  "links": {
+   "download": "https://github.com/tkasyanov/ajaxsystems/archive/master.tar.gz",
+   "forum": "https://connect.smartliving.ru/tasks/290.html"
+  }
+ },
+ "144": {
+  "n": 144,
+  "v": 2,
+  "ok": true,
+  "sysname": "sayjokes",
+  "title": "Ржунемогу",
+  "author": "directman",
+  "category": "Информация",
+  "desc": "Модуль расскажет анекдот с сайта rzhunemogu.ru",
+  "installs": 2,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/144_icon.png",
+  "links": {
+   "download": "https://github.com/directman66/majordomo-sayjokes/archive/master.tar.gz",
+   "forum": "https://github.com/directman66/majordomo-sayjokes/",
+   "project": "https://connect.smartliving.ru/tasks/291.html"
+  }
+ },
+ "145": {
+  "n": 145,
+  "v": 2,
+  "ok": true,
+  "sysname": "icq",
+  "title": "ICQ Bot",
+  "author": "AKEB",
+  "category": "Информация",
+  "desc": "ICQ-бот",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/145_icon.png",
+  "links": {
+   "download": "https://github.com/AKEB/majordomo-icq/archive/0.2.tar.gz",
+   "forum": "https://connect.smartliving.ru/tasks/294.html"
+  }
+ },
+ "146": {
+  "n": 146,
+  "v": 2,
+  "ok": true,
+  "sysname": "lgwebostv",
+  "title": "LG webOS TV",
+  "author": "skysilver",
+  "category": "Оборудование",
+  "desc": "Модуль поддержки смарт-телевизоров LG на платформе webOS.",
+  "installs": 15,
+  "month": 2,
+  "icon": "https://connect.smartliving.ru/cms/addons/146_icon.png",
+  "links": {
+   "download": "https://github.com/skysilver-lab/majordomo-lgwebostv/archive/master.tar.gz",
+   "forum": "https://connect.smartliving.ru/tasks/226.html",
+   "project": "https://connect.smartliving.ru/tasks/226.html"
+  }
+ },
+ "147": {
+  "n": 147,
+  "v": 2,
+  "ok": true,
+  "sysname": "wol",
+  "title": "WOL",
+  "author": "directman",
+  "category": "Оборудование",
+  "desc": "Модуль находит устройства локальной сети и отправляет WakeOnLan сообщения.",
+  "installs": 10,
+  "month": 7,
+  "icon": "https://connect.smartliving.ru/cms/addons/147_icon.png",
+  "links": {
+   "download": "https://github.com/directman66/majordomo-wol/archive/master.tar.gz",
+   "forum": "https://github.com/directman66/majordomo-wol/",
+   "project": "https://connect.smartliving.ru/tasks/306.html"
+  }
+ },
+ "148": {
+  "n": 148,
+  "v": 2,
+  "ok": true,
+  "sysname": "SXiGatewayRGB",
+  "title": "Simple Devices addon (Xiaomi Gateway RGB)",
+  "author": "Logrus",
+  "category": "Модификации",
+  "desc": "Simple Devices addon (Xiaomi Gateway RGB)",
+  "installs": 2,
+  "month": 1,
+  "icon": "https://connect.smartliving.ru/cms/addons/148_icon.jpg",
+  "links": {
+   "download": "https://github.com/Alexandr-logrus/majordomo-rgb-device/archive/master.tar.gz",
+   "forum": "https://connect.smartliving.ru/tasks/288.html",
+   "project": "https://connect.smartliving.ru/tasks/288.html"
+  }
+ },
+ "149": {
+  "n": 149,
+  "v": 2,
+  "ok": true,
+  "sysname": "OkBitUDP",
+  "title": "OkBit UDP Devices",
+  "author": "okbit.ru",
+  "category": "Оборудование",
+  "desc": "Модуль общения с устройствами на базе ESP8266 и устройствами на шине RS485 через шлюз, по средствам UDP-сокетов. Автоматический поиск устройств. Подвязка данных устройства к ПУ через интерфейс модуля. Прошивки устройств можно скачать в теме модуля на форуме.",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/149_icon.png",
+  "links": {
+   "download": "https://github.com/foxvlad/OkBitUDP/archive/master.tar.gz",
+   "forum": "https://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=5851#p91062",
+   "project": "https://connect.smartliving.ru/tasks/314.html"
+  }
+ },
+ "150": {
+  "n": 150,
+  "v": 2,
+  "ok": true,
+  "sysname": "dev_sonoff",
+  "title": "Sonoff",
+  "author": "nick7zmail",
+  "category": "Оборудование",
+  "desc": "Модуль для взаимодействия с устройствами sonoff без перепрошивки (работает через облако).",
+  "installs": 21,
+  "month": 5,
+  "icon": "https://connect.smartliving.ru/cms/addons/150_icon.png",
+  "links": {
+   "download": "https://github.com/nick7zmail/MajorDoMo_dev_sonoff/archive/master.tar.gz",
+   "forum": "https://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=5871",
+   "project": "https://connect.smartliving.ru/tasks/325.html"
+  }
+ },
+ "151": {
+  "n": 151,
+  "v": 2,
+  "ok": true,
+  "sysname": "bletool",
+  "title": "BLEtool",
+  "author": "directman",
+  "category": "Оборудование",
+  "desc": "Модуль для работы с BLE оборудованием с использованием утилиты gatttool. Только для linux (ubuntu, raspbian..). Поддерживается mi flora plant,eq-3 thermostat.",
+  "installs": 5,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/151_icon.png",
+  "links": {
+   "download": "https://github.com/directman66/majordomo-bletool/archive/master.tar.gz",
+   "forum": "https://github.com/directman66/majordomo-bletool",
+   "project": "https://connect.smartliving.ru/tasks/327.html"
+  }
+ },
+ "152": {
+  "n": 152,
+  "v": 2,
+  "ok": true,
+  "sysname": "espcounter",
+  "title": "ESPCounter",
+  "author": "directman",
+  "category": "Оборудование",
+  "desc": "Модуль для сбора показаний со счетчиков ESPCounter http://espmeteo.ru/espcounter/",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/152_icon.png",
+  "links": {
+   "download": "https://github.com/directman66/majordomo-espcounter/archive/master.tar.gz",
+   "forum": "https://github.com/directman66/majordomo-espcounter",
+   "project": "https://connect.smartliving.ru/tasks/328.html"
+  }
+ },
+ "153": {
+  "n": 153,
+  "v": 2,
+  "ok": true,
+  "sysname": "MD_modern_scene",
+  "title": "[Сцена] Модерн",
+  "author": "nick7zmail",
+  "category": "Модификации",
+  "desc": "Сцена большого разрешения для планшетов и мониторов 1920х1200 с векторными иконками.",
+  "installs": 1,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/153_icon.png",
+  "links": {
+   "forum": "https://majordomo.smartliving.ru/forum/viewtopic.php?f=4&t=1919",
+   "project": "https://connect.smartliving.ru/tasks/329.html"
+  }
+ },
+ "154": {
+  "n": 154,
+  "v": 2,
+  "ok": true,
+  "sysname": "dev_hvac",
+  "title": "HVAC",
+  "author": "indiana",
+  "category": "Оборудование",
+  "desc": "Управление бытовыми кондиционерами и тепловыми насосами Gree и Cooper&Hunter",
+  "installs": 14,
+  "month": 7,
+  "icon": "https://connect.smartliving.ru/cms/addons/154_icon.png",
+  "links": {
+   "download": "https://github.com/indimouse/majordomo-dev_hvac/archive/master.tar.gz",
+   "forum": "https://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=5920"
+  }
+ },
+ "155": {
+  "n": 155,
+  "v": 2,
+  "ok": true,
+  "sysname": "camshoter",
+  "title": "СAMshoter",
+  "author": "directman",
+  "category": "Взаимодействие",
+  "desc": "Сохранение снапшотов и видео с камеры по датчику движения. Отправка в телеграмм.",
+  "installs": 10,
+  "month": 4,
+  "icon": "https://connect.smartliving.ru/cms/addons/155_icon.png",
+  "links": {
+   "download": "https://github.com/directman66/majordomo-camshoter/archive/master.tar.gz",
+   "forum": "https://github.com/directman66/majordomo-camshoter",
+   "project": "https://connect.smartliving.ru/tasks/332.html"
+  }
+ },
+ "156": {
+  "n": 156,
+  "v": 2,
+  "ok": true,
+  "sysname": "wirenboard",
+  "title": "Wirenboard",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Интеграция контроллера Wirenboard ( https://wirenboard.com )",
+  "installs": 3,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/156_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-wirenboard/archive/master.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/333.html"
+  }
+ },
+ "157": {
+  "n": 157,
+  "v": 2,
+  "ok": true,
+  "sysname": "SBoard",
+  "title": "SBoard. Новый современный Dashboard",
+  "author": "tkasyanov",
+  "category": "Модификации",
+  "desc": "За основу взято TileBoard\n+Поддержка тем\n+Адаптивность\n+Подерка настроек\n+Подержка камер (через модуль ONVIF)\n+Страница информации о системе",
+  "installs": 14,
+  "month": 2,
+  "icon": "https://connect.smartliving.ru/cms/addons/157_icon.png",
+  "links": {
+   "download": "https://github.com/tkasyanov/MD_Dash/archive/master.tar.gz",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=5888",
+   "project": "https://connect.smartliving.ru/tasks/324.html"
+  }
+ },
+ "158": {
+  "n": 158,
+  "v": 2,
+  "ok": true,
+  "sysname": "scenes_okbit",
+  "title": "Сцены от OkBit.ru",
+  "author": "sega6549",
+  "category": "Модификации",
+  "desc": "Модуль генерации оформления сцены для стандартного модуля сцен, поддержка тем и стилей, настройка кнопок и элементов через панель управления. Модуль в разработке",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/158_icon.png",
+  "links": {
+   "download": "https://github.com/foxvlad/Scenes_by_OkBit/archive/master1.tar.gz"
+  }
+ },
+ "159": {
+  "n": 159,
+  "v": 2,
+  "ok": true,
+  "sysname": "md_scene_vista",
+  "title": "[Сцена] Vista style",
+  "author": "nick7zmail",
+  "category": "Модификации",
+  "desc": "Стартовая сцена для fullHD разрежения (1920x1080) в культовом стиле windows vista.",
+  "installs": 2,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/159_icon.png",
+  "links": {
+   "forum": "https://majordomo.smartliving.ru/forum/viewtopic.php?f=4&t=1919",
+   "project": "https://connect.smartliving.ru/tasks/343.html"
+  }
+ },
+ "160": {
+  "n": 160,
+  "v": 2,
+  "ok": true,
+  "sysname": "YaydexWeatherAniIcons",
+  "title": "Анимированные иконки погоды для ЯндексПогоды",
+  "author": "Siorinex",
+  "category": "Модификации",
+  "desc": "Анимированные иконки для ЯндексПогоды. Вариант день-ночь.\nВставка в страницу: <img src='/3rdparty/YandexAniIcons/%yw mycity.condition% %DarknessMode.active|\"d;n\"%.gif' alt=\"%yw_mycity.conditionrus%\" title=\"%yw_mycity.conditionrus%\"/>",
+  "installs": 0,
+  "month": 0,
+  "icon": "",
+  "links": {
+   "download": "https://github.com/Siorinex/YandexWeatherAniIcons/archive/master.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/344.html"
+  }
+ },
+ "161": {
+  "n": 161,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "162": {
+  "n": 162,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "163": {
+  "n": 163,
+  "v": 2,
+  "ok": true,
+  "sysname": "zigbee2mqtt",
+  "title": "zigbee2mqtt",
+  "author": "directman",
+  "category": "Оборудование",
+  "desc": "Модуль для работы с Zigbee устройствами с использованием USB-стиков сс2531,сс2538 совместно с zigbee2mqtt, либо вместо стиков может быть использован готовый контроллер Smart Logic System Zigbee Gateway https://slsys.github.io/Gateway . Приобрести контроллер SLS Zigbee gateway можно по ссылке https://www.avito.ru/ekaterinburg/tovary_dlya_komp... . После обновления модуля не забывайте обновлять метрики на вкладке \"Сервис\".",
+  "installs": 26,
+  "month": 5,
+  "icon": "https://connect.smartliving.ru/cms/addons/163_icon.png",
+  "links": {
+   "download": "https://github.com/directman66/majordomo-zigbee2mqtt/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=6011",
+   "project": "https://connect.smartliving.ru/tasks/355.html"
+  }
+ },
+ "164": {
+  "n": 164,
+  "v": 2,
+  "ok": true,
+  "sysname": "techno_switches",
+  "title": "[Элементы сцен] Techno Switches",
+  "author": "nick7zmail",
+  "category": "Модификации",
+  "desc": "Пак выключателей (более 30 шт) для сцен в стиле техно (реалистичные кнопки, 3d тумблеры, другие выключатели).\nСами изображения в данном паке не являются предметом продажи и могут быть найдены в открытых источниках.\nПодробности https://connect.smartliving.ru/tasks/358.html",
+  "installs": 4,
+  "month": 3,
+  "icon": "https://connect.smartliving.ru/cms/addons/164_icon.png",
+  "links": {
+   "forum": "https://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=6032",
+   "project": "https://connect.smartliving.ru/tasks/358.html"
+  }
+ },
+ "165": {
+  "n": 165,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "166": {
+  "n": 166,
+  "v": 2,
+  "ok": true,
+  "sysname": "eq3max",
+  "title": "eq3-MAX!",
+  "author": "directman",
+  "category": "Оборудование",
+  "desc": "Модуль поддержки термостатов eq3-MAX! https://www.eq-3.com/products/max.html",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/166_icon.png",
+  "links": {
+   "download": "https://github.com/directman66/majordomo-eq3max/archive/master.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/366.html"
+  }
+ },
+ "167": {
+  "n": 167,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "168": {
+  "n": 168,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "169": {
+  "n": 169,
+  "v": 2,
+  "ok": true,
+  "sysname": "homekit",
+  "title": "Homekit",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Сервисный модуль для настройки взаимодействия между MajorDoMo и сервисом Homebridge",
+  "installs": 22,
+  "month": 4,
+  "icon": "https://connect.smartliving.ru/cms/addons/169_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-homekit/archive/master.tar.gz",
+   "forum": "https://connect.smartliving.ru/tasks/385.html",
+   "project": "https://connect.smartliving.ru/tasks/385.html"
+  }
+ },
+ "170": {
+  "n": 170,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "171": {
+  "n": 171,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "172": {
+  "n": 172,
+  "v": 2,
+  "ok": true,
+  "sysname": "ironlogic",
+  "title": "ironlogic",
+  "author": "directman",
+  "category": "Оборудование",
+  "desc": "Модуль для работы с контроллером СКУД z5-r (web) от компании IronLogic.",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/151_icon.png",
+  "links": {
+   "download": "https://github.com/directman66/majordomo-ironlogic/archive/master.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/393.html"
+  }
+ },
+ "173": {
+  "n": 173,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "174": {
+  "n": 174,
+  "v": 2,
+  "ok": true,
+  "sysname": "dev_bolid",
+  "title": "Bolid",
+  "author": "nick7zmail",
+  "category": "Оборудование",
+  "desc": "Модуль для интеграции оборудования Bolid",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/174_icon.png",
+  "links": {
+   "download": "https://github.com/nick7zmail/MajorDoMo_dev_bolid/archive/master.tar.gz",
+   "forum": "http://majordomo.smartliving.ru/forum/viewtopic.php?f=8&t=1752",
+   "project": "https://connect.smartliving.ru/tasks/399.html"
+  }
+ },
+ "175": {
+  "n": 175,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_octoprint",
+  "title": "Octoprint - monitor",
+  "author": "Sandr",
+  "category": "Информация",
+  "desc": "Мониторинг состояния сервера 3D печати - Octoprint",
+  "installs": 1,
+  "month": 1,
+  "icon": "",
+  "links": {
+   "download": "https://github.com/2andr/MajorDoMo-app_octoprint/archive/master.tar.gz",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=6268",
+   "project": "https://connect.smartliving.ru/tasks/428.html"
+  }
+ },
+ "176": {
+  "n": 176,
+  "v": 2,
+  "ok": true,
+  "sysname": "usriot",
+  "title": "USRIoT",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Поддержка устройств USRIoT (USR-IO88 / USR-R16)",
+  "installs": 1,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/176_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-usriot/archive/master.tar.gz",
+   "forum": "https://connect.smartliving.ru/tasks/430.html",
+   "project": "https://connect.smartliving.ru/tasks/430.html"
+  }
+ },
+ "177": {
+  "n": 177,
+  "v": 2,
+  "ok": true,
+  "sysname": "thermostats",
+  "title": "Thermostats",
+  "author": "Eraser",
+  "category": "Модификации",
+  "desc": "Интерфейс управления термостатами (термостаты из \"Простых устройств\")",
+  "installs": 3,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/177_icon.png",
+  "links": {
+   "download": "https://bitbucket.org/Anisan/majordomo-thermostats/downloads/majordomo-thermostats.tar.gz",
+   "forum": "https://connect.smartliving.ru/tasks/382.html"
+  }
+ },
+ "178": {
+  "n": 178,
+  "v": 2,
+  "ok": true,
+  "sysname": "google_location",
+  "title": "Google Location",
+  "author": "Eraser",
+  "category": "Информация",
+  "desc": "Получает местоположение пользователей, используя Google Location Sharing",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/178_icon.png",
+  "links": {
+   "download": "https://github.com/Anisan/majordomo-google_location/archive/master.tar.gz",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=6309",
+   "project": "https://connect.smartliving.ru/tasks/435.html"
+  }
+ },
+ "179": {
+  "n": 179,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "180": {
+  "n": 180,
+  "v": 2,
+  "ok": true,
+  "sysname": "google_tts",
+  "title": "Google TTS",
+  "author": "tkasyanov",
+  "category": "Взаимодействие",
+  "desc": "Поддержка сервиса синтеза речи от Google",
+  "installs": 11,
+  "month": 1,
+  "icon": "https://connect.smartliving.ru/cms/addons/180_icon.png",
+  "links": {
+   "download": "https://github.com/tkasyanov/google_tts/archive/master.tar.gz",
+   "forum": "https://connect.smartliving.ru/tasks/448.html",
+   "project": "https://connect.smartliving.ru/tasks/448.html"
+  }
+ },
+ "181": {
+  "n": 181,
+  "v": 2,
+  "ok": true,
+  "sysname": "Terminals2",
+  "title": "Terminals2",
+  "author": "tarasfrompir",
+  "category": "Модификации",
+  "desc": "Это модификация стандыртных терминалов ДЛЯ АЛЬФА ВЕРСИИ МАЖОРДОМО - ПОСЛЕ ОБНОВЛЕНИЯ МАЖОРДОМО ОБЯЗАТЕЛЬНО ОБНОВЛЕНИЕ ЭТОГО МОДУЛЯ!!!!!!!\nВозможны неисправности в работе модуля. Исправленный и улучшеный модуль Терминалы, Обязательно обновление модуля генерации речи до последней версии.",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/181_icon.png",
+  "links": {}
+ },
+ "182": {
+  "n": 182,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "183": {
+  "n": 183,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "184": {
+  "n": 184,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "185": {
+  "n": 185,
+  "v": 2,
+  "ok": true,
+  "sysname": "dev_sst_cloud",
+  "title": "SST Cloud",
+  "author": "nick7zmail",
+  "category": "Оборудование",
+  "desc": "Модуль для взаимодействия с личным кабинетом SST cloud (термостаты, датчики протечки Neptun)",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/185_icon.png",
+  "links": {
+   "download": "https://github.com/nick7zmail/MajorDoMo_sst_cloud/archive/master.tar.gz",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=6411",
+   "project": "https://connect.smartliving.ru/tasks/457.html"
+  }
+ },
+ "186": {
+  "n": 186,
+  "v": 2,
+  "ok": true,
+  "sysname": "mqtt_paw",
+  "title": "mqtt_paw",
+  "author": "directman",
+  "category": "Взаимодействие",
+  "desc": "преобразование данных для приложения IOBroker PAW 2 https://play.google.com/store/apps/details?id=ru.c...",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/151_icon.png",
+  "links": {
+   "download": "https://github.com/directman66/majordomo-mqtt_paw/archive/master.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/468.html"
+  }
+ },
+ "187": {
+  "n": 187,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "188": {
+  "n": 188,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "189": {
+  "n": 189,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "190": {
+  "n": 190,
+  "v": 2,
+  "ok": true,
+  "sysname": "yandexhome",
+  "title": "Yandex Home",
+  "author": "skysilver",
+  "category": "Взаимодействие",
+  "desc": "Модуль поддержки личных (приватных) навыков для платформы умного дома Яндекс.",
+  "installs": 52,
+  "month": 22,
+  "icon": "https://connect.smartliving.ru/cms/addons/190_icon.png",
+  "links": {
+   "download": "https://github.com/skysilver-lab/majordomo-yandexhome/archive/master.tar.gz",
+   "forum": "https://connect.smartliving.ru/tasks/482.html",
+   "project": "https://connect.smartliving.ru/tasks/482.html"
+  }
+ },
+ "191": {
+  "n": 191,
+  "v": 2,
+  "ok": true,
+  "sysname": "gpstrace",
+  "title": "GPS-Trace.com",
+  "author": "vashal",
+  "category": "Информация",
+  "desc": "Модуль для приема данных с сервиса GPS-Trace.com и передачи их в модуль GPS-трекер.",
+  "installs": 7,
+  "month": 2,
+  "icon": "https://connect.smartliving.ru/cms/addons/191_icon.png",
+  "links": {
+   "download": "https://connect.smartliving.ru/market/?op=download&name=gpstrace",
+   "project": "https://connect.smartliving.ru/tasks/500.html"
+  }
+ },
+ "192": {
+  "n": 192,
+  "v": 2,
+  "ok": true,
+  "sysname": "ghbt_scanner",
+  "title": "GoogleHome BT Scanner",
+  "author": "directman",
+  "category": "Информация",
+  "desc": "GoogleHome Bluetooth Scanner",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/151_icon.png",
+  "links": {
+   "download": "https://github.com/directman66/majordomo-ghbt_scanner/archive/master.tar.gz"
+  }
+ },
+ "193": {
+  "n": 193,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "194": {
+  "n": 194,
+  "v": 2,
+  "ok": true,
+  "sysname": "LGsmatthinq",
+  "title": "LG SmartThinq",
+  "author": "chelovert",
+  "category": "Оборудование",
+  "desc": "Модуль получения сведений об устройствах инфраструктуры LG SmartThing.",
+  "installs": 44,
+  "month": 14,
+  "icon": "https://connect.smartliving.ru/cms/addons/194_icon.png",
+  "links": {
+   "download": "https://connect.smartliving.ru/market/?op=download&name=LGsmatthinq",
+   "forum": "https://github.com/chel0vert/majordomo_LGsmartthinq/",
+   "project": "https://connect.smartliving.ru/tasks/508.html"
+  }
+ },
+ "195": {
+  "n": 195,
+  "v": 2,
+  "ok": true,
+  "sysname": "mdmproxy",
+  "title": "mdmproxy",
+  "author": "directman",
+  "category": "Система",
+  "desc": "Мини proxy для открытия локальных ресурсов.",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/195_icon.png",
+  "links": {
+   "download": "https://github.com/directman66/majordomo-mdmproxy/archive/master.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/514.html"
+  }
+ },
+ "196": {
+  "n": 196,
+  "v": 2,
+  "ok": true,
+  "sysname": "AliIPRelays",
+  "title": "Ali IP Реле",
+  "author": "stell_hawk",
+  "category": "Оборудование",
+  "desc": "Модуль для работы с китайскими IP реле работающими по tcp сокетам с текстовым протоколом\nПоддерживает следующие реле:\n1.Eth8Relay v5\nhttps://ru.aliexpress.com/item/32914881766.html?sp...\n2.Eth8Relay v6\nhttps://ru.aliexpress.com/item/32917473647.html?sp...\n3.Kincony KC868-H32\nhttps://ru.aliexpress.com/item/33038048655.html?sp...",
+  "installs": 3,
+  "month": 2,
+  "icon": "",
+  "links": {
+   "download": "https://github.com/stell-hawk/Majordomo-AliIPRelays/archive/master.tar.gz",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=6651",
+   "project": "https://connect.smartliving.ru/tasks/517.html"
+  }
+ },
+ "197": {
+  "n": 197,
+  "v": 2,
+  "ok": true,
+  "sysname": "keenetic_lan_devices",
+  "title": "Устройства Онлайн Keenetic",
+  "author": "Krinopotam",
+  "category": "Оборудование",
+  "desc": "Модуль для получения информации с роутеров серий Zyxel Keenetic о подключенных устройствах (online/offline)",
+  "installs": 5,
+  "month": 1,
+  "icon": "https://connect.smartliving.ru/cms/addons/197_icon.png",
+  "links": {
+   "download": "https://github.com/Krinopotam/majordomo-keenetic_lan_devices/archive/master.tar.gz",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=6701",
+   "project": "https://connect.smartliving.ru/tasks/537.html"
+  }
+ },
+ "198": {
+  "n": 198,
+  "v": 2,
+  "ok": true,
+  "sysname": "mod_sendemail",
+  "title": "sendemail",
+  "author": "directman",
+  "category": "Система",
+  "desc": "Платформо-независимая библиотека для отправки писем по smtp протоколу.",
+  "installs": 5,
+  "month": 4,
+  "icon": "https://connect.smartliving.ru/cms/addons/198_icon.png",
+  "links": {
+   "download": "https://github.com/directman66/majordomo-mod_sendemail/archive/master.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/541.html"
+  }
+ },
+ "199": {
+  "n": 199,
+  "v": 2,
+  "ok": true,
+  "sysname": "sonoff_diy",
+  "title": "Sonoff DIY",
+  "author": "Eraser",
+  "category": "Оборудование",
+  "desc": "Модуль для взаимодействия с устройствами Sonoff поддерживающими DIY режим (без перепрошивки, работает без облака).",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/199_icon.png",
+  "links": {
+   "download": "https://github.com/Anisan/majordomo-sonoff_diy/archive/master.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/543.html"
+  }
+ },
+ "200": {
+  "n": 200,
+  "v": 2,
+  "ok": true,
+  "sysname": "tuya",
+  "title": "Tuya Smarthome",
+  "author": "fandaymon",
+  "category": "Оборудование",
+  "desc": "Модуль для взаимодействия с устройствами экосистемы Tuya как через облако, так и локально",
+  "installs": 293,
+  "month": 54,
+  "icon": "https://connect.smartliving.ru/cms/addons/200_icon.png",
+  "links": {
+   "download": "https://github.com/fandaymon/majordomo-tuya/archive/master.tar.gz",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=6723",
+   "project": "https://connect.smartliving.ru/tasks/544.html"
+  }
+ },
+ "201": {
+  "n": 201,
+  "v": 2,
+  "ok": true,
+  "sysname": "hisense_tv",
+  "title": "Hisense TV",
+  "author": "Eraser",
+  "category": "Оборудование",
+  "desc": "Управление Hisense Smart TV (вкл/выкл, переключение каналов, управление громкостью, получение доп. информации)",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/201_icon.png",
+  "links": {
+   "download": "https://github.com/Anisan/majordomo-hisense_tv/archive/master.tar.gz",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=6756",
+   "project": "https://connect.smartliving.ru/tasks/555.html"
+  }
+ },
+ "202": {
+  "n": 202,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "203": {
+  "n": 203,
+  "v": 2,
+  "ok": true,
+  "sysname": "sonoff_dev",
+  "title": "sonoff_dev",
+  "author": "katada",
+  "category": "Взаимодействие",
+  "desc": "sonoff_dev",
+  "installs": 0,
+  "month": 0,
+  "icon": "",
+  "links": {
+   "download": "https://connect.smartliving.ru/market/?op=download&name=sonoff_dev"
+  }
+ },
+ "204": {
+  "n": 204,
+  "v": 2,
+  "ok": true,
+  "sysname": "xiaomi_devices",
+  "title": "Простые устройства Xiaomi",
+  "author": "Eraser",
+  "category": "Модификации",
+  "desc": "Добавляет в простые устройства: Xiaomi Roborock Vacuum, Xiaomi Humidifier",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/204_icon.png",
+  "links": {
+   "download": "https://github.com/Anisan/majordomo-xiaomi_devices/archive/master.tar.gz",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=6823",
+   "project": "https://connect.smartliving.ru/tasks/570.html"
+  }
+ },
+ "205": {
+  "n": 205,
+  "v": 2,
+  "ok": true,
+  "sysname": "phpmyadmin",
+  "title": "phpmyadmin",
+  "author": "directman",
+  "category": "Система",
+  "desc": "phpmyadmin для установки через маркет. Если вы видите сообщение, что права на конфигурационный файл выданы на полный доступ, ограничьте права пользователей на файл ./modules/phpmyadmin/phpmyadmin/config.inc.php, либо удалите его.",
+  "installs": 22,
+  "month": 4,
+  "icon": "https://connect.smartliving.ru/cms/addons/205_icon.png",
+  "links": {
+   "download": "https://github.com/directman66/majordomo-phpmyadmin/archive/master.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/571.html"
+  }
+ },
+ "206": {
+  "n": 206,
+  "v": 2,
+  "ok": true,
+  "sysname": "samsungtvtizen",
+  "title": "SamsungTV",
+  "author": "vashal",
+  "category": "Оборудование",
+  "desc": "Модуль управления телевизорами Samsung с TizenOS",
+  "installs": 12,
+  "month": 4,
+  "icon": "https://connect.smartliving.ru/cms/addons/206_icon.png",
+  "links": {
+   "download": "https://github.com/whitevast/majordomo-samsungTV_tizenOS/archive/master.tar.gz",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=6840",
+   "project": "https://connect.smartliving.ru/tasks/578.html"
+  }
+ },
+ "207": {
+  "n": 207,
+  "v": 2,
+  "ok": true,
+  "sysname": "zmrn_mqtt",
+  "title": "8 канальное Реле ZMRN0808-V6M",
+  "author": "stell_hawk",
+  "category": "Оборудование",
+  "desc": "Модуль для работы с китайскими IP реле ZMRN0808-V6M через протокол MQTT\nhttps://ru.aliexpress.com/item/32917473647.html\nhttp://www.iotzone.cn/product/14-cn.html",
+  "installs": 16,
+  "month": 8,
+  "icon": "",
+  "links": {
+   "download": "https://github.com/stell-hawk/majordomo-zmrn0808.git",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=6863",
+   "project": "https://connect.smartliving.ru/tasks/584.html"
+  }
+ },
+ "208": {
+  "n": 208,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "209": {
+  "n": 209,
+  "v": 2,
+  "ok": true,
+  "sysname": "dev_ujin",
+  "title": "Ujin devices",
+  "author": "nick7zmail",
+  "category": "Оборудование",
+  "desc": "Модуль работы с устройствами Ujin Home https://ujin.tech/",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/209_icon.png",
+  "links": {
+   "download": "https://github.com/nick7zmail/MajorDoMo_dev_ujin/archive/master.tar.gz",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=6946",
+   "project": "https://connect.smartliving.ru/tasks/610.html"
+  }
+ },
+ "210": {
+  "n": 210,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "211": {
+  "n": 211,
+  "v": 2,
+  "ok": true,
+  "sysname": "yadevices",
+  "title": "YaDevices",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Взаимодействие с устройствами Умного Дома через облако Яндекс, а так же использование Яндекс.Станции в качестве терминала (синтез речи и управление).",
+  "installs": 268,
+  "month": 147,
+  "icon": "https://connect.smartliving.ru/cms/addons/211_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-yadevices/archive/master.tar.gz",
+   "forum": "https://connect.smartliving.ru/tasks/616.html",
+   "project": "https://connect.smartliving.ru/tasks/616.html"
+  }
+ },
+ "212": {
+  "n": 212,
+  "v": 2,
+  "ok": true,
+  "sysname": "sonoff",
+  "title": "Sonoff",
+  "author": "BakArt",
+  "category": "Оборудование",
+  "desc": "Модуль для взаимодействия с устройствами sonoff без перепрошивки (работает через облако).",
+  "installs": 0,
+  "month": 0,
+  "icon": "",
+  "links": {
+   "download": "https://github.com/nick7zmail/MajorDoMo_dev_sonoff/archive/master.tar.gz"
+  }
+ },
+ "213": {
+  "n": 213,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "214": {
+  "n": 214,
+  "v": 2,
+  "ok": true,
+  "sysname": "easy_fkb",
+  "title": "Easy Fully Kiosk Browser",
+  "author": "Smoke",
+  "category": "Взаимодействие",
+  "desc": "Позволяет получать информацию от Fully Kiosk Browser и управлять им. Включайте экран, управляйте яркостью, отправляйте текст в TTS, блокируйте работу и многие другие действия с устройством!",
+  "installs": 1,
+  "month": 1,
+  "icon": "https://connect.smartliving.ru/cms/addons/214_icon.png",
+  "links": {
+   "download": "https://github.com/SmoKE585/majordomo_easy_fkb_new/archive/master.tar.gz",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=6960&p=114710#p114710",
+   "project": "https://connect.smartliving.ru/tasks/629.html"
+  }
+ },
+ "215": {
+  "n": 215,
+  "v": 2,
+  "ok": true,
+  "sysname": "webcam_recorder",
+  "title": "WEBCam Recorder",
+  "author": "Smoke",
+  "category": "Взаимодействие",
+  "desc": "Модуль позволяет организовать простую систему видео наблюдения используя веб камеру (Или IP камеру) подключенную к серверу.",
+  "installs": 6,
+  "month": 2,
+  "icon": "https://connect.smartliving.ru/cms/addons/215_icon.png",
+  "links": {
+   "download": "https://github.com/SmoKE585/majordomo_webcam_recorder/archive/master.tar.gz",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=6964",
+   "project": "https://connect.smartliving.ru/tasks/635.html"
+  }
+ },
+ "216": {
+  "n": 216,
+  "v": 2,
+  "ok": true,
+  "sysname": "Tilde_tts",
+  "title": "Tilde_tts",
+  "author": "gun4as",
+  "category": "Взаимодействие",
+  "desc": "Модуль произношения латышского языка",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/216_icon.png",
+  "links": {
+   "download": "https://github.com/gun4as/tilde_tts/archive/v0.1.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/639.html"
+  }
+ },
+ "217": {
+  "n": 217,
+  "v": 2,
+  "ok": true,
+  "sysname": "system_timers",
+  "title": "Системные таймеры",
+  "author": "Smoke",
+  "category": "Система",
+  "desc": "Позволяет просматривать оставшееся время таймера и анимировать его обратный отсчет.",
+  "installs": 10,
+  "month": 5,
+  "icon": "https://connect.smartliving.ru/cms/addons/217_icon.png",
+  "links": {
+   "download": "https://github.com/SmoKE585/majordomo_system_timers/archive/master.tar.gz",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=6978",
+   "project": "https://connect.smartliving.ru/tasks/641.html"
+  }
+ },
+ "218": {
+  "n": 218,
+  "v": 2,
+  "ok": true,
+  "sysname": "modemsms",
+  "title": "Управление модемом Beta",
+  "author": "London",
+  "category": "Оборудование",
+  "desc": "Модуль только для взаимодействия с модемами с веб-интерфейсом! Имеющими IP-адрес.\nТестировалось на Huawei E3372 с прошивкой HiLink и на ZTE MF823.\nОбновление данных происходит каждые 5 минут.\nПозволяет отправлять смс из MajorDoMo через модем.\nВходящие смс получает только новые, непрочитанные.\nНовую смс позволяет пометить как прочитанную, либо сразу удалить с модема и оставить в MajorDoMo.\nСо старыми, прочитанными ничего не делает.\nПри поступлении новой смс может вызывать метод.\nХранит новые смс в MajorDoMo.\nТак же, получает параметры с модема, такие как уровень сигнала, количество смс и т.д.",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/218_icon.png",
+  "links": {
+   "download": "https://github.com/london89/modemsms/archive/master.tar.gz",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=7109",
+   "project": "https://connect.smartliving.ru/tasks/668.html"
+  }
+ },
+ "219": {
+  "n": 219,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_openweathermap",
+  "title": "OpenWeatherMap",
+  "author": "Logrus",
+  "category": "Информация",
+  "desc": "Прогноз погоды от OpenWeatherMap",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/148_icon.jpg",
+  "links": {
+   "download": "https://github.com/Alexandr-logrus/MajorDoMo-app_openweather/archive/master.tar.gz"
+  }
+ },
+ "220": {
+  "n": 220,
+  "v": 2,
+  "ok": true,
+  "sysname": "tv_device",
+  "title": "Простое устройство: ТВ",
+  "author": "Eraser",
+  "category": "Модификации",
+  "desc": "Простое устройство: ТВ\nвкл/выкл\nпросмотр информации",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/220_icon.png",
+  "links": {
+   "download": "https://github.com/Anisan/majordomo-tv_device/archive/master.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/644.html"
+  }
+ },
+ "221": {
+  "n": 221,
+  "v": 2,
+  "ok": true,
+  "sysname": "webvars",
+  "title": "WebVars",
+  "author": "SergeJey",
+  "category": "Система",
+  "desc": "Извлечение данных с веб-сайтов",
+  "installs": 35,
+  "month": 10,
+  "icon": "https://connect.smartliving.ru/cms/addons/23_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-webvars/archive/master.tar.gz",
+   "forum": "https://connect.smartliving.ru/tasks/651.html",
+   "project": "https://connect.smartliving.ru/tasks/651.html"
+  }
+ },
+ "222": {
+  "n": 222,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "223": {
+  "n": 223,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "224": {
+  "n": 224,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "225": {
+  "n": 225,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "226": {
+  "n": 226,
+  "v": 2,
+  "ok": true,
+  "sysname": "jitsi",
+  "title": "Jitsi video-com",
+  "author": "SergeJey",
+  "category": "Взаимодействие",
+  "desc": "Видео-коммуникация на базе Jitsi",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/226_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-jitsi/archive/master.tar.gz",
+   "forum": "https://connect.smartliving.ru/tasks/662.html",
+   "project": "https://connect.smartliving.ru/tasks/662.html"
+  }
+ },
+ "227": {
+  "n": 227,
+  "v": 2,
+  "ok": true,
+  "sysname": "XIAOMI",
+  "title": "XIAOMI",
+  "author": "maalmi",
+  "category": "Оборудование",
+  "desc": "XIAOMI",
+  "installs": 25,
+  "month": 14,
+  "icon": "",
+  "links": {
+   "download": "https://connect.smartliving.ru/market/?op=download&name=XIAOMI",
+   "project": "https://connect.smartliving.ru/tasks/664.html"
+  }
+ },
+ "228": {
+  "n": 228,
+  "v": 2,
+  "ok": true,
+  "sysname": "ScenePurple",
+  "title": "Сцена \"Пурпур\"",
+  "author": "DivanX10",
+  "category": "Модификации",
+  "desc": "Более подробно о сцене \"Пурпур\" можете прочитать на форуме mjdm, в ветке [Дизайн] Сцена \"Пурпур\". Обязательно импортировать боковое меню. Файл можно скачать в ветке [Дизайн] Сцена \"Пурпур\". Для работы погоды нужно ставить модуль \"Погода от OpenWeatherMap\". Название города указываем вручную в свойстве City, объекта OpenWeatherMap, который находится в классе openweather. В настройках погоды нужно выбрать метод API: Fact.",
+  "installs": 78,
+  "month": 46,
+  "icon": "https://connect.smartliving.ru/cms/addons/228_icon.png",
+  "links": {
+   "download": "https://connect.smartliving.ru/market/?op=download&name=ScenePurple",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=32&t=7047"
+  }
+ },
+ "229": {
+  "n": 229,
+  "v": 2,
+  "ok": true,
+  "sysname": "sceneOrangeBreeze",
+  "title": "Сцена \"Оранжевый бриз\"",
+  "author": "DivanX10",
+  "category": "Модификации",
+  "desc": "Более подробно о сцене \"Оранжевый бриз\" можете прочитать на форуме mjdm, в ветке [Дизайн] Сцена \"Оранжевый бриз\" - версия 2. Обязательно импортировать боковое меню. Файл можно скачать в ветке [Дизайн] Сцена \"Оранжевый бриз\" - версия 2.",
+  "installs": 73,
+  "month": 39,
+  "icon": "https://connect.smartliving.ru/cms/addons/229_icon.png",
+  "links": {
+   "download": "https://connect.smartliving.ru/market/?op=download&name=sceneOrangeBreeze"
+  }
+ },
+ "230": {
+  "n": 230,
+  "v": 2,
+  "ok": true,
+  "sysname": "yamusic",
+  "title": "Яндекс.Музыка",
+  "author": "Smoke",
+  "category": "Мультимедиа",
+  "desc": "Модуль позволяет подключится к своему аккаунту в Яндекс.Музыке и слушать треки. Можно отправлять их на воспроизведение на любой терминал.",
+  "installs": 11,
+  "month": 3,
+  "icon": "https://connect.smartliving.ru/cms/addons/230_icon.png",
+  "links": {
+   "download": "https://github.com/SmoKE585/majordomo_yamusic/archive/master.tar.gz",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=7103",
+   "project": "https://connect.smartliving.ru/tasks/674.html"
+  }
+ },
+ "231": {
+  "n": 231,
+  "v": 2,
+  "ok": true,
+  "sysname": "motion2",
+  "title": "Простое устройство: Датчики движения 2",
+  "author": "Aleks130699",
+  "category": "Модификации",
+  "desc": "Добавлена возможность отключать изменение статуса \"никого нет дома\".",
+  "installs": 4,
+  "month": 2,
+  "icon": "https://connect.smartliving.ru/cms/addons/231_icon.png",
+  "links": {
+   "download": "https://github.com/Aleks130699/majordomo-motion2_device/archive/master.tar.gz",
+   "forum": "https://connect.smartliving.ru/addons/category6/231.html",
+   "project": "https://connect.smartliving.ru/tasks/677.html"
+  }
+ },
+ "232": {
+  "n": 232,
+  "v": 2,
+  "ok": true,
+  "sysname": "scene_builder",
+  "title": "Конструктор сцен",
+  "author": "okbit.ru",
+  "category": "Модификации",
+  "desc": "Модуль генерации оформления сцены для стандартного модуля сцен, поддержка тем и стилей, настройка кнопок и элементов через панель управления. Модуль в разработке",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/232_icon.png",
+  "links": {
+   "download": "https://github.com/foxvlad/Scene_builder/archive/master.tar.gz"
+  }
+ },
+ "233": {
+  "n": 233,
+  "v": 2,
+  "ok": true,
+  "sysname": "ledlamp_device",
+  "title": "Простое устройство: WiFi лампа-будильник",
+  "author": "Eraser",
+  "category": "Модификации",
+  "desc": "Управление светильника на адресных светодиодах с кучей эффектов, управлением по Wi-Fi и функцией будильник-рассвет",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/233_icon.png",
+  "links": {
+   "download": "https://github.com/Anisan/majordomo-ledlamp_device/archive/master.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/678.html"
+  }
+ },
+ "234": {
+  "n": 234,
+  "v": 2,
+  "ok": true,
+  "sysname": "wled_device",
+  "title": "Простое устройство: WLED",
+  "author": "Eraser",
+  "category": "Модификации",
+  "desc": "Простое устройство для интеграции в Majordomo устройств на прошивке WLED https://github.com/Aircoookie/WLED",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/234_icon.png",
+  "links": {
+   "download": "https://github.com/Anisan/majordomo-wled_device/archive/master.tar.gz",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=7130",
+   "project": "https://connect.smartliving.ru/tasks/681.html"
+  }
+ },
+ "235": {
+  "n": 235,
+  "v": 2,
+  "ok": true,
+  "sysname": "narodmon3",
+  "title": "NarodMon3",
+  "author": "Aleks130699",
+  "category": "Информация",
+  "desc": "Поддержка сервиса NarodMon.ru\nТот же NarodMon2, с поддержкой авторизации для чтения приватных датчиков.",
+  "installs": 8,
+  "month": 2,
+  "icon": "https://connect.smartliving.ru/cms/addons/235_icon.png",
+  "links": {
+   "download": "https://github.com/Aleks130699/majordomo-narodmon3/archive/master.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/693.html"
+  }
+ },
+ "236": {
+  "n": 236,
+  "v": 2,
+  "ok": true,
+  "sysname": "notify_events",
+  "title": "Notify.Events",
+  "author": "Matrozov",
+  "category": "Взаимодействие",
+  "desc": "Дополнение для интеграции вашего MajorDoMo с сервисом https://notify.events , для отправки уведомлений о различных событиях в Viber, SMS, Voice Call, MS Teams и т.д.\nВы можете найти полный список мессенджеров по ссылке: https://notify.events/ru/features",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/236_icon.png",
+  "links": {
+   "download": "https://github.com/notify-events/majordomo/archive/master.tar.gz",
+   "forum": "https://notify.events",
+   "project": "https://connect.smartliving.ru/tasks/686.html"
+  }
+ },
+ "237": {
+  "n": 237,
+  "v": 2,
+  "ok": true,
+  "sysname": "mod_home",
+  "title": "[Интерфейс] Home",
+  "author": "nick7zmail",
+  "category": "Модификации",
+  "desc": "Интерфейс для простых устройств не требующий какой либо настройки\nИнтерфейс находится по пути /templates/int_home/home.htm",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/237_icon.png",
+  "links": {
+   "project": "https://connect.smartliving.ru/tasks/688.html"
+  }
+ },
+ "238": {
+  "n": 238,
+  "v": 2,
+  "ok": true,
+  "sysname": "dashui2",
+  "title": "DashUI 2: Управление ПУ",
+  "author": "Eraser",
+  "category": "Модификации",
+  "desc": "Интерфейс для простых устройств",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/238_icon.png",
+  "links": {
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=7196"
+  }
+ },
+ "239": {
+  "n": 239,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "240": {
+  "n": 240,
+  "v": 2,
+  "ok": true,
+  "sysname": "zerotier",
+  "title": "ZeroTier",
+  "author": "SergeJey",
+  "category": "Система",
+  "desc": "ZeroTier",
+  "installs": 43,
+  "month": 23,
+  "icon": "https://connect.smartliving.ru/cms/addons/240_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-zerotier/archive/main.tar.gz"
+  }
+ },
+ "241": {
+  "n": 241,
+  "v": 2,
+  "ok": true,
+  "sysname": "mboard_free",
+  "title": "MBoard Free",
+  "author": "Eraser",
+  "category": "Модификации",
+  "desc": "MBoard (free версия)\nПанель управления Majordomo",
+  "installs": 36,
+  "month": 20,
+  "icon": "https://connect.smartliving.ru/cms/addons/241_icon.png",
+  "links": {
+   "download": "https://connect.smartliving.ru/market/?op=download&name=mboard_free",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=7217"
+  }
+ },
+ "242": {
+  "n": 242,
+  "v": 2,
+  "ok": true,
+  "sysname": "mboard_lite",
+  "title": "MBoard Lite",
+  "author": "Eraser",
+  "category": "Модификации",
+  "desc": "MBoard (lite версия)\nПанель управления Majordomo",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/242_icon.png",
+  "links": {
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=7217"
+  }
+ },
+ "243": {
+  "n": 243,
+  "v": 2,
+  "ok": true,
+  "sysname": "mboard_pro",
+  "title": "MBoard PRO",
+  "author": "Eraser",
+  "category": "Модификации",
+  "desc": "MBoard (PRO версия)\nПанель управления Majordomo\nhttps://t.me/mboard_news",
+  "installs": 12,
+  "month": 1,
+  "icon": "https://connect.smartliving.ru/cms/addons/243_icon.png",
+  "links": {
+   "forum": "https://t.me/mboard_discuss"
+  }
+ },
+ "244": {
+  "n": 244,
+  "v": 2,
+  "ok": true,
+  "sysname": "switch_onoff",
+  "title": "Простое устройство: выключатель без обратной связи",
+  "author": "AE",
+  "category": "Модификации",
+  "desc": "\"Простое устройство\" для визуализации управляемых выключателей с раздельными командами на включение и выключение без функции обратной связи (Livolo / Funry и прочие радио- и инфракрасные выключатели).\nПолезно при использовании шлюзов типа Broadlink RM* или Open MQTT Gateway\nПример реализации метода turnOn() :\n// Выполняем необходимое действие для включения устройства (отправка RF команды через Open MQTT Gateway):\nsg('omg.txRF','{\"value\":1540131,\"protocol\":1,\"length\":24,\"delay\":352}');\n// Для совместимости выставляем значение status\n$this->setProperty('status',1);\nИстория изменений\n14.10.2020 При выборе шаблона отображения \"mini\" переключатель разворачивается в горизонтальное положение",
+  "installs": 62,
+  "month": 35,
+  "icon": "https://connect.smartliving.ru/cms/addons/244_icon.jpg",
+  "links": {
+   "download": "https://connect.smartliving.ru/market/?op=download&name=switch_onoff",
+   "project": "https://connect.smartliving.ru/tasks/711.html"
+  }
+ },
+ "245": {
+  "n": 245,
+  "v": 2,
+  "ok": true,
+  "sysname": "thermostat_beok",
+  "title": "Простое устройство: WiFi термостат Beok (подключение через модуль Broadlink)",
+  "author": "AE",
+  "category": "Модификации",
+  "desc": "Класс SBeokThermostats , в отличие от стандартного SThermostats , реализует только высокоуровневые функции управления WiFi термостатами Beok BOT 313/TDS23/TGR87/TGP51 и подобных : включение/выключение, задание целевой температуры, контроль синхронизации времени и т.д., оставляя управление нагревателем и поддержание температуры помещения самому термостату. Это гарантирует стабильную работу систем обогрева вне зависимости от доступности и состояния MajorDoMo.\nКроме того, поскольку модуль изменяет лишь необходимые свойства термостата и только тогда, когда это действительно нужно - подсветка экрана термостата не горит постоянно, как это происходит при использовании класса SThermostats.\nСобственно термостат подключается через модуль Broadlink в режиме php only. В описаниях свойств в квадратных скобках указаны названия полей Broadlink устройства, к которым они должны быть прилинкованы.\nОбязательно прилинковать\npower => .status (вкл/выкл)\nthermostat_temp => .targetTemp (оно самое)\nauto_mode => .autoMode (для отключения режима работы по расписанию)\nactive => .active (состояние реле термостата)\nmin => .minutes (периодическое обновление статуса термостата)\nПрилинковать желательно\nsvh => .targetTempMax\nsvl => .targetTempMin (контроль диапазона при задании целевой температуры)\nhour => .hours\ndayofweek => .dayOfWeek ( предупреждать что на термостате неправильно выставлено время)\nЕсли в свойствах .targetTempNormal или .targetTempEco указать температуру - она будет устанавливаться автоматически при переключении в соответствующий режим (с задержкой до 1 минуты).\nДля информации: модуль Broadlink сам синхронизирует время на термостате каждые сутки в 00:00.\nИзвестные на текущий момент проблемы\nНеобходимо обновить модуль Broadlink до последней версии. В противном случае на термостате время от времени могут сбрасываться целевая температура и другие настройки. Кроме того, возможны проблемы при сохранении значений в конфигураторе простых устройств.\nВ настройках модуля должна быть выставлена галка \"Обновлять значения только при изменении\"\nОбновление 9.10.2020\nИнформация о состоянии термостата теперь обновляется не реже раза в 10 секунд а не только по приходу изменений от dev_broadlink\nОбновление 18.10.2020\nРеализована возможность быстро выставить любую целевую температуру по клику на текущем значении\nДобавлены методы установки фиксированных значений targetTempNormal. Теперь температурой можно управлять по расписанию (закладка Расписание на странице конфигурации простого устройства)\nРабота над ошибками\nОбновление 23.10.2020\nВключено хранение истории для свойств .active, .targetTemp и .targetTempNormal. Ссылка на график изменений появляется при при клике на целевую температуру.",
+  "installs": 61,
+  "month": 28,
+  "icon": "https://connect.smartliving.ru/cms/addons/245_icon.png",
+  "links": {
+   "download": "https://connect.smartliving.ru/market/?op=download&name=thermostat_beok",
+   "project": "https://connect.smartliving.ru/tasks/712.html"
+  }
+ },
+ "246": {
+  "n": 246,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "247": {
+  "n": 247,
+  "v": 2,
+  "ok": true,
+  "sysname": "myrules",
+  "title": "Мои правила",
+  "author": "Xor",
+  "category": "Система",
+  "desc": "ifttt",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/247_icon.png",
+  "links": {
+   "download": "https://github.com/xor2016/majordomo-myrules/archive/1.tar.gz"
+  }
+ },
+ "248": {
+  "n": 248,
+  "v": 2,
+  "ok": true,
+  "sysname": "todoer",
+  "title": "ToDoer",
+  "author": "Xor",
+  "category": "Информация",
+  "desc": "calendar+scheduler. На основе модулей МДМ -Простого Календаря, Шедулера и Крона. Только светлая тема и без локализации(\nДобавлено время для задач. Привязка кода на начало/конец задачи. Повторы, напоминалки.",
+  "installs": 2,
+  "month": 2,
+  "icon": "https://connect.smartliving.ru/cms/addons/248_icon.png",
+  "links": {
+   "download": "https://github.com/xor2016/majordomo-todoer/archive/master.tar.gz"
+  }
+ },
+ "249": {
+  "n": 249,
+  "v": 2,
+  "ok": true,
+  "sysname": "atv_notifications",
+  "title": "ATV Notifications",
+  "author": "SergeJey",
+  "category": "Информация",
+  "desc": "Вывод уведомлений системы на телевизоре под управлением AntroidTV. На телевизор необходимо установить приложение: https://play.google.com/store/apps/details?id=de.c...",
+  "installs": 5,
+  "month": 1,
+  "icon": "https://connect.smartliving.ru/cms/addons/249_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-atv_notifications/archive/main.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/731.html"
+  }
+ },
+ "250": {
+  "n": 250,
+  "v": 2,
+  "ok": true,
+  "sysname": "sqlmeter",
+  "title": "SQLMeter",
+  "author": "SergeJey",
+  "category": "Система",
+  "desc": "Анализатор SQL запросов",
+  "installs": 20,
+  "month": 9,
+  "icon": "https://connect.smartliving.ru/cms/addons/23_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-sqlmeter/archive/main.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/744.html"
+  }
+ },
+ "251": {
+  "n": 251,
+  "v": 2,
+  "ok": true,
+  "sysname": "keenetic",
+  "title": "Keenetic",
+  "author": "vashal",
+  "category": "Оборудование",
+  "desc": "Модуль взаимодействия с маршрутизаторами Keenetic.",
+  "installs": 62,
+  "month": 41,
+  "icon": "https://connect.smartliving.ru/cms/addons/251_icon.png",
+  "links": {
+   "download": "https://github.com/whitevast/majordomo-keenetic/archive/master.tar.gz",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=7382&p=126912#p126912",
+   "project": "https://connect.smartliving.ru/tasks/749.html"
+  }
+ },
+ "252": {
+  "n": 252,
+  "v": 2,
+  "ok": true,
+  "sysname": "linked_prop",
+  "title": "Связанные свойства",
+  "author": "Smoke",
+  "category": "Система",
+  "desc": "Позволяет просматривать и отменять связи система - модуль.",
+  "installs": 23,
+  "month": 11,
+  "icon": "https://connect.smartliving.ru/cms/addons/252_icon.png",
+  "links": {
+   "download": "https://github.com/SmoKE585/linked_prop/archive/main.tar.gz",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=7438",
+   "project": "https://connect.smartliving.ru/tasks/758.html"
+  }
+ },
+ "253": {
+  "n": 253,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "254": {
+  "n": 254,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "255": {
+  "n": 255,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "256": {
+  "n": 256,
+  "v": 2,
+  "ok": true,
+  "sysname": "miboxer",
+  "title": "Miboxer",
+  "author": "SmartHomeSystems",
+  "category": "Оборудование",
+  "desc": "Модуль поддержки Wi-Fi шлюзов Miboxer WL-Box1.",
+  "installs": 45,
+  "month": 20,
+  "icon": "https://connect.smartliving.ru/cms/addons/256_icon.png",
+  "links": {
+   "download": "https://connect.smartliving.ru/market/?op=download&name=miboxer",
+   "project": "https://connect.smartliving.ru/tasks/764.html"
+  }
+ },
+ "257": {
+  "n": 257,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "258": {
+  "n": 258,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_rambler",
+  "title": "Модуль Рамблер",
+  "author": "newz20",
+  "category": "Информация",
+  "desc": "Получение информации с портала Rambler. Погода, геомагнитные и УФ показатели, курс валют, внешний ip, пробки, проверка выходного дня, восход закат, продолжительность светового дня, гороскоп. Версия Альфа 1.0 Модуль пока не имеет виджетов",
+  "installs": 22,
+  "month": 7,
+  "icon": "https://connect.smartliving.ru/cms/addons/258_icon.png",
+  "links": {
+   "download": "https://github.com/Newz20/MajorDoMo_app_rambler2/archive/master.tar.gz",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=7467"
+  }
+ },
+ "259": {
+  "n": 259,
+  "v": 2,
+  "ok": true,
+  "sysname": "rambler_weather",
+  "title": "Rambler Weather",
+  "author": "chelovert",
+  "category": "Информация",
+  "desc": "Получение погоды с портала rambler",
+  "installs": 12,
+  "month": 3,
+  "icon": "https://connect.smartliving.ru/cms/addons/259_icon.png",
+  "links": {
+   "download": "https://github.com/chel0vert/rambler-weather/archive/refs/heads/master.zip",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=7470"
+  }
+ },
+ "260": {
+  "n": 260,
+  "v": 2,
+  "ok": true,
+  "sysname": "extension_auth",
+  "title": "Расширенная авторизация",
+  "author": "Smoke",
+  "category": "Система",
+  "desc": "Модуль позволяет организовать расширенное и более безопасное управление доступом к своей системе используя для входа логин/токен/IP/папку. Имеет множество настроек для управления. Защищает от основных атак и может организовать раздельный доступ к каждой странице/модулю. Подробнее читайте на форуме.",
+  "installs": 75,
+  "month": 32,
+  "icon": "https://connect.smartliving.ru/cms/addons/260_icon.png",
+  "links": {
+   "download": "https://connect.smartliving.ru/market/?op=download&name=extension_auth",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=7495#p129170",
+   "project": "https://connect.smartliving.ru/tasks/793.html"
+  }
+ },
+ "261": {
+  "n": 261,
+  "v": 2,
+  "ok": true,
+  "sysname": "zigbeedev",
+  "title": "ZigbeeDev",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Альтернативный модуль поддержки сервиса Zigbee2MQTT",
+  "installs": 185,
+  "month": 62,
+  "icon": "https://connect.smartliving.ru/cms/addons/261_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-zigbeedev/archive/main.tar.gz",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=7651",
+   "project": "https://connect.smartliving.ru/tasks/796.html"
+  }
+ },
+ "262": {
+  "n": 262,
+  "v": 2,
+  "ok": true,
+  "sysname": "android_wear",
+  "title": "Android Wear",
+  "author": "bartwell",
+  "category": "Взаимодействие",
+  "desc": "Модуль предоставляет возможность управления умным домом MajorDomo с помощью приложения для Android-смартфонов, часов на Wear OS или телевизора/ТВ-приставки на Android TV. Вы можете запускать сценарии, отслеживать состояния датчиков, просматривать изображения с камеры и многое другое прямо с устройства. Приложение кэширует данные, а значит, не нужно ждать окончания загрузки, можно сразу запустить выбранную команду.\nПоддерживается удаленный запуск нужного меню. Это удобно, если нужно на телефоне или часах отреагировать на какое-то событие (например, звонок в домофон). При наступлении события умный дом вызывает функцию wear_call_menu(), в результате чего на устройство приходит уведомление и запускается выбранное меню.\nДоступна функция управление голосом (требуется модуль YaDevices).\nПосле установки модуля необходимо так же установить приложение на свои устройства и указать там адрес сервера умного дома. Рекомендуем настроить работу вне локальной сети, пробросив доступ к /modules/android_wear/handler.php в настройках WEB-сервера.",
+  "installs": 55,
+  "month": 12,
+  "icon": "https://connect.smartliving.ru/cms/addons/262_icon.png",
+  "links": {
+   "download": "https://connect.smartliving.ru/market/?op=download&name=android_wear",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=7511"
+  }
+ },
+ "263": {
+  "n": 263,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "264": {
+  "n": 264,
+  "v": 2,
+  "ok": true,
+  "sysname": "Socket",
+  "title": "Розетка для простых устройств",
+  "author": "san4es",
+  "category": "Модификации",
+  "desc": "что бы не выбирать в простых устройствах иконку вручную,было создано этот Devices, с изменением статуса без подсвечивания",
+  "installs": 3,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/264_icon.png",
+  "links": {
+   "download": "https://disk.yandex.ru/d/0fULFWYZPdiFuA",
+   "forum": "https://connect.smartliving.ru/profile/3195/blog/dobavlenie-rozetki-v-prostye-ustroystva.html",
+   "project": "https://connect.smartliving.ru/tasks/803.html"
+  }
+ },
+ "265": {
+  "n": 265,
+  "v": 2,
+  "ok": true,
+  "sysname": "RGB",
+  "title": "освещение (RGB)",
+  "author": "san4es",
+  "category": "Модификации",
+  "desc": "Обнавленые иконки освещения (RGB)",
+  "installs": 7,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/265_icon.png",
+  "links": {
+   "download": "https://disk.yandex.ru/d/AuanO8s3FHMJFA",
+   "forum": "https://connect.smartliving.ru/profile/3195/blog525.html"
+  }
+ },
+ "266": {
+  "n": 266,
+  "v": 2,
+  "ok": true,
+  "sysname": "pipup_notifications",
+  "title": "PIPup Notifications",
+  "author": "Aleks130699",
+  "category": "Оборудование",
+  "desc": "Вывод уведомлений системы на телевизоре под управлением AntroidTV. На телевизор необходимо установить приложение:",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/266_icon.png",
+  "links": {
+   "download": "https://github.com/Aleks130699/majordomo-pipup_notifications/archive/master.tar.gz"
+  }
+ },
+ "267": {
+  "n": 267,
+  "v": 2,
+  "ok": true,
+  "sysname": "pandora",
+  "title": "Pandora",
+  "author": "vashal",
+  "category": "Информация",
+  "desc": "Модуль предназначен для взаимодействия с автосигнализациями Pandora с GSM-модулем посредством сайта pro.p-on.ru.",
+  "installs": 3,
+  "month": 2,
+  "icon": "https://connect.smartliving.ru/cms/addons/267_icon.png",
+  "links": {
+   "download": "https://github.com/whitevast/majordomo-pandora/archive/master.tar.gz",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=7558",
+   "project": "https://connect.smartliving.ru/tasks/815.html"
+  }
+ },
+ "268": {
+  "n": 268,
+  "v": 2,
+  "ok": true,
+  "sysname": "adbcontrol",
+  "title": "ADB control",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Взаимодействие с Android-устройствами по сети с помощью утилиты ADB -- получение статуса, отправка команд.\nДля работы необходима установка пакета ADB. Под Raspberry достаточно выполнить команды:\nsudo apt-get update\nsudo apt-get install adb\nНа самом (управляемом) устройстве должен быть включен режим разработчика и разрешена отладка со стороны сервера MajorDoMo (запрос на разрешение должен появиться после добавления устройства в модуле), так же необходимо чтобы у устройства был фиксированный IP-адрес в локальной сети (модуль обращается к устройству по IP-адресу).\nРабота под Windows не проверялась (теоретически так же может работать, но небходимо, чтобы исполнялась команда adb).",
+  "installs": 9,
+  "month": 4,
+  "icon": "https://connect.smartliving.ru/cms/addons/268_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-adbcontrol/archive/main.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/816.html"
+  }
+ },
+ "269": {
+  "n": 269,
+  "v": 2,
+  "ok": true,
+  "sysname": "tapo",
+  "title": "Tapo",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Управление устройствами системы TP-Link Tapo.\nДля обращения к устройствам необходимо ввести в настройках модуля имя пользователя (емэйл) и пароль от облачного сервиса -- управление происходит напрямую без интернета, но с использованием этих данных. Также для отдельных устройств необходимо указать их IP-адрес в локальной сети.",
+  "installs": 3,
+  "month": 2,
+  "icon": "https://connect.smartliving.ru/cms/addons/269_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-tapo/archive/main.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/817.html"
+  }
+ },
+ "270": {
+  "n": 270,
+  "v": 2,
+  "ok": true,
+  "sysname": "terminals21",
+  "title": "Терминалы 2",
+  "author": "newz20",
+  "category": "Модификации",
+  "desc": "Терминалы 2 Разработаны Тарасом. Тарас передал этот модуль, так как решил отказаться от него и удалить. Поддержки модуля на данный момент не планируется и выкладывается как есть.\nПосле обновления системы, модуль необходимо обновить принудительно.\nПосле удаления модуля, необходимо вручную удалить цикл модуля.",
+  "installs": 12,
+  "month": 2,
+  "icon": "https://connect.smartliving.ru/cms/addons/258_icon.png",
+  "links": {
+   "download": "https://github.com/Newz20/terminals2/archive/master.tar.gz",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=6446&start=610"
+  }
+ },
+ "271": {
+  "n": 271,
+  "v": 2,
+  "ok": true,
+  "sysname": "telegram_app",
+  "title": "TelegramApp",
+  "author": "Eraser",
+  "category": "Модификации",
+  "desc": "Интерфейс управления Majordomo для Telegram\nДля работы модуля c Telegram необходимо открывать Majordomo в мир!!!\nВозможно использовать в качестве локального интерфейса",
+  "installs": 1,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/271_icon.png",
+  "links": {
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=7615",
+   "project": "https://connect.smartliving.ru/tasks/834.html"
+  }
+ },
+ "272": {
+  "n": 272,
+  "v": 2,
+  "ok": true,
+  "sysname": "greensmart",
+  "title": "GreenSmart",
+  "author": "kvazimoda",
+  "category": "Оборудование",
+  "desc": "Модуль для взаимодействия с китайскими кондиционерами Green, Airweel и подобными через родной WiFi-модуль без использования облака.",
+  "installs": 2,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/272_icon.png",
+  "links": {
+   "download": "https://github.com/kvazimoda24/majordomo-greensmart/archive/refs/heads/master.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/835.html"
+  }
+ },
+ "273": {
+  "n": 273,
+  "v": 2,
+  "ok": true,
+  "sysname": "Timeouts",
+  "title": "Timeouts",
+  "author": "bartwell",
+  "category": "Система",
+  "desc": "Модуль позволяющий навести порядок в таймаутах и собрать их в одном месте. Модуль сохраняет все указанные таймауты в виде отдельных объектов в классе Timeouts и дальше можно использовать сохранённые таймауты где нужно как обычное свойство объекта.\nДополнительной возможностью является возможность задать таймаут кодом. Это позволяет гибко реализовать разные таймауты для разных условий. Например, можно сделать, чтобы после 22:00 таймаут выключения света на кухне составлял 60 секунд, а в остальное время 300 секунд.",
+  "installs": 62,
+  "month": 24,
+  "icon": "https://connect.smartliving.ru/cms/addons/273_icon.png",
+  "links": {
+   "download": "https://connect.smartliving.ru/market/?op=download&name=Timeouts"
+  }
+ },
+ "274": {
+  "n": 274,
+  "v": 2,
+  "ok": true,
+  "sysname": "earthquakes",
+  "title": "Earthquakes",
+  "author": "SergeJey",
+  "category": "Информация",
+  "desc": "Модуль слежения за активными землетрясениями и реакцией на них.",
+  "installs": 6,
+  "month": 3,
+  "icon": "https://connect.smartliving.ru/cms/addons/274_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-earthquakes/archive/main.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/859.html"
+  }
+ },
+ "275": {
+  "n": 275,
+  "v": 2,
+  "ok": true,
+  "sysname": "unlockabledevice",
+  "title": "Простое устройство: Дверь/ворота/окно с замком",
+  "author": "vashal",
+  "category": "Модификации",
+  "desc": "Дополнение, которое добавляет Простое устройство Дверь/ворота/окно с замком. Совмещает в себе статус открытия двери и управление замком на двери.",
+  "installs": 5,
+  "month": 1,
+  "icon": "https://connect.smartliving.ru/cms/addons/275_icon.png",
+  "links": {
+   "download": "https://github.com/whitevast/majordomo-unlockable-device/archive/main.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/862.html"
+  }
+ },
+ "276": {
+  "n": 276,
+  "v": 2,
+  "ok": true,
+  "sysname": "mboard_template_relay_example",
+  "title": "[MBoard] Relay \"Simple devices\"",
+  "author": "Eraser",
+  "category": "Модификации",
+  "desc": "Темплейт для MBoard: Кнопка для реле из ПУ",
+  "installs": 29,
+  "month": 23,
+  "icon": "https://connect.smartliving.ru/cms/addons/276_icon.png",
+  "links": {
+   "download": "https://connect.smartliving.ru/market/?op=download&name=mboard_template_relay_example"
+  }
+ },
+ "277": {
+  "n": 277,
+  "v": 2,
+  "ok": true,
+  "sysname": "mboard_template_relay",
+  "title": "[MBoard] Template Relay",
+  "author": "Eraser",
+  "category": "Модификации",
+  "desc": "Темплейт для ПУ \"Реле\"",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/277_icon.png",
+  "links": {
+   "download": "https://github.com/Anisan/mboard-template-relay/archive/master.tar.gz"
+  }
+ },
+ "278": {
+  "n": 278,
+  "v": 2,
+  "ok": true,
+  "sysname": "mboard_template_lamp",
+  "title": "[MBoard] Лампочка",
+  "author": "Eraser",
+  "category": "Модификации",
+  "desc": "Прозрачный темплейт с лампочкой",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/278_icon.png",
+  "links": {}
+ },
+ "279": {
+  "n": 279,
+  "v": 2,
+  "ok": true,
+  "sysname": "nspanel",
+  "title": "NSPanel",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Модуль интеграции панелей Sonoff NSPanel.\nПодробнее о функционале модуля: https://github.com/sergejey/majordomo-nspanel",
+  "installs": 5,
+  "month": 1,
+  "icon": "https://connect.smartliving.ru/cms/addons/279_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-nspanel/archive/main.tar.gz",
+   "forum": "https://github.com/sergejey/majordomo-nspanel"
+  }
+ },
+ "280": {
+  "n": 280,
+  "v": 2,
+  "ok": true,
+  "sysname": "vakio",
+  "title": "Vakio Smart Control",
+  "author": "nikoz",
+  "category": "Оборудование",
+  "desc": "Модуль для взаимодействия с линейкой умных устройств Vakio, на данный момент к ним относятся: Atmosphere, Base Smart, KIV, Openair.\nВзаимодействие осуществляется посредством MQTT, поэтому для функционирования требуется MQTT-брокер (облачный или локальный).\nИнструкция по подключению устройства к вашему брокеру: https://vakio.ru/vakio-mqtt.pdf .\nДополнительные ссылки:\nHomeAssistant Atmosphere - https://github.com/maxmostovoy/vakio_atmosphere\nHomeAssistant Base Smart - https://github.com/maxmostovoy/vakio_base_smart\nHomeAssistant KIV - https://github.com/maxmostovoy/vakio_kiv\nHomeAssistant Openair - https://github.com/maxmostovoy/vakio_openair\nMajordomo - https://github.com/maxmostovoy/vakio_smart_control\nSprut.hub BaseSmart + Wirenboard - https://comf.life/kak-dobavit-rekuperator-vakio-v-...\nPublic API - https://github.com/maxmostovoy/vakio-public-api",
+  "installs": 3,
+  "month": 3,
+  "icon": "https://connect.smartliving.ru/cms/addons/280_icon.png",
+  "links": {
+   "download": "https://github.com/vakio-ru/vakio_smart_control/archive/refs/tags/v0.2.0.tar.gz",
+   "forum": "https://github.com/maxmostovoy/vakio_smart_control/issues",
+   "project": "https://connect.smartliving.ru/tasks/863.html"
+  }
+ },
+ "281": {
+  "n": 281,
+  "v": 2,
+  "ok": true,
+  "sysname": "text_calendar",
+  "title": "Текстовый календарь",
+  "author": "SergeJey",
+  "category": "Информация",
+  "desc": "Модуль управления календарями. Позволяет создавать календари с повторяющимися событиями, отображать их в виде виджетов или же использовать в собственном коде.",
+  "installs": 4,
+  "month": 1,
+  "icon": "https://connect.smartliving.ru/cms/addons/281_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-text_calendar/archive/main.tar.gz",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=7732",
+   "project": "https://connect.smartliving.ru/tasks/867.html"
+  }
+ },
+ "282": {
+  "n": 282,
+  "v": 2,
+  "ok": true,
+  "sysname": "leafspy",
+  "title": "Leaf Spy",
+  "author": "layet",
+  "category": "Оборудование",
+  "desc": "Позволяет получать информацию об электромобиле Nissan Leaf с помощью приложения Leaf Spy Pro",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/282_icon.png",
+  "links": {
+   "download": "https://github.com/stellar-irk/leafspy/archive/master.tar.gz",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=7734",
+   "project": "https://connect.smartliving.ru/tasks/870.html"
+  }
+ },
+ "283": {
+  "n": 283,
+  "v": 2,
+  "ok": true,
+  "sysname": "neuroconcierge",
+  "title": "Neuro Concierge",
+  "author": "bartwell",
+  "category": "Система",
+  "desc": "Внимание! Для работы модуля должен быть установлен php-fann.\nМодуль для распознавания объектов (например, людей) на фотографиях. Позволяет управлять фотографиями для обучения, обучать нейросеть и тестировать распознавание. Добавляет функцию neuroconcierge_test(), которая возвращает список вероятностей для каждого человека и добавляет фотографию в модуль на модерацию.\nПосле установки:\nДобавьте источник фотографий, например, камеру. Укажите URL картинки, настройки фрагмента картинки на котором будут распознаваться объекты и настройки нейросети (можно попробовать на дефолтных).\nДобавьте людей (или другие объекты) которые будут распознаваться.\nЗагрузите фотографии для обучения в папку neuroconcierge/data/queue.\nНажмите \"Неразобранные\" и отметьте людей, которые есть на каждом фото.\nНажмите на \"Обучение\" и запустите процесс обучения. Скорость обучения зависит от железа. Например, обучение занимает примерно час на Firebat T8 Pro (Intel N5095/8 GB/SSD), при данных из 5 человек по 30 фотографий размером 127x127 пикселей.\nПосле завершения обучения можно открыть вкладку тестирования и проверить, как нейросеть распознает разные фото.\nОпционально. Добавьте вызов функции neuroconcierge_test() на событие, когда доступна новая фотография (звонок, движение), чтобы фото автоматически добавлялось на модерацию.",
+  "installs": 47,
+  "month": 13,
+  "icon": "https://connect.smartliving.ru/cms/addons/283_icon.png",
+  "links": {
+   "download": "https://connect.smartliving.ru/market/?op=download&name=neuroconcierge"
+  }
+ },
+ "284": {
+  "n": 284,
+  "v": 2,
+  "ok": true,
+  "sysname": "openhasp",
+  "title": "OpenHASP",
+  "author": "Eraser",
+  "category": "Оборудование",
+  "desc": "Поддержка дисплеев с OpenHASP",
+  "installs": 4,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/284_icon.png",
+  "links": {
+   "download": "https://github.com/Anisan/majordomo-openhasp/archive/refs/heads/main.tar.gz",
+   "forum": "http://mjdm.ru/forum/viewtopic.php?f=8&t=7775",
+   "project": "https://connect.smartliving.ru/tasks/894.html"
+  }
+ },
+ "285": {
+  "n": 285,
+  "v": 2,
+  "ok": true,
+  "sysname": "googletts",
+  "title": "majordomo-google_tts",
+  "author": "tarasfrompir",
+  "category": "Система",
+  "desc": "апрапрар",
+  "installs": 5,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/296_icon.jpg",
+  "links": {}
+ },
+ "286": {
+  "n": 286,
+  "v": 2,
+  "ok": true,
+  "sysname": "gptchat",
+  "title": "GPT chat",
+  "author": "SergeJey",
+  "category": "Взаимодействие",
+  "desc": "Взаимодейтвие с сервисами языковых моделей искусственного интеллекта (GPT).\nОписание возможностей: https://github.com/sergejey/majordomo_gptchat\nОбсуждение модуля: https://t.me/mjd_gpt_chat",
+  "installs": 4,
+  "month": 2,
+  "icon": "https://connect.smartliving.ru/cms/addons/286_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo_gptchat/archive/main.tar.gz",
+   "forum": "https://t.me/mjd_gpt_chat",
+   "project": "https://connect.smartliving.ru/tasks/900.html"
+  }
+ },
+ "287": {
+  "n": 287,
+  "v": 2,
+  "ok": true,
+  "sysname": "dimmerCct",
+  "title": "Simple Devices addon (Освещение Яркость Температура)",
+  "author": "daniral",
+  "category": "Модификации",
+  "desc": "Освещение с управлением яркостью и теплотой цвета.\nПростое устройство для MajorDomo.\nДобавление в MajorDomo простого устройства для освещения с управлением яркостью и теплотой цвета.\nРасширяет встроенный класс SControllers\nОписание ПУ в файле README в архиве или на <a href=\" https://github.com/daniral/majordomo-SDimmersCct \" title=\"github.com\">GitHub</a>",
+  "installs": 3,
+  "month": 1,
+  "icon": "https://connect.smartliving.ru/cms/addons/287_icon.png",
+  "links": {
+   "download": "https://github.com/daniral/majordomo-SDimmersCct/archive/SDimmersCct.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/906.html"
+  }
+ },
+ "288": {
+  "n": 288,
+  "v": 2,
+  "ok": true,
+  "sysname": "ha_discovery",
+  "title": "HA Discovery",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Поддержка протокола Home Assistant MQTT Discovery для добавления устройств\nПодробнее о протоколе и совместимых устройствах: https://www.home-assistant.io/integrations/mqtt#mq...",
+  "installs": 122,
+  "month": 44,
+  "icon": "https://connect.smartliving.ru/cms/addons/288_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-ha_discovery/archive/main.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/903.html"
+  }
+ },
+ "289": {
+  "n": 289,
+  "v": 2,
+  "ok": true,
+  "sysname": "weathermap",
+  "title": "WeatherMap",
+  "author": "SergeJey",
+  "category": "Информация",
+  "desc": "Простой модуль получения погоды с сайта openweathermap.org",
+  "installs": 11,
+  "month": 3,
+  "icon": "https://connect.smartliving.ru/cms/addons/289_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-weathermap/archive/main.tar.gz"
+  }
+ },
+ "290": {
+  "n": 290,
+  "v": 2,
+  "ok": true,
+  "sysname": "RGBStripTuya",
+  "title": "Simple Devices addon (Tuya ZigBee LED strip)",
+  "author": "daniral",
+  "category": "Модификации",
+  "desc": "Добавление в MajorDomo простого устройства для ZigBee Лед ленты Tuya с управлением яркостью, цветом и сценами.\nРасширяет встроенный класс SControllers.\nЛента должна быть подключена через hab Tuya и модуль Tuya smarthome! (Не через zigbee2mqtt!)\nОписание ПУ в файле README в архиве или на <a href=\" https://github.com/daniral/majordomo-SRGB_Tuya \" title=\"github.com\">GitHub</a>",
+  "installs": 4,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/290_icon.jpg",
+  "links": {
+   "download": "https://github.com/daniral/majordomo-SRGBStripTuya/archive/SRGBStripTuya.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/905.html"
+  }
+ },
+ "291": {
+  "n": 291,
+  "v": 2,
+  "ok": true,
+  "sysname": "app_delivery_tracking",
+  "title": "DeliveryTracking",
+  "author": "irisbar82",
+  "category": "Информация",
+  "desc": "Модуль MajorDomo для взаимодействия с сервисом отслеживания отправлений Postal Ninja по API https://rapidapi.com/PostalNinja/api/postal-ninja\nЧто умеет:\nСоздает/удаляет/архивирует отправку\nОтображает список активных/архивных отправлений\nАвтоматически обновляет список всех отправлений (или автообновление можно отключить и обновлять только вручную)\nСоздавать и обновлять отправление можно как через интерфейс так и через написание команд (например в Telegram)\nУведомляет пользователя, если отправление изменило свой статус (можно отключить)\nЧтобы пользоваться необходимо:\nЗарегистрироваться на сайте https://rapidapi.com/ для получения API ключа\nНайти и подписаться на PostalNinja – есть как бесплатная подписка с ограничениями так и платная\nВнести полученный ключ в соответствующее поле в настройках модуля\nПользоваться!",
+  "installs": 1,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/291_icon.png",
+  "links": {
+   "download": "https://github.com/IrisKoBar/app_delivery_tracking/archive/master.tar.gz",
+   "forum": "https://github.com/IrisKoBar/app_delivery_tracking",
+   "project": "https://connect.smartliving.ru/tasks/907.html"
+  }
+ },
+ "292": {
+  "n": 292,
+  "v": 2,
+  "ok": true,
+  "sysname": "roborockvacuum",
+  "title": "Roborock Vacuum",
+  "author": "bartwell",
+  "category": "Оборудование",
+  "desc": "Модуль для управления пылесосом Roborock.\nДанный модуль предназначен для интеграции пылесоса Roborock в систему умного дома Majordomo. Проверен и протестирован на модели Roborock S8 Pro Ultra.\nВозможности модуля:\nОтображение текущего статуса пылесоса.\nПросмотр интерактивной карты помещения с возможностью выбора отдельных комнат для целевой уборки.\nУправление настройками пылесоса напрямую из интерфейса Majordomo.\nЗапуск различных режимов уборки:\nОбщая уборка\nТолько пылесос\nВлажная уборка\nПростая интеграция панели управления с помощью темплейта: [ #module name=\"roborockvacuum\" template_mode=\"1\"# ], который легко вставляется в сцену.\nНачало работы:\nДля корректной работы модуля необходимо указать следующие данные в настройках:\nЛогин и пароль от аккаунта Mi Home.\nРегион вашего аккаунта Mi Home (например, ru).\nIP-адрес и токен пылесоса.\nПосле ввода данных обязательно нажмите кнопку \"Обновить карту\".\nИнтеграция с другими сервисами:\nМодуль автоматически создаёт объект RoborockVacuum1, содержащий набор удобных свойств и методов для управления пылесосом.\nСоздаются свойства вида cleanRoom1 , cleanRoom2 , ..., cleanRoom5 , которые можно использовать в модуле Yandex Home для запуска уборки через голосового помощника Алиса.\nСвойство charge предназначено для остановки уборки и отправки пылесоса на базу для зарядки.\nИспользуя этот модуль, вы получаете удобный, эффективный и быстрый способ интеграции пылесоса Roborock в вашу систему умного дома.",
+  "installs": 76,
+  "month": 43,
+  "icon": "https://connect.smartliving.ru/cms/addons/292_icon.png",
+  "links": {
+   "download": "https://connect.smartliving.ru/market/?op=download&name=roborockvacuum"
+  }
+ },
+ "293": {
+  "n": 293,
+  "v": 2,
+  "ok": true,
+  "sysname": "ssdanalyzer",
+  "title": "SSD Analyzer",
+  "author": "bartwell",
+  "category": "Оборудование",
+  "desc": "Модуль для анализа SSD. Работает только в UNIX-системах. Возможности:\nПроверяет наличие lsblk, hdparm, smartctl и nvme-cli и предлагает установить отсутствующие.\nСобирает полный отчёт по дискам: поля lsblk, hdparm -I, SMART-данные и NVMe-логи.\nВыводит цветной статус здоровья (зелёный/жёлтый/красный) с пояснением по ключевым метрикам (износ, перераспределённые сектора, температура, предупреждения).",
+  "installs": 77,
+  "month": 45,
+  "icon": "https://connect.smartliving.ru/cms/addons/293_icon.png",
+  "links": {
+   "download": "https://connect.smartliving.ru/market/?op=download&name=ssdanalyzer"
+  }
+ },
+ "294": {
+  "n": 294,
+  "v": 2,
+  "ok": true,
+  "sysname": "ttlock",
+  "title": "TTLock",
+  "author": "vashal",
+  "category": "Оборудование",
+  "desc": "Модуль предназначен для взаимодействия с умными замками, управляемыми через приложение TTLock.",
+  "installs": 0,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/294_icon.png",
+  "links": {
+   "download": "https://github.com/whitevast/majordomo-ttlock/archive/master.tar.gz",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?f=5&t=8245",
+   "project": "https://connect.smartliving.ru/tasks/910.html"
+  }
+ },
+ "295": {
+  "n": 295,
+  "v": 2,
+  "ok": true,
+  "sysname": "SGuverLampTuya",
+  "title": "Simple Devices addon (Wi-Fi Tuya Guver Lamp)",
+  "author": "daniral",
+  "category": "Модификации",
+  "desc": "Добавляет в MajorDomo ПУ для Wi-Fi Лампы Гайвера от Tuya.\nОписание ПУ в файле README в архиве или на <a href=\" GitHub\" class=\"mk_urls\" target=\"_blank\">https://github.com/daniral/majordomo-SGuverLampTuya\">GitHub </a>",
+  "installs": 1,
+  "month": 1,
+  "icon": "https://connect.smartliving.ru/cms/addons/295_icon.png",
+  "links": {
+   "download": "https://github.com/daniral/majordomo-SGuverLampTuya/archive/SGuverLampTuya.tar.gz",
+   "forum": "https://github.com/daniral/majordomo-SGuverLampTuya",
+   "project": "https://connect.smartliving.ru/tasks/921.html"
+  }
+ },
+ "296": {
+  "n": 296,
+  "v": 2,
+  "ok": true,
+  "sysname": "Zeegbee_sockets",
+  "title": "Зигби розетки",
+  "author": "tarasfrompir",
+  "category": "Модификации",
+  "desc": "Yttt",
+  "installs": 2,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/296_icon.jpg",
+  "links": {
+   "download": "https://github.com/kurtizantaras-oss/zeegbee-socket/archive/master.tar.gz"
+  }
+ },
+ "297": {
+  "n": 297,
+  "v": 2,
+  "ok": true,
+  "sysname": "zoneminder",
+  "title": "Zoneminder",
+  "author": "layet",
+  "category": "Мультимедиа",
+  "desc": "Модуль для отображения камер и их событий из системы видеонаблюдения Zoneminder.",
+  "installs": 5,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/297_icon.png",
+  "links": {
+   "download": "https://github.com/stellar-irk/majordomo-zoneminder/archive/master.tar.gz",
+   "forum": "https://connect.smartliving.ru/tasks/922.html",
+   "project": "https://connect.smartliving.ru/tasks/923.html"
+  }
+ },
+ "298": {
+  "n": 298,
+  "v": 2,
+  "ok": true,
+  "sysname": "meshtastic",
+  "title": "Meshtastic",
+  "author": "SergeJey",
+  "category": "Оборудование",
+  "desc": "Поддержка сети Meshtastic через MQTT-шлюз\nОбнаружение устройств\nОтправка/приём сообщений\nЧтение телеметрии\nЧтение GPS\nРабота с каналами",
+  "installs": 6,
+  "month": 6,
+  "icon": "https://connect.smartliving.ru/cms/addons/298_icon.png",
+  "links": {
+   "download": "https://github.com/sergejey/majordomo-meshtastic/archive/main.tar.gz"
+  }
+ },
+ "299": {
+  "n": 299,
+  "v": 2,
+  "ok": true,
+  "sysname": "smartthings",
+  "title": "SmartThings",
+  "author": "bartwell",
+  "category": "Оборудование",
+  "desc": "Бета-версия.\nМодуль для взаимодействия с устройствами SmartThings от Samsung.\nВ данный момент позволяет:\nчитать и записывать свойства устройств\nсоздавать виртуальные устройства (выключатели, кнопки, термостаты и т.д.)\nМодуль требует предварительной настройки:\nСкачайте и установите на ваш компьютер приложение SmartThings CLI: https://developer.smartthings.com/docs/sdks/cli\nВ командной строке введите smartthings apps:create\nУкажите название приложения, например, my-awesome-home\nУстановите права доступа (scopes) - можно отметить все или выбрать нужные\nУкажите redirect URI: адрес который доступен извне (например, https://myhome.login.keenetic.link/modules/smartth... ) и начинаться с https\nСохраните - приложение выдаст ID и secret\nВ настройках модуля укажите полученные ID, secret, а так же redirect URI, который вы вводили в пункте 5. Остальные поля можно оставить с дефолтными значениями. Сохраните настройки\nВ настройках модуля нажмите \"Подключить SmartThings\". Откроется страница авторизации, введите логин и пароль от аккаунта в Samsung. После авторизации вас перебросит на redirect URI.\nПосле этих настроек модуль готов к использованию. Вы можете создавать нужные виртуальные устройства и подгружать существующие. Виртуальные устройства можно так же создавать с помощью SmartThings CLI, если есть такая необходимость.",
+  "installs": 47,
+  "month": 18,
+  "icon": "https://connect.smartliving.ru/cms/addons/299_icon.png",
+  "links": {
+   "download": "https://connect.smartliving.ru/market/?op=download&name=smartthings"
+  }
+ },
+ "300": {
+  "n": 300,
+  "v": 2,
+  "ok": true,
+  "sysname": "tosk",
+  "title": "ТОСК",
+  "author": "codex",
+  "category": "Оборудование",
+  "desc": "Модуль для автоматической отправки показаний счетчиков в ТОСК (Тамбовская областная сбытовая компания).",
+  "installs": 45,
+  "month": 19,
+  "icon": "https://connect.smartliving.ru/cms/addons/300_icon.png",
+  "links": {
+   "download": "https://connect.smartliving.ru/market/?op=download&name=tosk"
+  }
+ },
+ "301": {
+  "n": 301,
+  "v": 2,
+  "ok": true,
+  "sysname": "mygas",
+  "title": "Мой газ",
+  "author": "codex",
+  "category": "Оборудование",
+  "desc": "Модуль для автоматической отправки показаний счетчиков аналогично приложению \"Мой газ\".",
+  "installs": 60,
+  "month": 27,
+  "icon": "https://connect.smartliving.ru/cms/addons/301_icon.png",
+  "links": {
+   "download": "https://connect.smartliving.ru/market/?op=download&name=mygas"
+  }
+ },
+ "302": {
+  "n": 302,
+  "v": 2,
+  "ok": true,
+  "sysname": "saures",
+  "title": "Saures",
+  "author": "bartwell",
+  "category": "Оборудование",
+  "desc": "Получение значений от счетчиков подключенных к Saures.",
+  "installs": 54,
+  "month": 25,
+  "icon": "https://connect.smartliving.ru/cms/addons/302_icon.png",
+  "links": {
+   "download": "https://connect.smartliving.ru/market/?op=download&name=saures"
+  }
+ },
+ "303": {
+  "n": 303,
+  "v": 2,
+  "ok": true,
+  "sysname": "dimmerRGB",
+  "title": "Simple Devices addon (Освещение Яркость RGB)",
+  "author": "daniral",
+  "category": "Модификации",
+  "desc": "Освещение с управлением яркостью и цветом.\nПростое устройство для MajorDomo.\nДобавление в MajorDomo простого устройства для Освещения с управлением яркостью и цветом.\nПринимает данные от устройства в формате json {\"x\": ,\"y\": }(можно добавить другие) конвертирует в RGB.И на оборот.\nРасширяет встроенный класс SControllers\nОписание ПУ в файле README в архиве или на <a href=\" https://github.com/daniral/majordomo-SDimmersRGB \" title=\"github.com\">GitHub</a>",
+  "installs": 4,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/303_icon.png",
+  "links": {
+   "download": "https://github.com/daniral/majordomo-SDimmersRGB/archive/SDimmersRGB.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/924.html"
+  }
+ },
+ "304": {
+  "n": 304,
+  "v": 2,
+  "ok": true,
+  "sysname": "dimmerCctRGB",
+  "title": "Simple Devices addon (Освещение Яркость Температура RGB)",
+  "author": "daniral",
+  "category": "Модификации",
+  "desc": "Освещение с управлением яркостью теплотой и цветом.\nПростое устройство для MajorDomo.\nДобавление в MajorDomo простого устройства для Освещения с управлением яркостью теплотой и цветом.\nПринимает данные от устройства :\nЦвет в формате json {\"x\": ,\"y\": }(можно добавить другие) конвертирует в RGB.И на оборот.\nЯркость и Температура принимает данные в указаном диапазоне (levelMin - levelMax) конвертирует в проценты(1-100).\nРасширяет встроенный класс SControllers\nОписание ПУ в файле README в архиве или на <a href=\" https://github.com/daniral/majordomo-SDimmersCctRG... \" title=\"github.com\">GitHub</a>",
+  "installs": 4,
+  "month": 0,
+  "icon": "https://connect.smartliving.ru/cms/addons/304_icon.png",
+  "links": {
+   "download": "https://github.com/daniral/majordomo-SDimmersCctRGB/archive/SDimmersCctRGB.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/925.html"
+  }
+ },
+ "305": {
+  "n": 305,
+  "v": 2,
+  "ok": true,
+  "sysname": "tesk",
+  "title": "ТЭСК",
+  "author": "codex",
+  "category": "Оборудование",
+  "desc": "Модуль для автоматической отправки показаний счетчиков в ТЭСК (Тамбовская энергосбытовая компания / Мой Тамбовэнерго). Для авторизации нужно:\nВвести логин-пароль в настройках\nСохранить\nНажать на авторизацию\nВ настройках выбрать способ подтверждения\nВ настройках ввести код подтверждения",
+  "installs": 49,
+  "month": 24,
+  "icon": "https://connect.smartliving.ru/cms/addons/305_icon.png",
+  "links": {
+   "download": "https://connect.smartliving.ru/market/?op=download&name=tesk"
+  }
+ },
+ "306": {
+  "n": 306,
+  "v": 2,
+  "ok": true,
+  "sysname": "mcp",
+  "title": "MCP XiaoZhi",
+  "author": "golnet",
+  "category": "Оборудование",
+  "desc": "Модуль MCP XiaoZhi - это интеллектуальный интерфейс управления устройствами, обеспечивающий голосовое управление и автоматизацию домашних систем. Модуль позволяет управлять различными типами устройств (свет, розетки, термостаты, ворота, шторы и др.) с помощью голосовых команд на русском языке. Поддерживает интеграцию с MajorDoMo, предоставляет функции распознавания речи, синтеза речи (TTS), управления устройствами по алиасам, комнатам и типам. Обеспечивает удобное управление умным домом с помощью голосовых команд вида \"включи свет в гостиной\", \"покажи температуру в бане\", \"открой ворота\".",
+  "installs": 10,
+  "month": 5,
+  "icon": "https://connect.smartliving.ru/cms/addons/306_icon.png",
+  "links": {
+   "download": "https://github.com/golnet1/majordomo-mcp/archive/main.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/928.html"
+  }
+ },
+ "307": {
+  "n": 307,
+  "v": 2,
+  "ok": true,
+  "sysname": "hikvision",
+  "title": "Hikvision Intercom",
+  "author": "layet",
+  "category": "Оборудование",
+  "desc": "Модуль поддержки вызывных панелей Hikvision.",
+  "installs": 10,
+  "month": 4,
+  "icon": "https://connect.smartliving.ru/cms/addons/307_icon.png",
+  "links": {
+   "download": "https://github.com/stellar-irk/majordomo-hikvision-intercom/archive/master.tar.gz",
+   "forum": "https://t.me/mjdm_zoneminder",
+   "project": "https://connect.smartliving.ru/tasks/927.html"
+  }
+ },
+ "308": {
+  "n": 308,
+  "v": 2,
+  "ok": true,
+  "sysname": "php_manager",
+  "title": "PHP Manager",
+  "author": "golnet",
+  "category": "Система",
+  "desc": "Модуль управления версиями PHP, расширениями в MajorDoMo.",
+  "installs": 16,
+  "month": 5,
+  "icon": "https://connect.smartliving.ru/cms/addons/308_icon.png",
+  "links": {
+   "download": "https://github.com/golnet1/php_manager/archive/main.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/931.html"
+  }
+ },
+ "309": {
+  "n": 309,
+  "v": 2,
+  "ok": true,
+  "sysname": "vkmessenger",
+  "title": "VK мессенджер",
+  "author": "vashal",
+  "category": "Взаимодействие",
+  "desc": "Модуль-бот для взаимодействия с пользователями сообществ Вконтакте",
+  "installs": 40,
+  "month": 28,
+  "icon": "https://connect.smartliving.ru/cms/addons/309_icon.png",
+  "links": {
+   "download": "https://github.com/whitevast/majordomo-vkmessenger/archive/master.tar.gz",
+   "forum": "https://mjdm.ru/forum/viewtopic.php?p=135498",
+   "project": "https://connect.smartliving.ru/tasks/929.html"
+  }
+ },
+ "310": {
+  "n": 310,
+  "v": 2,
+  "ok": true,
+  "sysname": "stout_plus",
+  "title": "Котел Stout Plus",
+  "author": "golnet",
+  "category": "Оборудование",
+  "desc": "Управление котлом Stout Plus",
+  "installs": 1,
+  "month": 1,
+  "icon": "https://connect.smartliving.ru/cms/addons/310_icon.png",
+  "links": {
+   "download": "https://github.com/golnet1/majordomo-stout_plus/archive/master.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/930.html"
+  }
+ },
+ "311": {
+  "n": 311,
+  "v": 2,
+  "ok": true,
+  "sysname": "opencode",
+  "title": "OpenCode",
+  "author": "golnet",
+  "category": "Взаимодействие",
+  "desc": "Модуль интеграции opencode.ai с Majordomo. Добавляет AI-ассистента с поддержкой любых LLM-провайдеров (Ollama, OpenAI и др.), управление устройствами через MCP, выполнение bash-команд и работу с файлами прямо из админки и пользовательского интерфейса.",
+  "installs": 25,
+  "month": 16,
+  "icon": "https://connect.smartliving.ru/cms/addons/311_icon.png",
+  "links": {
+   "download": "https://github.com/golnet1/majordomo-opencode/archive/main.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/932.html"
+  }
+ },
+ "312": {
+  "n": 312,
+  "v": 2,
+  "ok": true,
+  "sysname": "piper_tts",
+  "title": "Piper TTS",
+  "author": "golnet",
+  "category": "Взаимодействие",
+  "desc": "Модуль синтеза речи на основе Piper TTS. Полностью локальный, работает на CPU, не требует облачных сервисов. Поддерживает русские голоса (Ирина, Руслан, Денис, Дмитрий), кэширование, WebSocket-воспроизведение в браузере, установку голосов из админ-панели. Для установки локальной версии Piper требуется Linux x86_64 / aarch64. При подключении удаленного Piper можно устанавливать на 32 разрядные.",
+  "installs": 55,
+  "month": 21,
+  "icon": "https://connect.smartliving.ru/cms/addons/312_icon.png",
+  "links": {
+   "download": "https://github.com/golnet1/majordomo-piper_tts/archive/master.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/933.html"
+  }
+ },
+ "313": {
+  "n": 313,
+  "v": 2,
+  "ok": true,
+  "sysname": "frigate",
+  "title": "Frigate",
+  "author": "evgeniynd",
+  "category": "Модификации",
+  "desc": "Модуль получает данные от Frigate и может присылать в telegram уведомления с картинкой и видео события\nFrigate замечает человека, машину или другой объект.\nВ Telegram приходит первое сообщение с картинкой.\nЧерез короткое время это же сообщение может замениться на видео-превью.\nПо кнопке Посмотреть видео модуль попробует показать клип события.\nПри первом событии модуль создаёт класс frigate и отдельные объекты по именам камер.\nУ каждого объекта камеры есть два метода:\nstart_event — запускается, когда событие только началось\nend_event — запускается, когда событие закончилось\nperson_detected — запускается, когда в топике камеры person значение стало больше 0\nperson_gone — запускается, когда в топике камеры person значение стало равно 0\nУ объекта камеры также появляется свойство:\nperson — текущее число людей в кадре по MQTT-топику камеры\nПростыми словами это нужно, если вы хотите делать свои действия на события камеры.\n• включить свет при появлении человека\n• запускать сценарий записи или звука\n• сохранять свои дополнительные данные",
+  "installs": 103,
+  "month": 43,
+  "icon": "https://connect.smartliving.ru/cms/addons/313_icon.png",
+  "links": {
+   "download": "https://connect.smartliving.ru/market/?op=download&name=frigate"
+  }
+ },
+ "314": {
+  "n": 314,
+  "v": 2,
+  "ok": true,
+  "sysname": "dashboard_pro",
+  "title": "DashBoard Pro",
+  "author": "golnet",
+  "category": "Модификации",
+  "desc": "Мощный настраиваемый дашборд для Majordomo. Создавайте неограниченное число панелей и групп, добавляйте готовые виджеты (реле, диммер, RGB, сенсоры, графики, таблицы, термостат, будильники и др.) и управляйте умным домом с одного экрана. Виджеты свободно перетаскиваются и масштабируются, каждый настраивается под ваши объекты и свойства Majordomo: иконки, цвета, фон, префиксы/суффиксы, признаки «онлайн/офлайн», действие по нажатию. Светлая и тёмная темы, гибкие настройки внешнего вида, экспорт/импорт виджетов. Полностью переведён на русский и английский.",
+  "installs": 217,
+  "month": 217,
+  "icon": "https://connect.smartliving.ru/cms/addons/314_icon.png",
+  "links": {
+   "download": "https://github.com/golnet1/dashboard_pro/archive/master.tar.gz",
+   "project": "https://connect.smartliving.ru/tasks/934.html"
+  }
+ },
+ "315": {
+  "n": 315,
+  "v": 2,
+  "ok": true,
+  "sysname": "sanotts",
+  "title": "sanoTTS",
+  "author": "artt652",
+  "category": "Взаимодействие",
+  "desc": "sanoTTS — модуль синтеза речи для MajorDoMo\nЛокальный синтез крошечными нейросетевыми голосами без Python, фоновых служб и облака;\nРаботает под Linux, Android (Termux, KSWEB), Windows.\n27 официальных голосов на 17 языках + 2 дополнительных русских (Ирина и Денис).",
+  "installs": 34,
+  "month": 34,
+  "icon": "https://connect.smartliving.ru/cms/addons/315_icon.png",
+  "links": {
+   "download": "https://github.com/artt652/majordomo-sanotts/archive/master.tar.gz",
+   "forum": "https://github.com/artt652/majordomo-sanotts/discussions/",
+   "project": "https://connect.smartliving.ru/tasks/935.html"
+  }
+ },
+ "316": {
+  "n": 316,
+  "v": 2,
+  "ok": true,
+  "sysname": "tinyfm",
+  "title": "Tiny File Manager",
+  "author": "artt652",
+  "category": "Система",
+  "desc": "Tiny File Manager - простой, быстрый и маленький файл-менеджер с редактором кода.",
+  "installs": 23,
+  "month": 23,
+  "icon": "https://connect.smartliving.ru/cms/addons/316_icon.png",
+  "links": {
+   "download": "https://github.com/artt652/majordomo-tinyfm/archive/master.tar.gz",
+   "forum": "https://github.com/artt652/majordomo-tinyfm/discussions",
+   "project": "https://connect.smartliving.ru/tasks/936.html"
+  }
+ },
+ "317": {
+  "n": 317,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "318": {
+  "n": 318,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "319": {
+  "n": 319,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "320": {
+  "n": 320,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "321": {
+  "n": 321,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "322": {
+  "n": 322,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "323": {
+  "n": 323,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "324": {
+  "n": 324,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "325": {
+  "n": 325,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "326": {
+  "n": 326,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "327": {
+  "n": 327,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "328": {
+  "n": 328,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "329": {
+  "n": 329,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "330": {
+  "n": 330,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "331": {
+  "n": 331,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "332": {
+  "n": 332,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "333": {
+  "n": 333,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "334": {
+  "n": 334,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "335": {
+  "n": 335,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "336": {
+  "n": 336,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "337": {
+  "n": 337,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "338": {
+  "n": 338,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "339": {
+  "n": 339,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "340": {
+  "n": 340,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "341": {
+  "n": 341,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "342": {
+  "n": 342,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "343": {
+  "n": 343,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "344": {
+  "n": 344,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "345": {
+  "n": 345,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "346": {
+  "n": 346,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "347": {
+  "n": 347,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "348": {
+  "n": 348,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "349": {
+  "n": 349,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ },
+ "350": {
+  "n": 350,
+  "v": 2,
+  "ok": false,
+  "sysname": "",
+  "title": "",
+  "author": "",
+  "category": "",
+  "desc": "",
+  "installs": null,
+  "month": null,
+  "icon": "",
+  "links": {}
+ }
+}
