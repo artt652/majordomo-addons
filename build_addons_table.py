@@ -281,6 +281,12 @@ TEMPLATE = r'''<!doctype html>
            background:var(--card); color:var(--fg); font:inherit; }
   input[type=search] { min-width:14em; flex:1 1 14em; max-width:24em; }
   label { color:var(--muted); display:flex; gap:6px; align-items:center; }
+  .btn { padding:5px 10px; border:1px solid var(--line); border-radius:6px; background:var(--card);
+         color:var(--fg); font:inherit; cursor:pointer; white-space:nowrap; }
+  .btn:hover { border-color:var(--accent); }
+  .btn:focus-visible, select:focus-visible, input:focus-visible { outline:2px solid var(--accent); outline-offset:1px; }
+  .btn.link { border-color:transparent; background:none; color:var(--muted); padding-inline:4px; }
+  .btn.link:hover { color:var(--accent); }
 
   /* сетка подстраивает число колонок под ширину окна */
   #grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(260px, 1fr)); gap:10px; }
@@ -323,8 +329,8 @@ TEMPLATE = r'''<!doctype html>
   <input id="q" type="search" placeholder="Поиск: имя, автор, описание">
   <select id="cat"><option value="">Все категории</option></select>
   <select id="pub">
+    <option value="1" selected>Опубликованные</option>
     <option value="">Все модули</option>
-    <option value="1">Опубликованные</option>
     <option value="0">Не опубликованные</option>
   </select>
   <select id="sort">
@@ -334,7 +340,9 @@ TEMPLATE = r'''<!doctype html>
     <option value="month">За месяц</option>
     <option value="sysname">По имени</option>
   </select>
+  <button type="button" id="dir" class="btn" aria-label="Направление сортировки"></button>
   <label><input type="checkbox" id="hideMissing" checked> скрыть пустые</label>
+  <button type="button" id="reset" class="btn link" title="Вернуть настройки по умолчанию">сбросить</button>
 </header>
 <main id="grid"></main>
 
@@ -412,6 +420,56 @@ function card(d, q) {
     </div></div>`;
 }
 
+// направление по умолчанию для каждого вида сортировки: 1 — по возрастанию, -1 — по убыванию
+const SORT_DIR = { n: 1, updated: -1, installs: -1, month: -1, sysname: 1 };
+const SORT_KEY = {
+  n: d => d.n,
+  updated: d => d.updated || null,
+  installs: d => d.installs ?? null,
+  month: d => d.month ?? null,
+  sysname: d => (d.sysname || '').toLowerCase() || null,
+};
+const DIR_LABEL = {
+  n: ['1 → 9', '9 → 1'], sysname: ['А → Я', 'Я → А'],
+  updated: ['старые сначала', 'новые сначала'],
+  installs: ['меньше сначала', 'больше сначала'], month: ['меньше сначала', 'больше сначала'],
+};
+let dir = 1;
+
+function showDir() {
+  const sort = $('sort').value;
+  $('dir').textContent = (dir > 0 ? '↑ ' : '↓ ') + DIR_LABEL[sort][dir > 0 ? 0 : 1];
+  $('dir').title = dir > 0 ? 'По возрастанию — нажмите, чтобы изменить' : 'По убыванию — нажмите, чтобы изменить';
+}
+
+// ---- настройки в браузере ----
+const STORE = 'mjdm-addons-settings';
+const DEFAULTS = { cat: '', pub: '1', sort: 'n', dir: 1, hideMissing: true };
+
+function save() {
+  try {
+    localStorage.setItem(STORE, JSON.stringify({ cat: $('cat').value, pub: $('pub').value,
+      sort: $('sort').value, dir, hideMissing: $('hideMissing').checked }));
+  } catch (e) { /* хранилище недоступно — работаем без него */ }
+}
+
+function apply(st) {
+  const has = (sel, v) => [...$(sel).options].some(o => o.value === v);
+  $('cat').value = has('cat', st.cat) ? st.cat : '';
+  $('pub').value = has('pub', st.pub) ? st.pub : DEFAULTS.pub;
+  $('sort').value = has('sort', st.sort) ? st.sort : DEFAULTS.sort;
+  dir = st.dir === -1 ? -1 : 1;
+  $('hideMissing').checked = st.hideMissing !== false;
+  document.body.classList.toggle('hide-missing', $('hideMissing').checked);
+  showDir();
+}
+
+function load() {
+  let st = {};
+  try { st = JSON.parse(localStorage.getItem(STORE) || '{}') || {}; } catch (e) { st = {}; }
+  apply(Object.assign({}, DEFAULTS, st));
+}
+
 function render() {
   const q = $('q').value.trim().toLowerCase();
   const cat = $('cat').value, pub = $('pub').value, sort = $('sort').value;
@@ -421,20 +479,33 @@ function render() {
     if (!q) return true;
     return [d.sysname, d.title, d.author, d.desc, d.update_comment].some(v => (v || '').toLowerCase().includes(q));
   });
-  if (sort === 'sysname') list = [...list].sort((a, b) => (!a.sysname - !b.sysname) || (a.sysname || '').localeCompare(b.sysname || ''));
-  else if (sort === 'updated') list = [...list].sort((a, b) => (b.updated || '').localeCompare(a.updated || ''));
-  else if (sort !== 'n') list = [...list].sort((a, b) => (b[sort] ?? -1) - (a[sort] ?? -1));
+  const key = SORT_KEY[sort];
+  list = [...list].sort((a, b) => {
+    const x = key(a), y = key(b);
+    if (x === null || y === null) return (x === null) - (y === null) || a.n - b.n;   // пустые всегда в конце
+    const c = typeof x === 'string' ? x.localeCompare(y) : x - y;
+    return c * dir || a.n - b.n;
+  });
   grid.innerHTML = list.map(d => card(d, q)).join('');
   $('stat').textContent = 'опубликовано __PUB__ · не опубликовано __UNPUB__' +
-    (q || cat || pub ? ` · показано: ${list.filter(d => d.ok).length}` : '');
+    ` · показано: ${list.filter(d => d.ok).length}`;
 }
 
 grid.addEventListener('click', e => {
   if (e.target.classList.contains('desc')) e.target.classList.toggle('open');
 });
-['q', 'cat', 'pub', 'sort'].forEach(id => $(id).addEventListener('input', render));
-$('hideMissing').addEventListener('change', e => document.body.classList.toggle('hide-missing', e.target.checked));
-document.body.classList.toggle('hide-missing', $('hideMissing').checked);
+$('q').addEventListener('input', render);
+['cat', 'pub'].forEach(id => $(id).addEventListener('input', () => { save(); render(); }));
+$('sort').addEventListener('input', () => { dir = SORT_DIR[$('sort').value]; showDir(); save(); render(); });
+$('dir').addEventListener('click', () => { dir = -dir; showDir(); save(); render(); });
+$('hideMissing').addEventListener('change', e => {
+  document.body.classList.toggle('hide-missing', e.target.checked); save();
+});
+$('reset').addEventListener('click', () => {
+  try { localStorage.removeItem(STORE); } catch (e) {}
+  $('q').value = ''; apply(DEFAULTS); render();
+});
+load();
 render();
 </script>
 </body>
