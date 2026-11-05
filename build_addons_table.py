@@ -20,6 +20,8 @@ market_cache.json, повторный запуск докачивает толь
 """
 import argparse
 import concurrent.futures as cf
+import datetime as dt
+import email.utils
 import html
 import json
 import os
@@ -35,6 +37,8 @@ SITE = 'https://connect.smartliving.ru'
 CACHE = 'addons_cache.json'
 MARKET_URL = 'https://connect.majordomohome.com/market/?lang=ru&all=1'
 MARKET_CACHE = 'market_cache.json'
+SITE_URL = 'https://artt652.github.io/majordomo-addons/'
+RSS_LIMIT = 60
 CACHE_VER = 2
 UA = 'Mozilla/5.0 (addons-table builder)'
 
@@ -255,12 +259,77 @@ def build_html(count, data, market):
             .replace('__UPDATED__', time.strftime('%d.%m.%Y %H:%M UTC', time.gmtime()))), items
 
 
+# ---------- RSS ----------
+
+def _rss_date(s):
+    """'2026-10-09 22:22:45' (UTC) -> RFC 822 для <pubDate>."""
+    try:
+        t = dt.datetime.strptime(s[:19], '%Y-%m-%d %H:%M:%S').replace(tzinfo=dt.timezone.utc)
+    except ValueError:
+        return None
+    return email.utils.format_datetime(t)
+
+
+def build_rss(items, site_url, published_only, self_name, limit=RSS_LIMIT):
+    """Лента последних обновлений модулей, новые сверху."""
+    esc = html.escape
+    pool = [d for d in items if d['ok'] and d.get('updated') and (d['published'] or not published_only)]
+    pool.sort(key=lambda d: d['updated'], reverse=True)
+    out = []
+    for d in pool[:limit]:
+        pub_date = _rss_date(d['updated'])
+        if not pub_date:
+            continue
+        name = d.get('title') or d.get('sysname') or f'№{d["n"]}'
+        cm = (d.get('update_comment') or '').strip()
+        title = f'{name}: {cm}' if cm else f'{name}: обновление'
+        if not d['published']:
+            title = '[не опубликовано] ' + title
+        meta = ' · '.join(x for x in (d.get('sysname'), d.get('author'), d.get('category')) if x)
+        upd = esc(d['updated'][:16]) + ' UTC'
+        if d.get('update_url'):
+            upd = f'<a href="{esc(d["update_url"])}">{upd}</a>'
+        body = [f'<p><img src="{esc(d["icon"])}" width="48" height="48" alt=""> {esc(meta)}</p>',
+                f'<p>Обновление {upd}' + (f': {esc(cm)}' if cm else '') + '</p>']
+        if d.get('desc'):
+            desc = d['desc'] if len(d['desc']) <= 600 else d['desc'][:600].rsplit(' ', 1)[0] + '…'
+            body.append('<p>' + esc(desc).replace('\n', '<br>') + '</p>')
+        links = d.get('links') or {}
+        if links.get('download'):
+            body.append(f'<p><a href="{esc(links["download"])}">Скачать</a></p>')
+        guid = f'mjdm-addon-{d["n"]}-{d["updated"].replace(" ", "T")}'
+        out.append(
+            '  <item>\n'
+            f'    <title>{esc(title)}</title>\n'
+            f'    <link>{esc(d["page"])}</link>\n'
+            f'    <guid isPermaLink="false">{esc(guid)}</guid>\n'
+            f'    <pubDate>{pub_date}</pubDate>\n'
+            + (f'    <category>{esc(d["category"])}</category>\n' if d.get('category') else '')
+            + (f'    <dc:creator>{esc(d["author"])}</dc:creator>\n' if d.get('author') else '')
+            + f'    <description>{esc("".join(body))}</description>\n'
+            '  </item>')
+    what = 'опубликованных модулей' if published_only else 'всех модулей, включая неопубликованные'
+    now = email.utils.format_datetime(dt.datetime.now(dt.timezone.utc))
+    return ('<?xml version="1.0" encoding="UTF-8"?>\n'
+            '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">\n<channel>\n'
+            f'  <title>Обновления аддонов MajorDoMo{"" if published_only else " (все)"}</title>\n'
+            f'  <link>{esc(site_url)}</link>\n'
+            f'  <atom:link href="{esc(site_url + self_name)}" rel="self" type="application/rss+xml"/>\n'
+            f'  <description>Последние обновления {what} из каталога MajorDoMo Connect</description>\n'
+            '  <language>ru</language>\n'
+            f'  <lastBuildDate>{now}</lastBuildDate>\n'
+            '  <ttl>720</ttl>\n'
+            + '\n'.join(out) + '\n</channel>\n</rss>\n')
+
+
 TEMPLATE = r'''<!doctype html>
 <html lang="ru">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Каталог аддонов MajorDoMo</title>
+<link rel="alternate" type="application/rss+xml" title="Обновления аддонов MajorDoMo" href="feed.xml">
+<link rel="alternate" type="application/rss+xml" title="Обновления аддонов MajorDoMo (все)" href="feed-all.xml">
 <style>
   :root { --bg:#f3f5f7; --fg:#1d2630; --muted:#68747f; --card:#fff; --line:#dbe1e7;
           --accent:#2f7dd1; --chip:#e8eef5; --missing:#f3e6e6; --mark:#fff0b3;
@@ -287,6 +356,8 @@ TEMPLATE = r'''<!doctype html>
   .btn:focus-visible, select:focus-visible, input:focus-visible { outline:2px solid var(--accent); outline-offset:1px; }
   .btn.link { border-color:transparent; background:none; color:var(--muted); padding-inline:4px; }
   .btn.link:hover { color:var(--accent); }
+  a.btn { text-decoration:none; }
+  .rss { color:var(--warn-fg); }
 
   /* сетка подстраивает число колонок под ширину окна */
   #grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(260px, 1fr)); gap:10px; }
@@ -343,6 +414,8 @@ TEMPLATE = r'''<!doctype html>
   <button type="button" id="dir" class="btn" aria-label="Направление сортировки"></button>
   <label><input type="checkbox" id="hideMissing" checked> скрыть пустые</label>
   <button type="button" id="reset" class="btn link" title="Вернуть настройки по умолчанию">сбросить</button>
+  <a class="btn link rss" href="feed.xml" title="RSS: обновления опубликованных модулей">RSS</a>
+  <a class="btn link rss" href="feed-all.xml" title="RSS: обновления всех модулей, включая неопубликованные">RSS (все)</a>
 </header>
 <main id="grid"></main>
 
@@ -523,6 +596,7 @@ def main():
                     help='перекачать все страницы и коммиты (при сетевой ошибке остаются данные из кэша)')
     ap.add_argument('--cache', default=CACHE, help='файл кэша страниц, по умолчанию addons_cache.json')
     ap.add_argument('--json', help='куда дополнительно сохранить итоговые данные в JSON')
+    ap.add_argument('--site-url', default=SITE_URL, help='адрес сайта для ссылок в RSS, по умолчанию ' + SITE_URL)
     ap.add_argument('-o', '--out', default='addons_table.html')
     a = ap.parse_args()
 
@@ -587,6 +661,11 @@ def main():
     if a.json:
         with open(a.json, 'w', encoding='utf-8') as f:
             json.dump([d for d in items if d['ok']], f, ensure_ascii=False, indent=1)
+    site = a.site_url.rstrip('/') + '/'
+    out_dir = os.path.dirname(os.path.abspath(a.out))
+    for name, only_pub in (('feed.xml', True), ('feed-all.xml', False)):
+        with open(os.path.join(out_dir, name), 'w', encoding='utf-8') as f:
+            f.write(build_rss(items, site, only_pub, name))
 
     pub = sum(1 for d in items if d['published'])
     unpub = sum(1 for d in items if d['ok'] and not d['published'])

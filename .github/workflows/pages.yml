@@ -40,6 +40,9 @@ jobs:
           key: addons-cache-${{ github.run_id }}
           restore-keys: addons-cache-
 
+      - id: pages
+        uses: actions/configure-pages@v5
+
       - name: Собрать страницу
         env:
           GITHUB_TOKEN: ${{ github.token }}   # для запросов к GitHub API (последние коммиты)
@@ -49,11 +52,11 @@ jobs:
             --count "${{ github.event.inputs.count || '350' }}" \
             --cache .cache/addons_cache.json \
             --json _site/addons.json \
+            --site-url "${{ steps.pages.outputs.base_url }}/" \
             -o _site/index.html
           cp .cache/market_cache.json _site/market.json 2>/dev/null || true
           touch _site/.nojekyll
 
-      - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
