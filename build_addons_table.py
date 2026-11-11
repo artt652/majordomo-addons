@@ -388,6 +388,18 @@ TEMPLATE = r'''<!doctype html>
   .foot a { color:var(--accent); text-decoration:none; }
   .foot a:hover { text-decoration:underline; }
   .stat { margin-right:auto; }
+  .foot a.install { background:var(--accent); color:var(--card); border-radius:5px; padding:1px 8px; font-weight:600; }
+  .foot a.install:hover { text-decoration:none; filter:brightness(1.1); }
+  #mdBtn.set { color:var(--fresh); }
+  #mdPanel { flex-basis:100%; display:flex; flex-wrap:wrap; gap:8px 10px; align-items:center;
+             background:var(--card); border:1px solid var(--line); border-radius:8px; padding:10px 12px; }
+  #mdPanel[hidden] { display:none; }
+  #mdPanel input[type=url] { padding:5px 8px; border:1px solid var(--line); border-radius:6px; background:var(--bg);
+             color:var(--fg); font:inherit; flex:1 1 16em; max-width:26em; min-width:0; }
+  #mdPanel .hint { flex-basis:100%; color:var(--muted); font-size:12px; margin:0; }
+  #mdPanel code { font-size:12px; overflow-wrap:anywhere; background:var(--chip); border-radius:4px; padding:1px 4px; }
+  #mdMsg { font-size:12px; }
+  #mdMsg.err { color:var(--warn-fg); }
   mark { background:var(--mark); color:inherit; }
   body.hide-missing .card.missing { display:none; }
 </style>
@@ -414,8 +426,21 @@ TEMPLATE = r'''<!doctype html>
   <button type="button" id="dir" class="btn" aria-label="Направление сортировки"></button>
   <label><input type="checkbox" id="hideMissing" checked> скрыть пустые</label>
   <button type="button" id="reset" class="btn link" title="Вернуть настройки по умолчанию">сбросить</button>
+  <button type="button" id="mdBtn" class="btn link" aria-expanded="false" aria-controls="mdPanel">Мой МД</button>
   <a class="btn link rss" href="feed.xml" title="RSS: обновления опубликованных модулей">RSS</a>
   <a class="btn link rss" href="feed-all.xml" title="RSS: обновления всех модулей, включая неопубликованные">RSS (все)</a>
+  <form id="mdPanel" hidden>
+    <label for="mdUrl">Адрес MajorDoMo</label>
+    <input id="mdUrl" type="url" inputmode="url" placeholder="http://192.168.1.10" autocomplete="off" spellcheck="false">
+    <button type="submit" class="btn">Сохранить</button>
+    <button type="button" id="mdForget" class="btn link">Забыть адрес</button>
+    <span id="mdMsg" role="status"></span>
+    <p class="hint">С адресом у опубликованных модулей появится кнопка «Установить в МД»: она открывает маркет
+      вашего MajorDoMo и запускает установку. Нужно быть залогиненным в панели МД в этом браузере.
+      Адрес хранится только в этом браузере.</p>
+    <p class="hint" id="mdLinkHint" hidden>Ссылка для меню или сцены МД — откроет каталог сразу с вашим адресом:
+      <code id="mdLink"></code> <button type="button" id="mdCopy" class="btn link">копировать</button></p>
+  </form>
 </header>
 <main id="grid"></main>
 
@@ -487,6 +512,9 @@ function card(d, q) {
     ${d.desc ? '<p class="desc" title="Нажмите, чтобы развернуть">' + hl(d.desc, q) + '</p>' : ''}
     <div class="foot">
       <span class="stat">установок ${d.installs ?? '—'} · за месяц ${d.month ?? '—'}</span>
+      ${md && d.published && d.sysname ? `<a class="install" href="${esc(installUrl(d.sysname))}" target="_blank"
+          rel="noopener" data-name="${esc(d.sysname)}" data-title="${esc(d.title || d.sysname)}"
+          title="Установить в ${esc(md)}">Установить в МД</a>` : ''}
       ${L.download ? `<a href="${esc(L.download)}" target="_blank" rel="noopener">Скачать</a>` : ''}
       ${L.forum ? `<a href="${esc(L.forum)}" target="_blank" rel="noopener">Обсуждение</a>` : ''}
       ${L.project ? `<a href="${esc(L.project)}" target="_blank" rel="noopener">Проект</a>` : ''}
@@ -513,6 +541,67 @@ function showDir() {
   const sort = $('sort').value;
   $('dir').textContent = (dir > 0 ? '↑ ' : '↓ ') + DIR_LABEL[sort][dir > 0 ? 0 : 1];
   $('dir').title = dir > 0 ? 'По возрастанию — нажмите, чтобы изменить' : 'По убыванию — нажмите, чтобы изменить';
+}
+
+// ---- адрес MajorDoMo ----
+const MD_STORE = 'mjdm-addons-md';
+let md = '';
+
+// «192.168.1.10», «http://md.local:8080/admin.php», «http://host/mjd/panel/market.html» → «http://…/»
+function normalizeMd(raw) {
+  let v = String(raw || '').trim();
+  if (!v) return '';
+  if (!/^[a-z][a-z0-9+.-]*:\/\//i.test(v)) v = 'http://' + v;
+  let u;
+  try { u = new URL(v); } catch (e) { return null; }
+  if (!/^https?:$/.test(u.protocol) || !u.hostname) return null;
+  let path = u.pathname.replace(/\/(panel|admin\.php|menu\.html|pages)(\/.*)?$/i, '/');
+  path = path.replace(/\/[^/]*\.[a-z0-9]+$/i, '/');            // убираем имя файла в конце
+  if (!path.endsWith('/')) path += '/';
+  return u.protocol + '//' + u.host + path;
+}
+
+function installUrl(name) {
+  return md + 'panel/market.html?mode=iframe&mode2=install&name=' + encodeURIComponent(name);
+}
+
+function setMd(v, persist = true) {
+  md = v || '';
+  if (persist) {
+    try { md ? localStorage.setItem(MD_STORE, md) : localStorage.removeItem(MD_STORE); } catch (e) {}
+  }
+  $('mdUrl').value = md;
+  $('mdBtn').textContent = md ? 'МД: ' + md.replace(/^https?:\/\//, '').replace(/\/$/, '') : 'Мой МД';
+  $('mdBtn').classList.toggle('set', !!md);
+  $('mdBtn').title = md ? 'Кнопки «Установить в МД» ведут сюда. Нажмите, чтобы изменить' : 'Указать адрес вашего MajorDoMo';
+  const link = location.origin + location.pathname + '?md=' + encodeURIComponent(md);
+  $('mdLink').textContent = link;
+  $('mdLinkHint').hidden = !md;
+}
+
+function mdMsg(text, err) {
+  $('mdMsg').textContent = text;
+  $('mdMsg').classList.toggle('err', !!err);
+}
+
+function loadMd() {
+  let saved = '';
+  try { saved = localStorage.getItem(MD_STORE) || ''; } catch (e) {}
+  setMd(normalizeMd(saved) || '', false);
+  // ?md=… из ссылки в интерфейсе МД: запоминаем и убираем из адресной строки
+  const params = new URLSearchParams(location.search);
+  if (params.has('md')) {
+    const v = normalizeMd(params.get('md'));
+    params.delete('md');
+    const qs = params.toString();
+    history.replaceState(null, '', location.pathname + (qs ? '?' + qs : '') + location.hash);
+    if (v) {
+      setMd(v);
+    } else {
+      $('mdPanel').hidden = false; $('mdBtn').setAttribute('aria-expanded', 'true');
+      mdMsg('Адрес из ссылки не распознан: ' + params.get('md'), true);
+    }
+  }
 }
 
 // ---- настройки в браузере ----
@@ -566,6 +655,29 @@ function render() {
 
 grid.addEventListener('click', e => {
   if (e.target.classList.contains('desc')) e.target.classList.toggle('open');
+  const a = e.target.closest('a.install');
+  if (a && !confirm(`Установить «${a.dataset.title}» (${a.dataset.name}) в MajorDoMo?\n\n` +
+      `Адрес: ${md}\nОткроется маркет вашего МД, установка начнётся сразу.`)) e.preventDefault();
+});
+$('mdBtn').addEventListener('click', () => {
+  const open = $('mdPanel').hidden;
+  $('mdPanel').hidden = !open;
+  $('mdBtn').setAttribute('aria-expanded', String(open));
+  if (open) { mdMsg(''); $('mdUrl').focus(); }
+});
+$('mdPanel').addEventListener('submit', e => {
+  e.preventDefault();
+  const v = normalizeMd($('mdUrl').value);
+  if (v === null) return mdMsg('Не похоже на адрес. Пример: http://192.168.1.10 или http://md.local:8080', true);
+  setMd(v); render();
+  mdMsg(v ? 'Сохранено: ' + v : 'Адрес очищен');
+});
+$('mdForget').addEventListener('click', () => { setMd(''); render(); mdMsg('Адрес удалён из этого браузера'); });
+$('mdCopy').addEventListener('click', () => {
+  const t = $('mdLink').textContent;
+  const done = () => mdMsg('Ссылка скопирована');
+  const fallback = () => { getSelection().selectAllChildren($('mdLink')); mdMsg('Выделено — скопируйте вручную'); };
+  navigator.clipboard ? navigator.clipboard.writeText(t).then(done, fallback) : fallback();
 });
 $('q').addEventListener('input', render);
 ['cat', 'pub'].forEach(id => $(id).addEventListener('input', () => { save(); render(); }));
@@ -578,6 +690,7 @@ $('reset').addEventListener('click', () => {
   try { localStorage.removeItem(STORE); } catch (e) {}
   $('q').value = ''; apply(DEFAULTS); render();
 });
+loadMd();
 load();
 render();
 </script>
