@@ -12,15 +12,23 @@ jobs:
         with: { ref: probe }
       - name: fetch
         run: |
-          mkdir -p out
-          UA='Mozilla/5.0 (addons-table builder)'
-          for q in "" "?lang=ru" "?lang=ru&all=1" "?lang=ru&category_id=1" "?op=categories&lang=ru"; do
-            f="out/market$(echo "$q" | tr -c 'a-zA-Z0-9=\n' '_').txt"
-            curl -sS -m 60 -A "$UA" -D "$f.headers" "https://connect.majordomohome.com/market/$q" -o "$f" || echo "curl failed $?" > "$f.err"
+          mkdir -p out2
+          UA='Mozilla/5.0 (addons-catalog probe)'
+          S='serial=0000000000&locale=ru&os=Linux'
+          get() { curl -sS -m 90 -A "$UA" -D "out2/$1.headers" "$2" -o "out2/$1.body" || echo "curl failed $?" > "out2/$1.err"; }
+          for host in connect.smartliving.ru connect.majordomohome.com; do
+            h=$(echo "$host" | cut -d. -f2)
+            get "${h}_all"     "https://$host/market/?lang=ru&$S&all=1"
+            get "${h}_custom"  "https://$host/market/?lang=ru&$S&c[]=tinyfm&c[]=ivona_tts&c[]=sanotts"
+            get "${h}_inst"    "https://$host/market/?lang=ru&$S&m[]=tinyfm&m[]=ivona_tts&m[]=sanotts"
+            get "${h}_search"  "https://$host/market/?lang=ru&$S&search=tinyfm"
           done
-          curl -sS -m 60 -A "$UA" -o out/pages_addons.json "https://artt652.github.io/majordomo-addons/addons.json" || true
-          ls -la out
+          for n in tinyfm sanotts; do
+            curl -sS -m 90 -A "$UA" -L -D "out2/dl_$n.headers" -r 0-2047 \
+              "https://connect.smartliving.ru/market/?op=download&name=$n&$S" -o "out2/dl_$n.body" || true
+          done
+          ls -la out2
       - name: commit
         run: |
           git config user.name github-actions; git config user.email actions@github.com
-          git add out; git commit -qm "probe results"; git push -q origin HEAD:probe
+          git add out2; git commit -qm "probe 2 results"; git push -q origin HEAD:probe
