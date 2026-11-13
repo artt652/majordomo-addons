@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 13 Nov 2026 15:01:23 GMT
+Server: Apache/2.4.58 (Ubuntu)
+Set-Cookie: prj=7t2o782ntljnn1cp0ume2kvlog; expires=Fri, 13 Nov 2026 23:01:23 GMT; Max-Age=28800; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Length: 14
+Content-Type: application/json
+
